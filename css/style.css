@@ -1,0 +1,373 @@
+/*default style*/
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+}
+
+body {
+    background-color: #2C3340;
+}
+
+img {
+    border-style: none;
+    max-width: 100%;
+}
+/*default style*/
+/* Smartphones (portrait and landscape) ----------- */
+@media (max-width : 850px){
+    /*header*/
+    .header {
+        background-color: #ffffff;
+        max-width: 100%;
+        height: 44px;
+    }
+
+    .menu-button {
+        display: flex;
+        position: absolute;
+        margin-top: 0.32em;
+        margin-left: 0.4em;
+        width: 2.7em;
+        height: 2.1em;
+        border: 0.5px solid #4C566A;
+        border-radius: 9px;
+        background-color: #ffffff;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .menu-button:active {
+        background-color: #bbc0c9;
+    }
+
+    .menu-button div {
+        background-color: #3B4252;
+        height: 4px;
+        width: 1.5em;
+        margin-top: 0.1em;
+        margin-bottom: 0.1em;
+        border-radius: 2px;
+    }
+
+    .flex-container {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+    }
+
+    .flex-container-header {
+        display:flex;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        padding: 0.5em;
+    }
+
+    .flex-container-header h1 {
+        display: inline;
+        font-family: "Roboto";
+        font-size: 100%;
+        padding-top: 3px;
+        color: #3B4252;
+    }
+    /*header*
+
+    /*body*/
+    .title-container {
+        display: flex;
+        width: 100%;
+        align-self: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 30vh;
+    }
+
+    .flex-container h1 {
+        font-family: "Roboto";
+        text-align: center;
+        height: 20%;
+        font-size: 10vw;
+        font-weight: 300;
+        color: #E5E9F0;
+        text-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
+        
+
+    }
+
+    .subtitle {
+        display: flex;
+        justify-content: center;
+        margin: 0.2em;
+    }
+
+    .subtitle div:first-of-type {
+        background-color: #E5E9F0;
+        align-self: center;
+        width: 15vw;
+        height: 2px;
+        margin-right: 0.5em;
+        border-radius: 2px;
+        
+    }
+    .subtitle div:last-of-type {
+        background-color: #E5E9F0;
+        align-self: center;
+        width: 15vw;
+        height: 2px;
+        margin-left: 0.5em;
+        border-radius: 2px;
+    }
+
+    .subtitle-text {
+        display: inline;
+        text-align: center;
+        font-family: "Roboto";
+        font-size: 4vw;
+        font-weight: 300;
+        color: #E5E9F0;
+    }
+    .about-me{
+        display: flex;
+        max-width: 100%;
+        max-height: 100%;
+        width: 89vw;
+        height:65vw;
+        border: 1px solid #E5E9F0;
+        border-radius: 30px;
+        justify-content: center;
+        align-items: center;
+        margin: 1em;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    .about-me p {
+        text-align: center;
+        font-size: 5.1vw;
+        font-family: "Roboto Mono";
+        color: #E5E9F0;
+    }
+
+    .tech-scroller {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100vw;
+        justify-content: center;
+        align-items: center;
+        margin-top: 8em;
+    }
+
+    .backside-scroller {
+        display: flex;
+        margin-top: -50vw;
+        width: 100%;
+        height: 50vw;
+        justify-content: center;
+    }
+    
+    .scroller-head {
+        z-index: 1;
+        display: flex;
+        background-color: #778094;
+        border-radius: 30px;
+        margin-top: -6vw;
+        width: 60vw;
+        height: 11vw;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .scroller-head p {
+        text-align: center;
+        font-family: "Roboto";
+        color: #E5E9F0;
+        font-size: 5vw;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    
+    .scroller-background {
+        
+        position: absolute;
+        border-radius: 7vw;
+        background-color: #4C566A;
+        width: 80vw;
+        height: 67vw;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    
+    /*slider*/
+    .swiper-pagination .swiper-pagination-bullet {
+        height: 2vw;
+        width: 2vw;
+    }
+
+    .swiper-pagination .swiper-pagination-bullet-active {
+        border-radius: 100%;
+        color: #282D38; /*orange color*/
+        background-color: #282D38; /*orange color*/
+        height: 2vw;
+        width: 2vw;
+        opacity: 1;
+    }
+
+    .divisor {
+        position: relative;
+        margin-top: -45vw;
+        height: 15vw;
+        width: 100%;
+        display: flex;
+        
+    }
+    
+    .swiper-container {
+        width: 100%;
+        height: 59vw;
+        display: flex;
+    }
+    
+    .swiper-slide {
+        position: relative;
+        top:1.5em;
+        display: flex;
+        height: 48vw;
+    }
+
+    .swiper-slide img {
+        display: inline;
+        margin: 0 auto;
+        height: 36vw;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+
+    }
+
+    .swiper-slide-active :active{
+        filter: brightness(0.5);
+    }
+
+    .gitch {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 90vw;
+        margin-top: -55vw;
+    }
+
+    .github-contact {
+        display: flex;
+        position: absolute;
+        width: 100%;
+        height: 300vw;
+        justify-content: center;
+    }
+
+    .github-contact img {
+        z-index: 10;
+        height: 65vw;
+        margin-top: 95vw
+    }
+
+    .github-contact div {
+        user-select: none;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #24292B;
+        height: 17vw;
+        width: 60%;
+        z-index: 10;
+        position: absolute;
+        margin-top: 176vw;
+        border: 2px solid #E5E9F0;
+        border-radius: 10vw;
+        font-family: "Montserrat", sans-serif;
+        font-size: 4vw;
+        color: #E5E9F0;
+        font-weight: 600;
+        box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .github-contact div:active {
+        filter: brightness(0.5);
+    }
+
+    .github-svg {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+
+    .itch-contact {
+        display: flex;
+        position: absolute;
+        margin-top: 170vw;
+        width: 100%;
+        height: 300vw;
+        justify-content: center;
+    }
+
+    .itch-contact img {
+        z-index: 10;
+        height: 57vw;
+        margin-top: 107vw
+    }
+
+    .itch-contact div {
+        user-select: none;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #DF5252;
+        height: 17vw;
+        width: 60%;
+        z-index: 10;
+        position: absolute;
+        margin-top: 178vw;
+        border: 2px solid #E5E9F0;
+        border-radius: 10vw;
+        font-family: "Montserrat", sans-serif;
+        font-size: 4vw;
+        color: #E5E9F0;
+        font-weight: 600;
+        box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .itch-contact div:active {
+        filter: brightness(0.5);
+    }
+
+    .itch-svg {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+}
+/*slider*/
+
+/*tablets screen*/
+@media (min-width: 520px) {
+    .swiper-slide { 
+        position: relative;
+        top:3em;
+        display: flex;
+        height: 50vw;
+
+    }
+    .swiper-slide img {
+        height: 34.5vw;
+        box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
+        border-radius: 40px;
+    }
+
+    .swiper-container {
+        width: 100%;
+        height: 58vw;
+        display: flex;
+    }
+    .swiper-slide-active :active{
+        filter: brightness(0.5);
+    }
+}
+/*body*/
