@@ -18,62 +18,79 @@ img {
 @media (max-width : 850px){
     /*header*/
     .header {
-        background-color: #ffffff;
+        background-color: #ECEFF4;
         max-width: 100%;
         height: 44px;
     }
+    
+    .banner {
+        height: 100%;
+        z-index: 50;
+        
+    }
 
     .menu-button {
+        user-select: none;
         display: flex;
         position: absolute;
         margin-top: 0.32em;
         margin-left: 0.4em;
-        width: 2.7em;
-        height: 2.1em;
-        border: 0.5px solid #4C566A;
+        width: 15vw;
+        height: 10vw;
         border-radius: 9px;
-        background-color: #ffffff;
+        background-color: #ECEFF4;
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        z-index: 40;
     }
-
+    
     .menu-button:active {
-        background-color: #bbc0c9;
+        filter: brightness(0.8);
     }
-
+    
     .menu-button div {
         background-color: #3B4252;
-        height: 4px;
-        width: 1.5em;
+        height: 1vw;
+        width: 6vw;
         margin-top: 0.1em;
         margin-bottom: 0.1em;
         border-radius: 2px;
     }
-
+    
     .flex-container {
         flex-direction: column;
         display: flex;
         align-items: center;
     }
-
+    
     .flex-container-header {
         display:flex;
         justify-content: center;
         width: 100%;
         height: 100%;
         padding: 0.5em;
+        border-bottom: 1px solid #4C566A;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        z-index: 50;
     }
-
+    
     .flex-container-header h1 {
         display: inline;
+        position: absolute;
+        top: 0em;
         font-family: "Roboto";
-        font-size: 100%;
-        padding-top: 3px;
+        font-size: 5vw;
+        padding-top: 3vw;
         color: #3B4252;
+        z-index: 30;
+        width: 100%;
+        height: 11.5vw;
+        text-align: center;
+        background-color: #ECEFF4;
     }
     /*header*
-
+    
     /*body*/
     .title-container {
         display: flex;
@@ -245,6 +262,7 @@ img {
 
     .swiper-slide-active :active{
         filter: brightness(0.5);
+        box-shadow: 0 0 0 rgba(0,0,0,0);
     }
 
     .gitch {
@@ -291,6 +309,7 @@ img {
 
     .github-contact div:active {
         filter: brightness(0.5);
+        box-shadow: 0 0 0 rgba(0,0,0,0);
     }
 
     .github-svg {
@@ -333,19 +352,60 @@ img {
         font-weight: 600;
         box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.25);
     }
-
+    
     .itch-contact div:active {
         filter: brightness(0.5);
+        box-shadow: 0 0 0 rgba(0,0,0,0);
     }
-
+    
     .itch-svg {
         position: absolute;
         width: 100%;
         height: 100%;
     }
+    
+/*navbar*/
+.navegation {
+    margin-top: 0.1vw;
+    width: 100%;
+    height: 0;
+    padding: 0;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background-color: #ECEFF4; /* Black*/
+    transition: 0.3s; /* 0.5 second transition effect to slide in the sidebar */
+    justify-content: center;
+    border-radius: 0 0 3vw 3vw;
 }
-/*slider*/
 
+.nav-buttons {
+    z-index: 21;
+    user-select: none;
+    margin: 0;
+    padding: 0;
+    height:0;
+    display: none;
+    justify-content: center;
+    text-align: center;
+    font-size: 3vw;
+    background-color: #ECEFF4;
+    border: 2px solid #4C566A;
+    border-radius: 4vw;
+    font-family: "Montserrat", sans-serif;
+    transition: 0.5s;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+#button-know:active {
+    filter: brightness(0.8);
+    box-shadow: 0 0 0 rgba(0,0,0,0);
+}
+
+/*navbar*/
+
+/*slider*/
+}
 /*tablets screen*/
 @media (min-width: 520px) {
     .swiper-slide { 
@@ -353,7 +413,6 @@ img {
         top:3em;
         display: flex;
         height: 50vw;
-
     }
     .swiper-slide img {
         height: 34.5vw;
