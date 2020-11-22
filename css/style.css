@@ -399,22 +399,22 @@ img {
 }
 
 #button-know:active {
-    filter: brightness(0.8);
+    filter: brightness(0.7);
     box-shadow: 0 0 0 rgba(0,0,0,0);
 }
 
 #button-find:active {
-    filter: brightness(0.8);
+    filter: brightness(0.7);
     box-shadow: 0 0 0 rgba(0,0,0,0);
 }
 
 #button-blog:active {
-    filter: brightness(0.8);
+    filter: brightness(0.7);
     box-shadow: 0 0 0 rgba(0,0,0,0);
 }
 
 #button-cont:active {
-    filter: brightness(0.8);
+    filter: brightness(0.7);
     box-shadow: 0 0 0 rgba(0,0,0,0);
 }
 /*navbar*/
