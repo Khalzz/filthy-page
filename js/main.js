@@ -45,6 +45,8 @@ function openGit(){
   window.open("https://github.com/Khalzz");
 }
 
+
+
 let opcion = 1
 
 function openNav(){
