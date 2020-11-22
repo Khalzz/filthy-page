@@ -36,3 +36,11 @@ var swiper = new Swiper('.swiper-container', {
   },
 });
 //swiper
+
+function openItch(){
+  window.open("https://khalzdev.itch.io/");
+}
+
+function openGit(){
+  window.open("https://github.com/Khalzz");
+}
