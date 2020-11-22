@@ -23,7 +23,7 @@ setInterval(() => {
 var swiper = new Swiper('.swiper-container', {
   slidesPerView: 2.2,
   spaceBetween: 30,
-  initialSlide: 1,
+  initialSlide: 2,
   loop: true,
   autoplay: {
     delay: 3000,
