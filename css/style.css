@@ -267,7 +267,7 @@ img {
         height: 36vw;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         border-radius: 20px;
-
+        transition: 0.2s;
     }
 
     .swiper-slide-active :active{
@@ -316,10 +316,11 @@ img {
         color: #E5E9F0;
         font-weight: 600;
         box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.25);
+        transition: 0.2s;
     }
 
-    .github-contact div:active {
-        filter: brightness(0.7);
+    .github-contact div:active{
+        filter: brightness(0.8);
         box-shadow: 0 0 0 rgba(0,0,0,0);
     }
 
@@ -370,10 +371,11 @@ img {
         color: #E5E9F0;
         font-weight: 600;
         box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.25);
+        transition: 0.2s;
     }
     
     .itch-contact div:active {
-        filter: brightness(0.7);
+        filter: brightness(0.8);
         box-shadow: 0 0 0 rgba(0,0,0,0);
     }
     
@@ -394,9 +396,9 @@ img {
     .blog h1 {
         position: absolute;
         z-index: 10;
-        font-size: 25px;
+        font-size: 5vw;
         font-family: 'Source Serif Pro', serif;
-        margin-top: 115vw;
+        margin-top: 120vw;
         font-weight: 400;
         color: #000000;
     }
@@ -406,7 +408,7 @@ img {
         position: absolute;
         text-align: center;
         z-index: 10;
-        font-size: 15px;
+        font-size: 4vw;
         font-weight: 200;
         font-family: 'Source Serif Pro', serif;
         margin-top: 137vw;
@@ -414,6 +416,7 @@ img {
     }
 
     .blog div {
+        transition: 0.2s;
         user-select: none;
         display:flex;
         justify-content: center;
@@ -435,7 +438,7 @@ img {
     }
 
     .blog div:active {
-        filter: brightness(0.7);
+        filter: brightness(0.8);
         box-shadow: 0 0 0 rgba(0,0,0,0);
     }
     
@@ -456,7 +459,7 @@ img {
     display: flex;
     flex-direction: column;
     background-color: #ECEFF4; /* Black*/
-    transition: 0.3s; /* 0.5 second transition effect to slide in the sidebar */
+    transition: 0.2s; /* 0.5 second transition effect to slide in the sidebar */
     justify-content: center;
     border-radius: 0 0 3vw 3vw;
 }
@@ -468,16 +471,16 @@ img {
     margin: 0;
     padding: 0;
     height:0;
-    display: none;
+    display: block;
     justify-content: center;
     text-align: center;
-    font-size: 4vw;
+    font-size: 0;
     background-color: #ECEFF4;
-    border: 2px solid #4C566A;
+    border: 0 solid #ffffff;
     border-radius: 4vw;
     color: #4C566A;
     font-family: "Montserrat", sans-serif;
-    transition: 0.5s;
+    transition: 0.3s;
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
 }
 
