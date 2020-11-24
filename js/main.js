@@ -45,7 +45,7 @@ function openGit(){
   window.open("https://github.com/Khalzz");
 }
 
-
+const openBlog = () => {window.open("html/blog.html")}
 
 let opcion = 1
 
