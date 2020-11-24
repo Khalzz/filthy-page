@@ -43,6 +43,7 @@ const openGit = () => window.open("https://github.com/Khalzz");
 
 const openBlog = () => window.open("html/blog.html")
 
+//nav
 let opcion = 1
 
 function openNav(){
@@ -116,3 +117,4 @@ function action() {
     closeNav()
   }
 }
+//nav
