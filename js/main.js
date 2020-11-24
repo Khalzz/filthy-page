@@ -37,15 +37,11 @@ var swiper = new Swiper('.swiper-container', {
 });
 //swiper
 
-function openItch(){
-  window.open("https://khalzdev.itch.io/");
-}
+const openItch = () => window.open("https://khalzdev.itch.io/");
 
-function openGit(){
-  window.open("https://github.com/Khalzz");
-}
+const openGit = () => window.open("https://github.com/Khalzz");
 
-const openBlog = () => {window.open("html/blog.html")}
+const openBlog = () => window.open("html/blog.html")
 
 let opcion = 1
 
