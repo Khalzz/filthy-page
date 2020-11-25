@@ -43,6 +43,13 @@ const openGit = () => window.open("https://github.com/Khalzz");
 
 const openBlog = () => window.open("html/blog.html")
 
+const gotoExperience = () => window.location.href="#scroller";
+
+const gotoFindMe = () => window.location.href="#find-me";
+
+const gotoBlog = () => window.open("html/blog.html");
+
+
 //nav
 let opcion = 1
 
