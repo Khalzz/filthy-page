@@ -49,6 +49,8 @@ const gotoFindMe = () => window.location.href="#find-me";
 
 const gotoBlog = () => window.open("html/blog.html");
 
+const gotoContact = () => window.open("html/contact.html");
+
 
 //nav
 let opcion = 1

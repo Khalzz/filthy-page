@@ -1,8 +1,9 @@
 /*default style*/
 * {
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box; 
+    user-select: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
 }
 
 body {
@@ -19,12 +20,13 @@ img {
     /*header*/
     .header {
         background-color: #ECEFF4;
-        max-width: 100%;
+        width: 100%;
         height: 44px;
     }
     
     .banner {
         height: 100%;
+        width: 100%;
         z-index: 50;
         
     }
@@ -98,7 +100,7 @@ img {
         align-self: center;
         justify-content: center;
         flex-direction: column;
-        margin-top: 30vh;
+        margin-top: 55vw;
     }
 
     .flex-container h1 {
@@ -109,8 +111,6 @@ img {
         font-weight: 300;
         color: #E5E9F0;
         text-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
-        
-
     }
 
     .subtitle {
@@ -145,6 +145,31 @@ img {
         font-weight: 300;
         color: #E5E9F0;
     }
+
+    .contact {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 35vw;
+        height: 10vw;
+        border: 0.8vw solid #C96567;   
+        margin: 3vw auto;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        font-weight: 300;
+        font-family: "Roboto";      
+        text-align: center;
+        font-size: 5vw;
+        color: #C96567;
+        transition: 0.1s;
+    }
+    
+    .contact:active {
+        background-color: #C96567;
+        color: #314455;
+        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+
+    }
+
     .about-me{
         display: flex;
         max-width: 100%;
@@ -172,7 +197,7 @@ img {
         height: 100vw;
         justify-content: center;
         align-items: center;
-        margin-top: 11em;
+        margin-top: 10em;
     }
 
     .backside-scroller {
@@ -282,121 +307,11 @@ img {
         color: #586C7D;
     }
 
-/*ouuumeeen*/
 
-    .gitch {
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        height: 90vw;
-        margin-top: -55vw;
-    }
-
-    .github-contact {
-        display: flex;
-        position: absolute;
-        width: 100%;
-        height: 300vw;
-        margin-top: 5vw;
-        justify-content: center;
-    }
-
-    .github-contact img {
-        z-index: 10;
-        height: 65vw;
-        margin-top: 100vw
-    }
-
-    .github-contact div {
-        user-select: none;
-        display:flex;
-        justify-content: center;
-        align-items: center;
-        background-color: #24292B;
-        height: 17vw;
-        width: 60%;
-        z-index: 10;
-        position: absolute;
-        margin-top: 181vw;
-        border: 2px solid #E5E9F0;
-        border-radius: 10vw;
-        font-family: "Montserrat", sans-serif;
-        font-size: 4vw;
-        color: #E5E9F0;
-        font-weight: 600;
-        box-shadow: 0px 5px 4px t;
-        transition: 0.2s;
-    }
-
-    .github-contact div:active{
-        filter: brightness(0.8);
-        box-shadow: 0 0 0 rgba(0,0,0,0);
-    }
-
-    #find-me {
-        position: relative;
-        top: 65vw;
-        height: 1em;
-    }
-
-    .github-svg {
-        position: absolute;
-        margin-top: 0vw;
-        top: 5vw;
-        width: 100%;
-        height: 100%;
-    }
-
-    .itch-contact {
-        display: flex;
-        position: absolute;
-        margin-top: 175vw;
-        width: 100%;
-        height: 300vw;
-        justify-content: center;
-    }
-
-    .itch-contact img {
-        z-index: 10;
-        height: 57vw;
-        margin-top: 107vw
-    }
-
-    .itch-contact div {
-        user-select: none;
-        display:flex;
-        justify-content: center;
-        align-items: center;
-        background-color: #DF5252;
-        height: 17vw;
-        width: 60%;
-        z-index: 10;
-        position: absolute;
-        margin-top: 178vw;
-        border: 2px solid #E5E9F0;
-        border-radius: 10vw;
-        font-family: "Montserrat", sans-serif;
-        font-size: 4vw;
-        color: #E5E9F0;
-        font-weight: 600;
-        box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.25);
-        transition: 0.2s;
-    }
-    
-    .itch-contact div:active {
-        filter: brightness(0.8);
-        box-shadow: 0 0 0 rgba(0,0,0,0);
-    }
-    
-    .itch-svg {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-    }
     .blog {
         display: flex;
         position: absolute;
-        margin-top: 350vw;
+        margin-top: 215vw;
         width: 100%;
         height: 300vw;
         justify-content: center;
