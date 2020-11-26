@@ -152,19 +152,19 @@ img {
         align-items: center;
         width: 35vw;
         height: 10vw;
-        border: 0.8vw solid #C96567;   
+        border: 0.8vw solid #C96589;   
         margin: 3vw auto;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         font-weight: 300;
         font-family: "Roboto";      
         text-align: center;
         font-size: 5vw;
-        color: #C96567;
+        color: #C96589;
         transition: 0.1s;
     }
     
     .contact:active {
-        background-color: #C96567;
+        background-color: #C96589;
         color: #314455;
         box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
 
