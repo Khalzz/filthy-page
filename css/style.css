@@ -37,7 +37,7 @@ img {
         user-select: none;
         display: flex;
         position: absolute;
-        margin-top: 0.5vw;
+        margin-top: 0.7vw;
         margin-left: 84vw;
         width: 15vw;
         height: 10vw;
@@ -47,7 +47,7 @@ img {
         align-items: center;
         flex-direction: column;
         z-index: 100;
-        border: 1px solid #E5E9F0;
+
     }
     
     .menu-button:active {
