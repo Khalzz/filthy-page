@@ -1,14 +1,13 @@
-//You rodrigo are a fucking idiot
+//You rodrigo are a fucking idiot (edition 1)
 // 1. you called the "code" in html with href instead of src dumbass
 // 2. you put an id to an item and call it like a class, fucking retarded
 // 3. fucking retarded x2 that generates the same fucking problem like 20 times asshole
 // i hate you: Rodrigo Seguel.
 // from: Rodrigo Seguel <3
 
-//cambiar subtitulo
-const subtitle = document.querySelector(".subtitle-text");
-
-const subtitles = ["Programmer", "Game developer", "Web developer", "Front-end"];
+//change sub title
+const subtitle = document.querySelector('.subtitle-text');
+const subtitles = ['Programmer', 'Game developer', 'Web developer', 'Front-end'];
 let counter = 0;
 
 setInterval(() => {subtitle.innerHTML = subtitles[counter]}, 4000);
@@ -16,9 +15,9 @@ setInterval(() => {
   let newCount = counter++;
   if (newCount == 2) {
     counter = 0;
-}}, 5000);
-//cambiar subtitulo
-
+  }}, 4000);
+//change sub title
+  
 //swiper
 var swiper = new Swiper('.swiper-container', {
   slidesPerView: 2.2,
@@ -37,101 +36,100 @@ var swiper = new Swiper('.swiper-container', {
 });
 //swiper
 
-const openItch = () => window.open("https://khalzdev.itch.io/");
+const gotoExperience = () => window.location.href = '#scroller';
+const openItch = () => window.open('https://khalzdev.itch.io/');
+const openGit = () => window.open('https://github.com/Khalzz');
+const gotoBlog = () => window.open('html/blog.html');
+const gotoContact = () => window.open('html/contact.html');
+const gotoAbout = () => window.open('html/about.html');
+const gotoProjects = () => window.open('html/projects.html');
 
-const openGit = () => window.open("https://github.com/Khalzz");
-
-const openBlog = () => window.open("html/blog.html")
-
-const gotoExperience = () => window.location.href="#scroller";
-
-const gotoBlog = () => window.open("html/blog.html");
-
-const gotoContact = () => window.open("html/contact.html");
-
-const gotoAbout = () => window.open("html/about.html")
-
+const nav = document.querySelector(".navegation");
+const expButton = document.getElementById("button-exp");
+const aboutButton = document.getElementById("button-about");
+const blogButton = document.getElementById("button-blog");
+const contactButton = document.getElementById("button-contact");
 
 //nav
-let opcion = 1
+let opcion = 1;
 
 function openNav(){
-  document.querySelector(".navegation").style.height = "50vw";
-  document.querySelector(".navegation").style.padding = "5vw";
+  nav.style.height = '50vw';
+  nav.style.padding = '5vw';
   
-  document.getElementById("button-know").style.height = "9vw"
-  document.getElementById("button-know").style.width = "50vw"
-  document.getElementById("button-know").style.padding = "2vw 12vw"
-  document.getElementById("button-know").style.margin = "1vw 20vw"
-  document.getElementById("button-know").style.fontSize = "4vw"
-  document.getElementById("button-know").style.border = "2px solid #E5E9F0"
+  expButton.style.height = '9vw';
+  expButton.style.width = '50vw';
+  expButton.style.padding = '2vw 12vw';
+  expButton.style.margin = '1vw 20vw';
+  expButton.style.fontSize = '4vw';
+  expButton.style.border = '2px solid #E5E9F0';
   
-  document.getElementById("button-find").style.height = "9vw"
-  document.getElementById("button-find").style.width = "50vw"
-  document.getElementById("button-find").style.padding = "2vw 12vw"
-  document.getElementById("button-find").style.margin = "1vw 20vw"
-  document.getElementById("button-find").style.fontSize = "4vw"
-  document.getElementById("button-find").style.border = "2px solid #E5E9F0"
+  aboutButton.style.height = '9vw';
+  aboutButton.style.width = '50vw';
+  aboutButton.style.padding = '2vw 12vw';
+  aboutButton.style.margin = '1vw 20vw';
+  aboutButton.style.fontSize = '4vw';
+  aboutButton.style.border = '2px solid #E5E9F0';
   
-  document.getElementById("button-blog").style.height = "9vw"
-  document.getElementById("button-blog").style.width = "50vw"
-  document.getElementById("button-blog").style.padding = "2vw 12vw"
-  document.getElementById("button-blog").style.margin = "1vw 20vw"
-  document.getElementById("button-blog").style.fontSize = "4vw"
-  document.getElementById("button-blog").style.border = "2px solid #E5E9F0"
+  blogButton.style.height = '9vw';
+  blogButton.style.width = '50vw';
+  blogButton.style.padding = '2vw 12vw';
+  blogButton.style.margin = '1vw 20vw';
+  blogButton.style.fontSize = '4vw';
+  blogButton.style.border = '2px solid #E5E9F0';
 
-  document.getElementById("button-cont").style.height = "9vw"
-  document.getElementById("button-cont").style.width = "50vw"
-  document.getElementById("button-cont").style.padding = "2vw 12vw"
-  document.getElementById("button-cont").style.margin = "1vw 20vw"
-  document.getElementById("button-cont").style.fontSize = "4vw"
-  document.getElementById("button-cont").style.border = "2px solid #E5E9F0"
+  contactButton.style.height = '9vw';
+  contactButton.style.width = '50vw';
+  contactButton.style.padding = '2vw 12vw';
+  contactButton.style.margin = '1vw 20vw';
+  contactButton.style.fontSize = '4vw';
+  contactButton.style.border = '2px solid #E5E9F0';
   opcion = 2;
 }
 
 function closeNav() {   
-  document.querySelector(".navegation").style.height = "0";
-  document.querySelector(".navegation").style.padding = "0";
+  nav.style.height = '0';
+  nav.style.padding = '0';
   
-  document.getElementById("button-know").style.height = "0"
-  document.getElementById("button-know").style.width = "100%"
-  document.getElementById("button-know").style.padding = "0"
-  document.getElementById("button-know").style.margin = "0"
-  document.getElementById("button-know").style.fontSize = "0"
-  document.getElementById("button-know").style.border = "0 solid #816877"
-  document.getElementById("button-know").style.boxShadow = "0px 0px 0px rgba(0,0,0,0)"
+  expButton.style.height = '0';
+  expButton.style.width = '100%';
+  expButton.style.padding = '0';
+  expButton.style.margin = '0';
+  expButton.style.fontSize = '0';
+  expButton.style.border = '0 solid #816877';
+  expButton.style.boxShadow = '0px 0px 0px rgba(0,0,0,0)';
   
-  document.getElementById("button-find").style.height = "0"
-  document.getElementById("button-find").style.width = "100%"
-  document.getElementById("button-find").style.padding = "0"
-  document.getElementById("button-find").style.margin = "0"
-  document.getElementById("button-find").style.fontSize = "0"
-  document.getElementById("button-find").style.border = "0 solid #816877"
-  document.getElementById("button-find").style.boxShadow = "0px 0px 0px rgba(0,0,0,0)"
+  aboutButton.style.height = '0';
+  aboutButton.style.width = '100%';
+  aboutButton.style.padding = '0';
+  aboutButton.style.margin = '0';
+  aboutButton.style.fontSize = '0';
+  aboutButton.style.border = '0 solid #816877';
+  aboutButton.style.boxShadow = '0px 0px 0px rgba(0,0,0,0)';
   
-  document.getElementById("button-blog").style.height = "0"
-  document.getElementById("button-blog").style.width = "100%"
-  document.getElementById("button-blog").style.padding = "0"
-  document.getElementById("button-blog").style.margin = "0"
-  document.getElementById("button-blog").style.fontSize = "0"
-  document.getElementById("button-blog").style.border = "0 solid #816877"
-  document.getElementById("button-blog").style.boxShadow = "0px 0px 0px rgba(0,0,0,0)"
-  
-  document.getElementById("button-cont").style.height = "0"
-  document.getElementById("button-cont").style.width = "100%"
-  document.getElementById("button-cont").style.padding = "0"
-  document.getElementById("button-cont").style.margin = "0"
-  document.getElementById("button-cont").style.fontSize = "0"
-  document.getElementById("button-cont").style.border = "0 solid #816877"
-  document.getElementById("button-cont").style.boxShadow = "0px 0px 0px rgba(0,0,0,0)"
+  blogButton.style.height = '0';
+  blogButton.style.width = '100%';
+  blogButton.style.padding = '0';
+  blogButton.style.margin = '0';
+  blogButton.style.fontSize = '0';
+  blogButton.style.border = '0 solid #816877';
+  blogButton.style.boxShadow = '0px 0px 0px rgba(0,0,0,0)';
+ 
+  contactButton.style.height = '0';
+  contactButton.style.width = '100%';
+  contactButton.style.padding = '0';
+  contactButton.style.margin = '0';
+  contactButton.style.fontSize = '0';
+  contactButton.style.border = '0 solid #816877';
+  contactButton.style.boxShadow = '0px 0px 0px rgba(0,0,0,0)';
   opcion = 1;   
 }
 
 function action() {
   if (opcion == 1) {
-    openNav()
+    openNav();
   } else if (opcion == 2) {
-    closeNav()
+    closeNav();
   }
 }
 //nav

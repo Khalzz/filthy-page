@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Rodrigo Seguel">
+    <meta name="robots" content="index">
+    <meta name="description" content="Hi, I'm Rodrigo and here you will find information about me, the projects I worked on and I'm working on">
     <link href="css/style.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
@@ -21,21 +24,21 @@
 <body>
     <header class="header">
         <div class="banner">
+            <div class="flex-container-header">
+                <h1>Rodrigo Seguel</h1>
+            </div>
             <div onclick="action();" class="menu-button">
                 <div></div>
                 <div></div>
                 <div></div>
             </div>
             <!--sidebar-->
-            <div class="flex-container-header">
-                <h1>Rodrigo Seguel</h1>
-            </div>
         </div>
             
         <div class="navegation">
-            <div class="nav-buttons" id="button-cont" onclick="gotoContact();">Contact me</div>
-            <div class="nav-buttons" id="button-find" onclick="gotoAbout();">About me</div>
-            <div class="nav-buttons" id="button-know" onclick="gotoExperience();">Experience</div>
+            <div class="nav-buttons" id="button-contact" onclick="gotoContact();">Contact me</div>
+            <div class="nav-buttons" id="button-about" onclick="gotoAbout();">About me</div>
+            <div class="nav-buttons" id="button-exp" onclick="gotoExperience();">Experience</div>
             <div class="nav-buttons" id="button-blog" onclick="gotoBlog();">Blog</div>
         </div>
         <!--sidebar-->
@@ -51,7 +54,8 @@
             <div class="contact" onclick="gotoContact();">Contact me!</div>
         </div>
         <div class="about-me">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras suscipit, sapien sit amet maximus ullamcorper, purus purus accumsan nulla, ut gravida quam elit ac eros. Pellentesque varius vulputate venenatis. </p>
+            <p>
+                I am a Chilean developer with experience in front-end, game development with drive and drinking a lot of coffee!!!.<br><br>Constantly looking for new things to learn and also new challenges.</p>
         </div>
         <div class="read-more" onclick="gotoAbout();">Read more</div>
         <div class="tech-scroller">
@@ -79,11 +83,13 @@
             </div>
             <!--slider-->
             <h2 class="slider-instruction">Select the technology to see my projects with it.</h2>
+            <h2 class="or">or</h2>
+            <div class="portfolio" onclick="gotoProjects();">check all my portfolio</div>
         </div>
         <div class="blog">
             <h1>Looking for some developer reading?</h1>
             <p>I have a blog where i write about tech, projects and also my learning process.<br><br>If you are intrested.</p>
-            <div onclick="openBlog();">Visit my blog</div>
+            <div onclick="gotoBlog();">Visit my blog</div>
             <svg class="blog-svg" height="636" viewBox="0 0 414 636" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M17.25 45.9018L0 27.5411V508.8V607.607L17 590.571L17.3696 590.226C34.5034 574.199 69.2445 541.703 103 537.193C138 532.65 172 555.364 207 576.943C241 598.521 276 616.693 310 625.779C345 636 379 636 397 636H414V508.8V0L396.75 9.18036C379.5 18.3607 345 36.7214 310.5 41.3116C276 45.9018 241.5 36.7214 207 50.492C172.5 64.2625 138 100.984 103.5 100.984C69 100.984 34.5 64.2625 17.25 45.9018Z" fill="#f3f3f3"/>
             </svg>                    
