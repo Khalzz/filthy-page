@@ -51,6 +51,8 @@ const gotoBlog = () => window.open("html/blog.html");
 
 const gotoContact = () => window.open("html/contact.html");
 
+const gotoAbout = () => window.open("html/about.html")
+
 
 //nav
 let opcion = 1
