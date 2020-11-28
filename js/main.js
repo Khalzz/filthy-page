@@ -136,4 +136,6 @@ function action() {
     closeNav()
   }
 }
+
+console.log("version de pagina actualizada 1")
 //nav
