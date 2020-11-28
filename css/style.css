@@ -193,7 +193,7 @@ img {
         color: #E5E9F0;
     }
 
-    .about-me div {
+    .read-more {
         width: 34vw;
         height: 10vw;
         display: flex;
@@ -201,7 +201,7 @@ img {
         align-items: center;
         font-weight: 300;
         position: absolute;
-        margin-top: 69.5vw;
+        margin-top: 153.7vw;
         background-color: #314455;
         font-family: "Roboto Mono";
         font-size: 5.1vw;
@@ -212,7 +212,7 @@ img {
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     }
 
-    .about-me div:active {
+    .read-more:active {
         background-color: #C96567;
         color: #314455;
         box-shadow: 0 0 0 rgba(0, 0, 0, 0);
@@ -430,7 +430,6 @@ img {
         display: flex;
         justify-content: center;
         align-items: center;
-
         font-size: 0;
         background-color: #816877;
         border: 0 solid #ffffff;
