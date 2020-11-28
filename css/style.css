@@ -173,6 +173,13 @@ img {
 
     }
 
+    .about-div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
     .about-me{
         display: flex;
         max-width: 100%;
@@ -198,10 +205,11 @@ img {
         width: 34vw;
         height: 10vw;
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         font-weight: 300;
-        margin-top: 13.8em;
+        margin-top: 70vw;
         background-color: #314455;
         font-family: "Roboto Mono";
         font-size: 5.1vw;
