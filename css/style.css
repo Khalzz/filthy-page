@@ -194,14 +194,14 @@ img {
     }
 
     .read-more {
+        position: absolute;
         width: 34vw;
         height: 10vw;
         display: flex;
         justify-content: center;
         align-items: center;
         font-weight: 300;
-        position: absolute;
-        margin-top: 153.7vw;
+        margin-top: 13.6em;
         background-color: #314455;
         font-family: "Roboto Mono";
         font-size: 5.1vw;
