@@ -36,7 +36,7 @@ var swiper = new Swiper('.swiper-container', {
 });
 //swiper
 
-const gotoExperience = () => window.location.href = '#scroller';
+//const gotoExperience = () => window.location.href = '#scroller'; hiperlink to experience
 const openItch = () => window.open('https://khalzdev.itch.io/');
 const openGit = () => window.open('https://github.com/Khalzz');
 const gotoBlog = () => window.open('html/blog.html');
@@ -45,7 +45,7 @@ const gotoAbout = () => window.open('html/about.html');
 const gotoProjects = () => window.open('html/projects.html');
 
 const nav = document.querySelector(".navegation");
-const expButton = document.getElementById("button-exp");
+const portButton = document.getElementById("button-port");
 const aboutButton = document.getElementById("button-about");
 const blogButton = document.getElementById("button-blog");
 const contactButton = document.getElementById("button-contact");
@@ -57,12 +57,12 @@ function openNav(){
   nav.style.height = '50vw';
   nav.style.padding = '5vw';
   
-  expButton.style.height = '9vw';
-  expButton.style.width = '50vw';
-  expButton.style.padding = '2vw 12vw';
-  expButton.style.margin = '1vw 20vw';
-  expButton.style.fontSize = '4vw';
-  expButton.style.border = '2px solid #E5E9F0';
+  portButton.style.height = '9vw';
+  portButton.style.width = '50vw';
+  portButton.style.padding = '2vw 12vw';
+  portButton.style.margin = '1vw 20vw';
+  portButton.style.fontSize = '4vw';
+  portButton.style.border = '2px solid #E5E9F0';
   
   aboutButton.style.height = '9vw';
   aboutButton.style.width = '50vw';
@@ -91,13 +91,13 @@ function closeNav() {
   nav.style.height = '0';
   nav.style.padding = '0';
   
-  expButton.style.height = '0';
-  expButton.style.width = '100%';
-  expButton.style.padding = '0';
-  expButton.style.margin = '0';
-  expButton.style.fontSize = '0';
-  expButton.style.border = '0 solid #816877';
-  expButton.style.boxShadow = '0px 0px 0px rgba(0,0,0,0)';
+  portButton.style.height = '0';
+  portButton.style.width = '100%';
+  portButton.style.padding = '0';
+  portButton.style.margin = '0';
+  portButton.style.fontSize = '0';
+  portButton.style.border = '0 solid #816877';
+  portButton.style.boxShadow = '0px 0px 0px rgba(0,0,0,0)';
   
   aboutButton.style.height = '0';
   aboutButton.style.width = '100%';
