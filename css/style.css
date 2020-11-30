@@ -97,13 +97,18 @@ img {
     /*header*
     
     /*body*/
+    .logo-principal {
+        height: 40vw;
+        margin-top: 5vw;
+    }
+
     .title-container {
         display: flex;
         width: 100%;
         align-self: center;
         justify-content: center;
         flex-direction: column;
-        margin-top: 50vw;
+        margin-top: 5vw;
     }
 
     .flex-container h1 {
@@ -509,6 +514,17 @@ img {
         box-shadow: 0 0 0 rgba(0,0,0,0);
     }
     /*navbar*/
+
+    /*footer*/
+    footer {
+        margin-top: 160vw;
+    }
+
+    .footer-bg {
+        height: 169vw;
+        
+    }
+    /*footer*/
 }
 
 /*tablets screen*/
