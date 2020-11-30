@@ -518,10 +518,14 @@ img {
     /*footer*/
     footer {
         margin-top: 160vw;
+        height: 170vw;
+        width: 100%;
     }
 
     .footer-bg {
-        height: 169vw;
+        margin-top: 10vw;
+        width: 100%;
+        height: 100%;
         
     }
     /*footer*/
