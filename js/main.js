@@ -137,5 +137,5 @@ function action() {
 //nav
 
 //version
-console.log("v0.0.1")
+console.log("v0.0.2")
 //version
