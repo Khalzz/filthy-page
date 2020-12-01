@@ -529,13 +529,20 @@ img {
         display: flex;
         position: absolute;
         margin-top: 165vw;
-        width: 100vw;
+        width: 100%;
         height: 160vw;
         justify-content: center;
     }
+
     .footer-bg {
         height: 100%;
         width: 190vw;
+    }
+
+    .footer-logo {
+        position: absolute;
+        margin-top: 23vw ;
+        height: 20vw;
     }
     /*footer*/
 }
