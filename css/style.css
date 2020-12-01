@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #314455;
+    background-color: #1C2730;
 }
 
 img {
@@ -17,6 +17,14 @@ img {
 /*default style*/
 
 /* Smartphones (portrait and landscape) ----------- */
+.bg {
+    z-index: 0;
+    position: absolute;
+    background-color: #314455;
+    height: 600vw;
+    width: 100%;
+}
+
 @media (max-width : 850px){
     /*header*/
     .header {
@@ -108,7 +116,7 @@ img {
         align-self: center;
         justify-content: center;
         flex-direction: column;
-        margin-top: 5vw;
+        margin-top: 3vw;
     }
 
     .flex-container h1 {
@@ -466,10 +474,11 @@ img {
         display: flex;
         flex-direction: column;
         background-color: #816877; /* Black*/
-        transition: 0.2s; /* 0.5 second transition effect to slide in the sidebar */
+        transition: 0.3s; /* 0.5 second transition effect to slide in the sidebar */
         justify-content: center;
         border-radius: 0 0 4vw 4vw;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        z-index: 1;
     }
 
     .nav-buttons {
@@ -490,7 +499,7 @@ img {
         border-radius: 4vw;
         color: #E5E9F0;
         font-family: "Montserrat", sans-serif;
-        transition: 0.2s;
+        transition: 0.3s;
         box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
     }
 

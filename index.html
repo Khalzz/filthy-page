@@ -44,76 +44,70 @@
         </div>
         <!--sidebar-->
     </header>
-    <div class="flex-container">
-        <img class="logo-principal" src="images/logo.svg">
-        <div class="title-container">
-            <h1 class="name">Rodrigo Seguel</h1>
-            <div class="subtitle">
-                <div></div>
-                <h3 class="subtitle-text">Front-end</h3>
-                <div></div>
+    <div class="bg">
+        <div class="flex-container">
+            <img class="logo-principal" src="images/logo.svg">
+            <div class="title-container">
+                <h1 class="name">Rodrigo Seguel</h1>
+                <div class="subtitle">
+                    <div></div>
+                    <h3 class="subtitle-text">Front-end</h3>
+                    <div></div>
+                </div>
+                <div class="contact" onclick="gotoContact();">Contact me!</div>
             </div>
-            <div class="contact" onclick="gotoContact();">Contact me!</div>
-        </div>
-        <div class="about-me">
-            <p>
-                I am a Chilean developer with experience in front-end,
-                game development with Unity and drink a lot of coffee!!!.
-                <br><br>
-                Constantly looking for new things to learn and also new challenges.
-            </p>
-        </div>
-        <div class="read-more" onclick="gotoAbout();">Read more</div>
-        <div class="tech-scroller">
-            <div class="link" id="scroller"></div>
-            <div class="backside-scroller">
-                <div class="scroller-background"></div>
-                <div class="scroller-head"><p>With experience in</p></div>
+            <div class="about-me">
+                <p>
+                    I am a Chilean developer with experience in front-end,
+                    game development with Unity and drink a lot of coffee!!!.
+                    <br><br>
+                    Constantly looking for new things to learn and also new challenges.
+                </p>
             </div>
-            <!--slider-->
-            <div class="divisor">
-                <!-- Slider main container -->
-                <div class="swiper-container">
-                <!-- Additional required wrapper -->
-                    <div class="swiper-wrapper">
-                    <!-- Slides -->
-                        <div class="swiper-slide"><img src="images/css.svg" title="python" alt="image not found"></div>
-                        <div class="swiper-slide"><img src="images/javascript.svg" title="javascript" alt="image not found"></div>
-                        <div class="swiper-slide"><img src="images/csharp.svg" title="c#" alt="image not found"></div>
-                        <div class="swiper-slide"><img src="images/python.svg" title="python" alt="image not found"></div>
-                        <div class="swiper-slide"><img src="images/kotlin.svg" title="python" alt="image not found"></div>
-                        <div class="swiper-slide"><img src="images/html.svg" title="python" alt="image not found"></div>
-                    </div>
-                    <div class="swiper-pagination"></div>
-                </div> 
+            <div class="read-more" onclick="gotoAbout();">Read more</div>
+            <div class="tech-scroller">
+                <div class="link" id="scroller"></div>
+                <div class="backside-scroller">
+                    <div class="scroller-background"></div>
+                    <div class="scroller-head"><p>With experience in</p></div>
+                </div>
+                <!--slider-->
+                <div class="divisor">
+                    <!-- Slider main container -->
+                    <div class="swiper-container">
+                    <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                        <!-- Slides -->
+                            <div class="swiper-slide"><img src="images/css.svg" title="python" alt="image not found"></div>
+                            <div class="swiper-slide"><img src="images/javascript.svg" title="javascript" alt="image not found"></div>
+                            <div class="swiper-slide"><img src="images/csharp.svg" title="c#" alt="image not found"></div>
+                            <div class="swiper-slide"><img src="images/python.svg" title="python" alt="image not found"></div>
+                            <div class="swiper-slide"><img src="images/kotlin.svg" title="python" alt="image not found"></div>
+                            <div class="swiper-slide"><img src="images/html.svg" title="python" alt="image not found"></div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div> 
+                </div>
+                <!--slider-->
+                <h2 class="slider-instruction">Select the technology to see my projects with it.</h2>
+                <h2 class="or">or</h2>
+                <div class="portfolio" onclick="gotoProjects();">check all my portfolio</div>
             </div>
-            <!--slider-->
-            <h2 class="slider-instruction">Select the technology to see my projects with it.</h2>
-            <h2 class="or">or</h2>
-            <div class="portfolio" onclick="gotoProjects();">check all my portfolio</div>
+            <div class="blog">
+                <h1>Looking for some developer reading?</h1>
+                <p>I have a blog where i write about tech, projects and also my learning process.<br><br>If you are intrested.</p>
+                <div onclick="gotoBlog();">Visit my blog</div>
+                <svg class="blog-svg" height="636" viewBox="0 0 414 636" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M17.25 45.9018L0 27.5411V508.8V607.607L17 590.571L17.3696 590.226C34.5034 574.199 69.2445 541.703 103 537.193C138 532.65 172 555.364 207 576.943C241 598.521 276 616.693 310 625.779C345 636 379 636 397 636H414V508.8V0L396.75 9.18036C379.5 18.3607 345 36.7214 310.5 41.3116C276 45.9018 241.5 36.7214 207 50.492C172.5 64.2625 138 100.984 103.5 100.984C69 100.984 34.5 64.2625 17.25 45.9018Z" fill="#f3f3f3"/>
+                </svg>                    
+            </div>
         </div>
-        <div class="blog">
-            <h1>Looking for some developer reading?</h1>
-            <p>I have a blog where i write about tech, projects and also my learning process.<br><br>If you are intrested.</p>
-            <div onclick="gotoBlog();">Visit my blog</div>
-            <svg class="blog-svg" height="636" viewBox="0 0 414 636" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M17.25 45.9018L0 27.5411V508.8V607.607L17 590.571L17.3696 590.226C34.5034 574.199 69.2445 541.703 103 537.193C138 532.65 172 555.364 207 576.943C241 598.521 276 616.693 310 625.779C345 636 379 636 397 636H414V508.8V0L396.75 9.18036C379.5 18.3607 345 36.7214 310.5 41.3116C276 45.9018 241.5 36.7214 207 50.492C172.5 64.2625 138 100.984 103.5 100.984C69 100.984 34.5 64.2625 17.25 45.9018Z" fill="#f3f3f3"/>
-            </svg>                    
-        </div>
+        <footer>
+            <svg class="footer-bg" width="414" height="725" viewBox="0 0 414 725" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M59.8768 21.1639C17.752 18.6196 -2.9376 13.531 -24 0.809425V725H439V41.224C417.938 48.857 366.961 69.3954 324.836 69.3954C282.711 69.3954 260.622 9.85876 186.251 0.809425C137.388 -5.13622 102.002 23.7083 59.8768 21.1639Z" fill="#1C2730"/>
+            </svg>                           
+        </footer>
     </div>
-    <footer>
-        <svg class="footer-bg" width="414" height="725" viewBox="0 0 414 725" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M59.8768 21.1639C17.752 18.6196 -2.9376 13.531 -24 0.809425V725H439V41.224C417.938 48.857 366.961 69.3954 324.836 69.3954C282.711 69.3954 260.622 9.85876 186.251 0.809425C137.388 -5.13622 102.002 23.7083 59.8768 21.1639Z" fill="#1C2730"/>
-            </svg>
-            
-            
-            
-            
-            
-            
-            
-                                        
-    </footer>
     <!--swiper-->
     <script src="swiper/swiper-bundle.js"></script>
     <script src="swiper/swiper-bundle.min.js"></script>
