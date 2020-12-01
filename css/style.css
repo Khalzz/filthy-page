@@ -544,6 +544,98 @@ img {
         margin-top: 23vw ;
         height: 20vw;
     }
+
+    .hiper {
+        width: 50vw;
+        font-family: "roboto";
+        font-size: 6.5vw;
+        font-weight: 200;
+        color: #6E8598;
+        position: absolute;
+        margin-top: 53vw;
+        text-align: center;
+    }
+
+    .footer-div-hiper {
+        position: absolute;
+        width: 60vw;
+        height: 0.4vw;
+        background-color: #6E8598;
+        margin-top: 61vw;
+    }
+    .hiper-list {
+        list-style: none;
+        position: absolute;
+        text-align: center;
+        margin-top: 63vw;
+    }
+
+    .hiper-list li {
+        margin: 2.5vw;
+    }
+    
+    .hiper-list li a {
+        font-family: "roboto";
+        text-decoration: none;
+        font-size: 4.2vw;
+        font-weight: 300;
+        color: #98B8D2;
+    }
+
+    .find-me {
+        width: 50vw;
+        font-family: "roboto";
+        font-size: 6.5vw;
+        font-weight: 200;
+        color: #6E8598;
+        position: absolute;
+        margin-top: 100vw;
+        text-align: center;
+    }
+
+    .footer-div-found {
+        position: absolute;
+        width: 60vw;
+        height: 0.4vw;
+        background-color: #6E8598;
+        margin-top: 107.5vw; 
+    }
+
+    .fd-me {
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .fd-me div{
+        display: flex;
+        margin-top: 110vw;
+        height: 18vw;
+        width: 18vw;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fd-me div img {
+        height: 13vw;
+        margin: 0.5vw;
+
+    }
+
+    .fd-me div:active {
+        filter: brightness(0.8);
+    }
+
+    footer h4 {
+        position: absolute;
+        color: #748492;
+        font-family: "roboto";
+        font-weight: 300;
+        font-size: 3vw;
+        margin-top: 140vw;
+        width: 50vw;
+        text-align: center;
+    }
     /*footer*/
 }
 

@@ -39,6 +39,8 @@ var swiper = new Swiper('.swiper-container', {
 //const gotoExperience = () => window.location.href = '#scroller'; hiperlink to experience
 const openItch = () => window.open('https://khalzdev.itch.io/');
 const openGit = () => window.open('https://github.com/Khalzz');
+const openStack = () => window.open('https://es.stackoverflow.com/users/175478/khals')
+const openIg = () => window.open('https://www.instagram.com/moon.drawner.chu.p0u/')
 const gotoBlog = () => window.open('html/blog.html');
 const gotoContact = () => window.open('html/contact.html');
 const gotoAbout = () => window.open('html/about.html');

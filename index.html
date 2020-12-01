@@ -23,7 +23,7 @@
     <title>Rodrigo Seguel</title>
 </head>
 <body>
-    <header class="header">
+    <header class="header" id="head">
         <div class="banner">
             <div class="flex-container-header">
                 <h1>Rodrigo Seguel</h1>
@@ -48,7 +48,7 @@
         <div class="flex-container">
             <img class="logo-principal" src="images/logo.svg" alt="image not found :c" title="Hey!, thats me uwu<3">
             <div class="title-container">
-                <h1 class="name">Rodrigo Seguel</h1>
+                <h1 class="name" id="desc">Rodrigo Seguel</h1>
                 <div class="subtitle">
                     <div></div>
                     <h3 class="subtitle-text">Front-end</h3>
@@ -64,7 +64,7 @@
                     Constantly looking for new things to learn and also new challenges.
                 </p>
             </div>
-            <div class="read-more" onclick="gotoAbout();">Read more</div>
+            <div class="read-more" id="exp" onclick="gotoAbout();">Read more</div>
             <div class="tech-scroller">
                 <div class="link" id="scroller"></div>
                 <div class="backside-scroller">
@@ -93,7 +93,7 @@
                 <h2 class="or">or</h2>
                 <div class="portfolio" onclick="gotoProjects();">check all my portfolio</div>
             </div>
-            <div class="blog">
+            <div class="blog" id="blog-link">
                 <h1>Looking for some developer reading?</h1>
                 <p>I have a blog where i write about tech, projects and also my learning process.<br><br>If you are intrested.</p>
                 <div onclick="gotoBlog();">Visit my blog</div>
@@ -104,13 +104,26 @@
         </div>
         <footer>
             <img class="footer-logo" src="images/footerLogo.svg" alt="image not found" title="Hey!, thats also me :o">
+            <h3 class="hiper">Hiperlinks</h3>
+            <div class="footer-div-hiper"></div>
+            <ul class="hiper-list">
+                <li><a href="#desc">Description</a></li>
+                <li><a href="#exp">Experience</a></li>
+                <li><a href="#blog-link">Blog</a></li>
+                <li><a href="#head">Back to top</a></li>
+            </ul>
+            <h3 class="find-me">Find me on</h3>
+            <div class="footer-div-found"></div>
+            <div class="fd-me">
+                <div onclick="openGit();"><img src="images/git.svg" alt="image not found" title="find me on GitHub"></div>
+                <div onclick="openItch();"><img src="images/itch.svg" alt="image not found" title="find me on Itch.io"></div>
+                <div onclick="openStack();"><img src="images/stack.svg" alt="image not found" title="find me on Stack overflow"></div>
+                <div onclick="openIg();"><img src="images/instagram.svg" alt="image not found" title="find me on instagram"></div>
+            </div>
+            <h4>Made in Chile with love, passion and lots of caffeine</h4>
             <svg class="footer-bg" width="414" height="725" viewBox="0 0 414 725" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M48.1087 21.1639C0.342995 18.6196 -23.1171 13.531 -47 0.809425V725H478V41.224C454.117 48.857 396.314 69.3954 348.548 69.3954C300.782 69.3954 275.736 9.85876 191.406 0.809425C135.999 -5.13622 95.8744 23.7083 48.1087 21.1639Z" fill="#1C2730"/>
-                </svg>
-                
-                
-                
-                                          
+            </svg>                      
         </footer>
     </div>
     <!--swiper-->
