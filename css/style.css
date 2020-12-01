@@ -584,10 +584,6 @@ img {
         color: #98B8D2;
     }
 
-    .hiper-list li a:active{
-        color: red;
-    }
-
     .find-me {
         width: 50vw;
         font-family: "roboto";
