@@ -556,6 +556,7 @@ img {
         text-align: center;
     }
 
+    
     .footer-div-hiper {
         position: absolute;
         width: 60vw;
@@ -564,6 +565,7 @@ img {
         margin-top: 61vw;
     }
     .hiper-list {
+        z-index: 100;
         list-style: none;
         position: absolute;
         text-align: center;
@@ -580,6 +582,10 @@ img {
         font-size: 4.2vw;
         font-weight: 300;
         color: #98B8D2;
+    }
+
+    .hiper-list li a:active{
+        color: red;
     }
 
     .find-me {
