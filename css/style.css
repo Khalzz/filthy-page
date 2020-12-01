@@ -593,7 +593,6 @@ img {
         position: absolute;
         margin-top: 100vw;
         text-align: center;
-        z-index: 50;
     }
 
     .footer-div-found {
@@ -602,14 +601,12 @@ img {
         height: 0.4vw;
         background-color: #6E8598;
         margin-top: 107.5vw; 
-        z-index: 50;
     }
 
     .fd-me {
         position: absolute;
         display: flex;
         flex-direction: row;
-        z-index: 50;
     }
 
     .fd-me div{
@@ -619,7 +616,6 @@ img {
         width: 18vw;
         justify-content: center;
         align-items: center;
-        z-index: 50;
     }
 
     .fd-me div img {
@@ -641,7 +637,6 @@ img {
         margin-top: 140vw;
         width: 50vw;
         text-align: center;
-        z-index: 50;
     }
     /*footer*/
 }
