@@ -20,7 +20,7 @@ img {
 .bg {
     z-index: 0;
     position: absolute;
-    background-color: #314455;
+    background-color: #234462;
     height: 600vw;
     width: 100%;
 }
@@ -50,7 +50,7 @@ img {
         width: 15vw;
         height: 10vw;
         border-radius: 9px;
-        background-color: #644E5B; /*#ECEFF4*/
+        background-color: #733F5E; /*#ECEFF4*/
         justify-content: center;
         align-items: center;
         flex-direction: column;
@@ -100,7 +100,8 @@ img {
         width: 100%;
         height: 11.5vw;
         text-align: center;
-        background-color: #644E5B;
+        box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.25);
+        background-color: #733F5E;
     }
     /*header*
     
@@ -168,19 +169,19 @@ img {
         align-items: center;
         width: 35vw;
         height: 10vw;
-        border: 0.8vw solid #C96589;   
+        border: 0.8vw solid #E15D8D;   
         margin: 3vw auto;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         font-weight: 300;
         font-family: "Roboto";      
         text-align: center;
         font-size: 5vw;
-        color: #C96589;
+        color: #E15D8D;
         transition: 0.1s;
     }
     
     .contact:active {
-        background-color: #C96589;
+        background-color: #E15D8D;
         color: #314455;
         box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
 
@@ -228,7 +229,7 @@ img {
         justify-content: center;
         align-items: center;
         font-weight: 300;
-        background-color: #314455;
+        background-color: #234462;
         font-family: "Roboto Mono";
         font-size: 5.1vw;
         color: #C96567;
@@ -240,7 +241,7 @@ img {
 
     .read-more:active {
         background-color: #C96567;
-        color: #314455;
+        color: #234462;
         box-shadow: 0 0 0 rgba(0, 0, 0, 0);
     }
 
@@ -272,7 +273,7 @@ img {
     .scroller-head {
         z-index: 1;
         display: flex;
-        background-color: #7C6272;
+        background-color: #996D87;
         border-radius: 15px;
         margin-top: -6vw;
         width: 55vw;
@@ -294,7 +295,7 @@ img {
         
         position: absolute;
         border-radius: 7vw;
-        background-color: #644E5B;
+        background-color: #764D65;
         width: 80vw;
         height: 67vw;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -378,7 +379,7 @@ img {
         align-items: center;
         width: 47vw;
         height: 15vw;
-        border: 0.8vw solid #C96589;   
+        border: 0.8vw solid #E15D8D;   
         margin: 0 0;
         border-radius: 8px;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -386,14 +387,14 @@ img {
         font-family: "Roboto";      
         text-align: center;
         font-size: 5vw;
-        color: #C96589;
-        background-color: #314455;
+        color: #E15D8D;
+        background-color: #234462;
         transition: 0.1s;
     }
     
     .portfolio:active {
-        background-color: #C96589;
-        color: #314455;
+        background-color: #E15D8D;
+        color: #234462;
         box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
 
     }
@@ -473,7 +474,7 @@ img {
         position: absolute;
         display: flex;
         flex-direction: column;
-        background-color: #816877; /* Black*/
+        background-color: #764D65; /* Black*/
         transition: 0.3s; /* 0.5 second transition effect to slide in the sidebar */
         justify-content: center;
         border-radius: 0 0 4vw 4vw;
@@ -494,7 +495,7 @@ img {
         justify-content: center;
         align-items: center;
         font-size: 0;
-        background-color: #816877;
+        background-color: #764D65;
         border: 0 solid #ffffff;
         border-radius: 4vw;
         color: #E5E9F0;
@@ -503,22 +504,7 @@ img {
         box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
     }
 
-    #button-know:active {
-        filter: brightness(0.7);
-        box-shadow: 0 0 0 rgba(0,0,0,0);
-    }
-
-    #button-find:active {
-        filter: brightness(0.7);
-        box-shadow: 0 0 0 rgba(0,0,0,0);
-    }
-
-    #button-blog:active {
-        filter: brightness(0.7);
-        box-shadow: 0 0 0 rgba(0,0,0,0);
-    }
-
-    #button-cont:active {
+    .nav-buttons:active {
         filter: brightness(0.7);
         box-shadow: 0 0 0 rgba(0,0,0,0);
     }
@@ -569,11 +555,11 @@ img {
         list-style: none;
         position: absolute;
         text-align: center;
-        margin-top: 63vw;
+        margin-top: 62vw;
     }
 
     .hiper-list li {
-        margin: 2.5vw;
+        margin: 3vw;
     }
     
     .hiper-list li a {
@@ -584,6 +570,10 @@ img {
         color: #98B8D2;
     }
 
+    .hiper-list li a:active{
+        filter: brightness(0.8);
+    }
+
     .find-me {
         width: 50vw;
         font-family: "roboto";
@@ -591,7 +581,7 @@ img {
         font-weight: 200;
         color: #6E8598;
         position: absolute;
-        margin-top: 100vw;
+        margin-top: 102vw;
         text-align: center;
     }
 
@@ -600,7 +590,7 @@ img {
         width: 60vw;
         height: 0.4vw;
         background-color: #6E8598;
-        margin-top: 107.5vw; 
+        margin-top: 109.5vw; 
     }
 
     .fd-me {
@@ -611,7 +601,7 @@ img {
 
     .fd-me div{
         display: flex;
-        margin-top: 110vw;
+        margin-top: 112vw;
         height: 18vw;
         width: 18vw;
         justify-content: center;
@@ -634,7 +624,7 @@ img {
         font-family: "roboto";
         font-weight: 300;
         font-size: 4vw;
-        margin-top: 139vw;
+        margin-top: 141vw;
         width: 50vw;
         text-align: center;
     }
