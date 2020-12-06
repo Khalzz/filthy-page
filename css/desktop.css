@@ -203,7 +203,7 @@
     }
 
     .desktop-techs {
-        margin-top: 38vh;
+        margin-top: 39vh;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -283,7 +283,7 @@
 
     .blog-svg-2 {
         margin: 0 auto;
-        margin-top: 15vw;
+        margin-top: 17vw;
         border-radius: 30px;
         box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
         width: 80vw;
@@ -303,7 +303,7 @@
         font-size: 3.4vw;
         text-align: start;
         font-family: 'Source Serif Pro', serif;
-        margin-top: 19.5vw;
+        margin-top: 21.5vw;
         margin-left: 6vw;
         font-weight: 400;
         text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
@@ -319,7 +319,7 @@
         font-size: 2.5vw;
         font-weight: 200;
         font-family: 'Source Serif Pro', serif;
-        margin-top: 25.5vw;
+        margin-top: 27.5vw;
         margin-left: 6vw;
         color: #000000;
     }
@@ -336,7 +336,7 @@
         width: 25vw;
         z-index: 10;
         position: absolute;
-        margin-top: 42vw;
+        margin-top: 44vw;
         margin-left: 11vw;
         border: 2px solid #000000;
         border-radius: 2vw;
