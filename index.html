@@ -8,6 +8,7 @@
     <meta name="description" content="Hi, I'm Rodrigo and here you will find information about me, the projects I worked on and I'm working on">
     <link rel="icon" href="images/logo.ico">
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/desktop.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -24,6 +25,7 @@
 </head>
 <body>
     <header class="header" id="head">
+        <div class="bg-header"></div>
         <div class="banner">
             <div class="flex-container-header">
                 <h1>Rodrigo Seguel</h1>
@@ -33,16 +35,13 @@
                 <div></div>
                 <div></div>
             </div>
-            <!--sidebar-->
         </div>
-            
         <div class="navegation">
             <div class="nav-buttons" id="button-contact" onclick="gotoContact();">Contact me</div>
             <div class="nav-buttons" id="button-about" onclick="gotoAbout();">About me</div>
             <div class="nav-buttons" id="button-port" onclick="gotoProjects();">Portfolio</div>
             <div class="nav-buttons" id="button-blog" onclick="gotoBlog();">Blog</div>
         </div>
-        <!--sidebar-->
     </header>
     <div class="bg">
         <div class="flex-container">
@@ -67,16 +66,16 @@
             <div class="read-more" id="exp" onclick="gotoAbout();">Read more</div>
             <!--desktop techs-->
             <div class="desktop-techs">
-                <div class="logo-tech"><img src="images/html.svg" title="python" alt="image not found"></div>
-                <div class="logo-tech"><img src="images/css.svg" title="python" alt="image not found"></div>
-                <div class="logo-tech"><img src="images/javascript.svg" title="javascript" alt="image not found"></div>
-                <div class="logo-tech"><img src="images/csharp.svg" title="c#" alt="image not found"></div>
-                <div class="logo-tech"><img src="images/python.svg" title="python" alt="image not found"></div>
-                <div class="logo-tech"><img src="images/kotlin.svg" title="python" alt="image not found"></div>
+                <div class="logo-tech"><img src="images/html.svg" title="HTML" alt="image not found"></div>
+                <div class="logo-tech"><img src="images/css.svg" title="CSS" alt="image not found"></div>
+                <div class="logo-tech"><img src="images/javascript.svg" title="JavaScript" alt="image not found"></div>
+                <div class="logo-tech"><img src="images/csharp.svg" title="C#" alt="image not found"></div>
+                <div class="logo-tech"><img src="images/python.svg" title="Python" alt="image not found"></div>
+                <div class="logo-tech"><img src="images/kotlin.svg" title="Kotlin" alt="image not found"></div>
             </div>
             <h2 class="instruction-desk">Select the technology to see my projects with it.</h2>
             <h2 class="or-desk">or</h2>
-            <div class="portfolio" onclick="gotoProjects();">check all my portfolio</div>
+            <div class="portfolio-desk" onclick="gotoProjects();">check all my portfolio</div>
             <!--desktop techs-->
             <div class="tech-scroller">
                 <div class="link" id="scroller"></div>
@@ -91,12 +90,12 @@
                     <!-- Additional required wrapper -->
                         <div class="swiper-wrapper">
                         <!-- Slides -->
-                            <div class="swiper-slide"><img src="images/css.svg" title="python" alt="image not found"></div>
-                            <div class="swiper-slide"><img src="images/javascript.svg" title="javascript" alt="image not found"></div>
-                            <div class="swiper-slide"><img src="images/csharp.svg" title="c#" alt="image not found"></div>
-                            <div class="swiper-slide"><img src="images/python.svg" title="python" alt="image not found"></div>
-                            <div class="swiper-slide"><img src="images/kotlin.svg" title="python" alt="image not found"></div>
-                            <div class="swiper-slide"><img src="images/html.svg" title="python" alt="image not found"></div>
+                            <div class="swiper-slide"><img src="images/css.svg" title="CSS" alt="image not found"></div>
+                            <div class="swiper-slide"><img src="images/javascript.svg" title="JavaScript" alt="image not found"></div>
+                            <div class="swiper-slide"><img src="images/csharp.svg" title="C#" alt="image not found"></div>
+                            <div class="swiper-slide"><img src="images/python.svg" title="Python" alt="image not found"></div>
+                            <div class="swiper-slide"><img src="images/kotlin.svg" title="Kotlin" alt="image not found"></div>
+                            <div class="swiper-slide"><img src="images/html.svg" title="HTML" alt="image not found"></div>
                         </div>
                         <div class="swiper-pagination"></div>
                     </div> 

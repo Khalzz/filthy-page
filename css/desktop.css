@@ -1,0 +1,279 @@
+/*here it goes my "desktop media querie" to make this nightmare more easy uwu</3*/
+@media (min-width : 850px) {
+    .header {
+        background-color: #733F5E;
+        width: 100%;
+        height: 4vw;
+        z-index: 1;
+    }
+
+    .bg-header {
+        position: absolute;
+        width: 100%;
+        height: 4vw;
+        z-index: 2;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .flex-container-header h1 {
+        display: inline;
+        position: absolute;
+        top: 0em;
+        font-family: "Roboto";
+        left: -2.5vw;
+        margin-top: 0.2vw;
+        font-size: 2.7vw;
+        font-weight: 500;
+        color: #E5E9F0;
+        z-index: 30;
+        width: 25vw;
+        height: 2vw;
+        align-items: center;
+        text-align: center;
+        background-color: #733F5E;
+    }
+
+    .menu-button {
+        display: none;
+    }
+
+    .navegation {
+        z-index: 35;
+        display:flex;
+        position: absolute;
+        flex-direction: row;
+        height: 4vw;
+        align-items: center;
+        right: 2vw;
+    }
+
+    .nav-buttons {
+        font-weight: 200;
+        margin-left: 1vw;
+        margin-right: 1vw;
+        font-size: 2vw;
+        font-family: "Roboto";
+        color: #E5E9F0;
+        text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25) 
+    }
+
+    .nav-buttons:hover {
+        filter: brightness(0.9);
+    }
+
+    .nav-buttons:active {
+        filter: brightness(0.8);
+        text-shadow: 0 0 0 rgba(0, 0, 0, 0) 
+    }
+
+    .flex-container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .logo-principal {
+        margin: 7vh;
+        height: 40vh;
+    }
+
+    .title-container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .name{
+        margin-top: -3vh;
+        font-size: 10vh;
+        font-family: "Roboto";
+        font-weight: 400;
+        color: #E5E9F0;
+    }
+
+    .subtitle {
+        margin-top: 0.5vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50vw;
+        height: 2vw;
+    }
+
+    .subtitle div{
+        margin-left: 1vw;
+        margin-right: 1vw;
+        height: 0.22vw;
+        width: 6vw;
+        border-radius: 5px;
+        background-color: #e5e9e5;
+    }
+
+    .subtitle-text {
+        text-align: center;
+        font-family: "Roboto";
+        font-weight: 200;
+        font-size: 2rem;
+        color: #e5e9e5;
+    }
+
+    .contact {
+        margin: 4vh;
+        height: 6vw;
+        width: 15vw;
+        border: 3px solid #E15D8D;
+        font-size: 1.5vw;
+        font-family: "Roboto";
+        color: #E15D8D;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.2s;
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .contact:hover {
+        background-color: #E15D8D;
+        color: #234462;
+    }
+
+    .contact:active {
+        box-shadow: 0 0 0 rgba(0,0,0,0);
+    }
+    
+    .about-div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .about-me{
+        display: flex;
+        max-width: 100%;
+        max-height: 100%;
+        width: 100%;
+        height:18vw;
+        background-color: #22394E;
+        justify-content: center;
+        align-items: center;
+        margin: 5em;
+        margin-top: 15vw;
+        margin-bottom: 3vw;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        flex-direction: row;
+    }
+
+    .about-me p {
+        text-align: left;
+        width: 90%;
+        margin: auto 1;
+        font-weight: 400;
+        margin-top: -1vw;
+        font-size: 2vw;
+        font-family: "Roboto Mono";
+        color: #E5E9F0;
+    }
+
+    .read-more {
+        width: 15vw;
+        height: 6vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-weight: 300;
+        background-color: #234462;
+        font-family: "Roboto Mono";
+        font-size: 2vw;
+        color: #C96567;
+        border: 2px solid #C96567;
+        border-radius: 8px;
+        transition: 0.2s;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .read-more:hover {
+        background-color: #C96567;
+        color: #234462;
+    }
+
+    .read-more:active {
+        box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    }
+
+    .desktop-techs {
+        margin-top: 38vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #764D65;
+        width: 100%;
+        height: 15vw;
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .logo-tech {
+        width: 12vw;
+        margin: 1vw;
+        transition: 0.3s;
+    }
+
+    .logo-tech:hover {
+        width: 14vw;
+    }
+
+    .logo-tech:active {
+        filter: brightness(0.8);
+
+    }
+
+    .tech-scroller {
+        display: none;
+    }
+
+    .instruction-desk {
+        margin-top: 1.5vw;
+        font-family: "roboto";
+        font-size: 1.5vw;
+        text-align: center;
+        font-weight: 400;
+        width: 59vw;
+        color: #748492;
+    }
+    .or-desk {
+        color: #748492;
+        font-family: "Roboto";
+        font-weight: 300;
+        font-size: 1.5vw;
+        margin: 1vw;
+        margin-top: 0.4vw;
+    }
+
+    .portfolio-desk {
+        width: 14vw;
+        height: 6vw;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-weight: 400;
+        background-color: #234462;
+        font-family: "Roboto Mono";
+        font-size: 1.3vw;
+        color: #E15D8D;
+        border: 2px solid #E15D8D;
+        border-radius: 8px;
+        transition: 0.2s;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }    
+    .portfolio-desk:hover {
+        background-color: #E15D8D;
+        color: #234462;
+    }
+
+    .portfolio-desk:active {
+        box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    }
+}
