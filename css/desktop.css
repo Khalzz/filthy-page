@@ -276,4 +276,83 @@
     .portfolio-desk:active {
         box-shadow: 0 0 0 rgba(0, 0, 0, 0);
     }
+
+    .blog-svg {
+        display: none;
+    }
+
+    .blog-svg-2 {
+        margin: 0 auto;
+        margin-top: 15vw;
+        border-radius: 30px;
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+        width: 80vw;
+        height: 39.5vw;
+    }
+    .blog {
+        margin: auto auto;
+        display: flex;
+        width: 80%;
+        height: 160vw;
+        justify-content: flex-start;
+    }
+
+    .blog h1 {
+        position: absolute;
+        z-index: 10;
+        font-size: 3.4vw;
+        text-align: start;
+        font-family: 'Source Serif Pro', serif;
+        margin-top: 19.5vw;
+        margin-left: 6vw;
+        font-weight: 400;
+        text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+        color: #000000;
+    }
+    
+    .blog p {
+        width: 50vw;
+        position: absolute;
+        text-align: start;
+        z-index: 10;
+
+        font-size: 2.5vw;
+        font-weight: 200;
+        font-family: 'Source Serif Pro', serif;
+        margin-top: 25.5vw;
+        margin-left: 6vw;
+        color: #000000;
+    }
+
+    .blog div {
+        user-select: none;
+        transition: 0.1s;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #f3f3f3;
+        height: 6.5vw;
+        font-weight: 400;
+        width: 25vw;
+        z-index: 10;
+        position: absolute;
+        margin-top: 42vw;
+        margin-left: 11vw;
+        border: 2px solid #000000;
+        border-radius: 2vw;
+        font-family: "Source Serif Pro", sans-serif;
+        font-size: 2vw;
+        color: #000000;
+        text-decoration: none;
+        box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .blog div:hover {
+        filter: brightness(0.9)
+    }
+
+    .blog div:active {
+        filter: brightness(0.7);
+        box-shadow: 0 0 0 rgba(0,0,0,0);
+    }
 }
