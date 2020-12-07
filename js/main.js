@@ -138,5 +138,4 @@ function action() {
 
 //version
 console.log('v0.0.7');
-console.log('headr nav fixed');
 //version
