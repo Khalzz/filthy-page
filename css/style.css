@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: #1C2730;
+    background-color: #234462;
 }
 
 img {
@@ -20,7 +20,7 @@ img {
     z-index: 0;
     position: absolute;
     background-color: #234462;
-    height: 600vw;
+    height: 100%;
     width: 100%;
 }
 /* default style*/
@@ -533,6 +533,11 @@ img {
     /*navbar*/
 
     /*footer*/
+
+    .footer-bg-2 {
+        display: none;
+    }
+
     footer {
         display: flex;
         position: absolute;
