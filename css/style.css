@@ -53,6 +53,14 @@ img {
         height: 11vw;
         z-index: 2;
     }
+
+    .bg-header {
+        background-color: #733F5E;
+        width: 100%;
+        position: absolute;
+        height: 11vw;
+        z-index: 20;
+    }
     
     .banner {
         height: 100%;
@@ -116,7 +124,7 @@ img {
         font-weight: 500;
         padding-top: 2.5vw;
         color: #E5E9F0;
-        z-index: 30;
+        z-index: 60;
         width: 40vw;
         height: 10vw;
         text-align: center;
