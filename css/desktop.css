@@ -105,7 +105,7 @@
         margin-right: 1vw;
         height: 0.22vw;
         width: 6vw;
-        border-radius: 5px;
+        border-radius: 10vw;
         background-color: #e5e9e5;
     }
 
@@ -154,36 +154,63 @@
         max-height: 100%;
         width: 100%;
         height:18vw;
-        background-color: #22394E;
         justify-content: center;
         align-items: center;
         margin: 5em;
-        margin-top: 15vw;
+        margin-top: 20vw;
         margin-bottom: 3vw;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         flex-direction: row;
+        flex-direction: column;
+    }
+    
+    .about-me div {
+        display: none;
+    }
+
+    .about-me h1 {
+        z-index: 30;
+        align-self: flex-start;
+        color: #C96567;
+        font-weight: 500;
+        margin-top: 4vw;
+        margin-left: 4.5vw;
+        font-family: "Roboto Mono";
+        font-size: 7vw;
+    }
+
+    .about-bg-desk {
+        margin-top: 10vw;
+        position: absolute;
+        width: 70%;
+        left: -10vw;
     }
 
     .about-me p {
         text-align: left;
-        width: 90%;
-        margin: auto 1;
+        width: 47.5vw;
+        align-self: flex-start;
+        margin-left: 5vw;
         font-weight: 400;
-        margin-top: -1vw;
-        font-size: 2vw;
+        margin-top: 0.5vw;
+        font-size: 1.4vw;
         font-family: "Roboto Mono";
         color: #E5E9F0;
+        z-index: 100;
     }
 
     .read-more {
+        margin-top: 4.5vw;
+        margin-left: 36vw;
+        align-self: flex-start;
+        z-index: 30;
         width: 15vw;
-        height: 6vw;
+        height: 5vw;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         font-weight: 300;
-        background-color: #234462;
+        background-color: #22394E;
         font-family: "Roboto Mono";
         font-size: 2vw;
         color: #C96567;
@@ -203,7 +230,7 @@
     }
 
     .desktop-techs {
-        margin-top: 20vw;
+        margin-top: 25vw;
         display: flex;
         justify-content: center;
         align-items: center;
