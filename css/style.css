@@ -650,7 +650,14 @@ img {
         flex-direction: row;
     }
 
-    .fd-me div{
+    .section-1 {
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .section-1 .fd-me div{
         display: flex;
         margin-top: 112vw;
         height: 18vw;
@@ -659,13 +666,13 @@ img {
         align-items: center;
     }
 
-    .fd-me div img {
+    .section-1 .fd-me div img {
         height: 13vw;
         margin: 0.5vw;
 
     }
 
-    .fd-me div:active {
+    .section-1 .fd-me div:active {
         filter: brightness(0.8);
     }
 
@@ -676,6 +683,17 @@ img {
         font-weight: 300;
         font-size: 4vw;
         margin-top: 141vw;
+        width: 50vw;
+        text-align: center;
+    }
+
+    .v {
+        position: absolute;
+        color: #98B8D2;
+        font-family: "roboto";
+        font-weight: 300;
+        font-size: 3vw;
+        margin-top: 150vw;
         width: 50vw;
         text-align: center;
     }

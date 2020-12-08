@@ -409,11 +409,88 @@
         z-index: 1;
     }
 
+    .section-1 {
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 4vw;
+    }
+
     .footer-logo {
+        top: 7vw;
         z-index: 10;
         position: relative;
-        bottom: -18em;
-        margin-left: 6vw;
-        height: 8vw;
+        margin: 0 auto;
+    }
+
+    .find-me {
+        display: none;
+    }
+
+    .footer-div-found {
+        align-self: center;
+        position: relative;
+        height: 0.15vw;
+        border-radius: 5vw;
+        margin-top: 1vw;
+        margin-bottom: 1vw;
+        top: 7vw;
+        width: 30vw;
+        background-color: #98B8D2;
+
+    }
+
+    .fd-me {
+        top: 7.5vw;
+        position: relative;
+        display: flex;
+        z-index: 2;
+        width: 19vw;
+        height: 4.5vw;
+        align-self: center;
+        justify-content: center;
+    }
+
+    .fd-me div {
+        margin: 1vw;
+        margin-top: 0;
+        transition: 0.2s;
+        
+    }
+
+    .fd-me div:hover {
+        filter: brightness(0.8);
+    }
+
+    .fd-me div:active {
+        filter: brightness(0.5);
+    }
+
+    .made-in{
+        display: inline;
+        width: 25vw;
+        font-family: "Roboto";
+        font-weight: 200;        
+        text-align: center;
+        align-self: center;
+        position: relative;
+        bottom: -9vw;
+        color: #748492;
+        z-index: 10;
+        font-size: 1.5vw;
+    }
+    .v{
+        display: inline;
+        width: 25vw;
+        font-family: "Roboto";
+        font-weight: 200;        
+        text-align: center;
+        align-self: center;
+        position: relative;
+        bottom: -9vw;
+        color: #98B8D2;
+        z-index: 10;
+        font-size: 1.2vw;
     }
 }
