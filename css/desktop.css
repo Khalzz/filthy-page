@@ -85,7 +85,7 @@
 
     .name{
         margin-top: -3vh;
-        font-size: 10vh;
+        font-size: min(10vh, 70px);
         font-family: "Roboto";
         font-weight: 400;
         color: #E5E9F0;
@@ -119,10 +119,10 @@
 
     .contact {
         margin: 4vh;
-        height: 6vw;
-        width: 15vw;
+        height: 3.2em;
+        width:9em;
         border: 3px solid #E15D8D;
-        font-size: 1.5vw;
+        font-size: 1.4em;
         font-family: "Roboto";
         color: #E15D8D;
         display: flex;
@@ -162,7 +162,7 @@
         flex-direction: row;
         flex-direction: column;
     }
-    
+
     .about-me div {
         display: none;
     }
@@ -173,37 +173,37 @@
         color: #C96567;
         font-weight: 500;
         margin-top: 4vw;
-        margin-left: 4.5vw;
+        margin-left: 3.5vw;
         font-family: "Roboto Mono";
         font-size: 7vw;
     }
-
+    
     .about-bg-desk {
         margin-top: 10vw;
         position: absolute;
-        width: 70%;
+        height: 45vw;
         left: -10vw;
     }
-
+    
     .about-me p {
         text-align: left;
-        width: 47.5vw;
+        width: min(60vw,40%);
         align-self: flex-start;
-        margin-left: 5vw;
+        margin-left: 4vw;
         font-weight: 400;
         margin-top: 0.5vw;
-        font-size: 1.4vw;
+        font-size: min(1.3vw, 50000px);
         font-family: "Roboto Mono";
         color: #E5E9F0;
         z-index: 100;
     }
-
+    
     .read-more {
-        margin-top: 4.5vw;
-        margin-left: 36vw;
+        margin-top: 5vw;
+        margin-left: 32vw;
         align-self: flex-start;
         z-index: 30;
-        width: 15vw;
+        width: 13%;
         height: 5vw;
         display: flex;
         flex-direction: column;
