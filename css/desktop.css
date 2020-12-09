@@ -119,11 +119,12 @@
 
     .contact {
         margin: 4vh;
-        height: 3.2em;
-        width:9em;
+        height: 5vw;
+        width:13vw;
         border: 3px solid #E15D8D;
-        font-size: 1.4em;
+        font-size: 1.7vw;
         font-family: "Roboto";
+        font-weight: 300;
         color: #E15D8D;
         display: flex;
         justify-content: center;
@@ -432,14 +433,13 @@
     .section-2 {
         display: flex;
         flex-direction: column;
-        width: 30%;
+        width: 15%;
         margin-left: 10vw;
     }
 
-
-
     .footer-logo {
         top: 7vw;
+        height: 6vw;
         z-index: 10;
         position: relative;
         margin: 0 auto;
