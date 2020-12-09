@@ -571,6 +571,13 @@ img {
         justify-content: center;
     }
 
+    .section-2 {
+        display: flex;
+        width: 100%;
+        position: absolute;
+        justify-content: center;
+    }
+
     .footer-bg {
         height: 100%;
         width: 190vw;
