@@ -244,10 +244,12 @@
         width: 12vw;
         margin: 1vw;
         transition: 0.3s;
+        filter: brightness(0.5);
     }
 
     .logo-tech:hover {
         width: 14vw;
+        filter: brightness(0.9);
     }
 
     .logo-tech:active {
