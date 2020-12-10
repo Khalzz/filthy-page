@@ -84,15 +84,15 @@
     }
 
     .name{
-        margin-top: -3vh;
+        margin-top: -6vh;
         font-size: min(10vh, 70px);
-        font-family: "Roboto";
+        font-family: "Oswald";
         font-weight: 400;
         color: #E5E9F0;
     }
 
     .subtitle {
-        margin-top: 0.5vw;
+        margin-top: 0.1vw;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -111,7 +111,7 @@
 
     .subtitle-text {
         text-align: center;
-        font-family: "Roboto";
+        font-family: "Oswald";
         font-weight: 200;
         font-size: 2rem;
         color: #e5e9e5;
@@ -158,14 +158,21 @@
         justify-content: center;
         align-items: center;
         margin: 5em;
-        margin-top: 20vw;
+        margin-top: 5vw;
         margin-bottom: 3vw;
         flex-direction: row;
         flex-direction: column;
     }
 
     .about-me div {
-        display: none;
+        display:none;
+    }
+
+    #mark-desc {
+        margin-top: 10vw;
+        margin-bottom: 3vw;
+        width: 1vw;
+        height: 1vw;
     }
 
     .about-me h1 {
@@ -230,8 +237,15 @@
         box-shadow: 0 0 0 rgba(0, 0, 0, 0);
     }
 
+    #mark-tech {
+        margin-top: 20vw;
+        margin-bottom: 18vw;
+        width: 1px;
+        height: 10px;
+    }
+
     .desktop-techs {
-        margin-top: 25vw;
+        margin-top: -12vw;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -265,6 +279,14 @@
 
     .tech-scroller {
         display: none;
+    }
+
+    .scroller-head-desk p {
+        font-size: 5vw;
+        font-family: "Oswald";
+        color: #E5E9F0;
+        margin-bottom: 5vw;
+        margin-top: -20vw;
     }
 
     .instruction-desk {
@@ -318,7 +340,7 @@
 
     .blog-svg-2 {
         margin: 0 auto;
-        margin-top: 17vw;
+        margin-top: 26vw;
         border-radius: 30px;
         box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
         width: 80vw;
@@ -328,8 +350,18 @@
         margin: auto auto;
         display: flex;
         width: 80%;
-        height: 60vw;
+        height: 40vw;
+        margin-top: -10vw;
+        margin-bottom: 10vw;
         justify-content: flex-start;
+    }
+
+    #blog-desk {
+        margin-top: 13vw;
+        width: 1px;
+        height: 1px;
+        background-color: #234462;
+        border: 1px solid #234462;
     }
 
     .blog h1 {
@@ -338,7 +370,7 @@
         font-size: 3.4vw;
         text-align: start;
         font-family: 'Source Serif Pro', serif;
-        margin-top: 21.5vw;
+        margin-top: 30.5vw;
         margin-left: 6vw;
         font-weight: 400;
         text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
@@ -354,7 +386,7 @@
         font-size: 2.5vw;
         font-weight: 200;
         font-family: 'Source Serif Pro', serif;
-        margin-top: 27.5vw;
+        margin-top: 36.5vw;
         margin-left: 6vw;
         color: #000000;
     }
@@ -371,7 +403,7 @@
         width: 25vw;
         z-index: 10;
         position: absolute;
-        margin-top: 44vw;
+        margin-top: 53vw;
         margin-left: 11vw;
         border: 2px solid #000000;
         border-radius: 2vw;
@@ -401,6 +433,8 @@
     .sections {
         display: flex;
         position: relative;
+        align-self: center;
+        top: 10vw
     }
 
     .footer-bg {
@@ -428,21 +462,75 @@
         justify-content: center;
         flex-direction: column;
         margin-left: 4vw;
+        margin-top: 16vw;
+    }
+    
+    .section-2 {
+        display: none;
     }
 
-    .section-2 {
+    .section-2-desk {
+        align-self: center;
         display: flex;
         flex-direction: column;
         width: 15%;
-        margin-left: 10vw;
+        margin-left: 5vw;
+        margin-top: 21vw;
+        align-items:center;
+        height: 17vw;
     }
 
+    .hiper {
+        font-family: "Roboto";
+        font-size: 2.5vw;
+        font-weight: 200;
+        color: #98B8D2;
+    }
+
+    .footer-div-hiper {
+        height: 0.15vw;
+        width: 18vw;
+        border-radius: 10vw;
+        background-color: #98B8D2;
+        margin: 0.5vw;
+        margin-bottom: 0;
+    }
+
+    .hiper-list {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hiper-list li {
+        margin: 0.5vw;
+    }
+    
+    .hiper-list li a {
+        font-family: "roboto";
+        text-decoration: none;
+        font-size: 1.5vw;
+        font-weight: 300;
+        color: #6E8598;
+        transition: 0.1s;
+        text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .hiper-list li a:hover {
+        color: #98b8d2;
+    }
+
+    .hiper-list li a:active {
+        filter: brightness(0.8);
+        text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    }
+
+    /*section 1*/
     .footer-logo {
-        top: 7vw;
         height: 6vw;
         z-index: 10;
-        position: relative;
-        margin: 0 auto;
+        margin: 3vw 0;
     }
 
     .find-me {
@@ -450,32 +538,20 @@
     }
 
     .footer-div-found {
-        align-self: center;
-        position: relative;
-        height: 0.15vw;
-        border-radius: 5vw;
-        margin-top: 1vw;
-        margin-bottom: 1vw;
-        top: 7vw;
-        width: 30vw;
-        background-color: #98B8D2;
-
+        display: none;
     }
 
     .fd-me {
-        top: 7.5vw;
-        position: relative;
         display: flex;
         z-index: 2;
-        width: 19vw;
-        height: 4.5vw;
+        width: 17vw;
+        height: 4vw;
         align-self: center;
         justify-content: center;
     }
 
     .fd-me div {
         margin: 1vw;
-        margin-top: 0;
         transition: 0.2s;
         
     }
@@ -495,8 +571,6 @@
         font-weight: 200;        
         text-align: center;
         align-self: center;
-        position: relative;
-        bottom: -9vw;
         color: #748492;
         z-index: 10;
         font-size: 1.5vw;
@@ -508,10 +582,31 @@
         font-weight: 200;        
         text-align: center;
         align-self: center;
-        position: relative;
-        bottom: -9vw;
         color: #98B8D2;
         z-index: 10;
         font-size: 1.2vw;
+    }
+
+    .section-3 {
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+        width: 15%;
+        margin-left: -1vw;
+        margin-top: 21vw;
+        align-items:center;
+        height: 17vw;
+    }
+    
+    .section-4 {
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+        width: 15%;
+        margin-left: -1vw;
+        margin-top: 21vw;
+        align-items:center;
+        align-items:center;
+        height: 17vw;
     }
 }

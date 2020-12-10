@@ -138,5 +138,4 @@ function action() {
 
 //version
 console.log('v0.0.2');
-console.log("test")
 //version

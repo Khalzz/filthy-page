@@ -26,6 +26,18 @@ img {
 /* default style*/
 /* Smartphones (portrait and landscape) ----------- */
 @media (max-width : 850px){
+    .section-2-desk {
+        display: none;
+    }
+
+    .section-3 {
+        display: none;
+    }
+
+    .section-4 {
+        display: none;
+    }
+
     .blog-svg-2 {
         display: none;
     }
@@ -148,11 +160,11 @@ img {
         align-self: center;
         justify-content: center;
         flex-direction: column;
-        margin-top: 3vw;
+        margin-top: 0.1vw;
     }
 
     .flex-container h1 {
-        font-family: "Roboto";
+        font-family: "Oswald";
         text-align: center;
         height: 20%;
         font-size: 10vw;
@@ -188,7 +200,7 @@ img {
     .subtitle-text {
         display: inline;
         text-align: center;
-        font-family: "Roboto";
+        font-family: "Oswald";
         font-size: 4vw;
         font-weight: 300;
         color: #E5E9F0;

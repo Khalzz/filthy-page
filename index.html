@@ -17,6 +17,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500&display=swap" rel="stylesheet">
     <!--using swiper-->
     <link rel="stylesheet" href="swiper/swiper-bundle.css">
     <link rel="stylesheet" href="swiper/swiper-bundle.min.css">
@@ -55,8 +57,9 @@
                 </div>
                 <div class="contact" onclick="gotoContact();">Contact me!</div>
             </div>
+            <div id="mark-desc"></div>
             <div class="about-me">
-                <svg class="about-bg-desk"  viewBox="0 0 1092 788" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg class="about-bg-desk" id="about-bg-desk" viewBox="0 0 1092 788" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g filter="url(#filter0_d)">
                     <rect x="-118.871" width="1212.36" height="661.612" rx="4" transform="rotate(5.72504 -118.871 0)" fill="#22394E"/>
                     </g>
@@ -80,6 +83,8 @@
             </div>
             <div class="read-more" id="exp" onclick="gotoAbout();">Read more</div>
             <!--desktop techs-->
+            <div id="mark-tech"></div>
+            <div class="scroller-head-desk"><p>With experience in</p></div>
             <div class="desktop-techs">
                 <div class="logo-tech"><img src="images/html.svg" title="HTML" alt="image not found"></div>
                 <div class="logo-tech"><img src="images/css.svg" title="CSS" alt="image not found"></div>
@@ -121,6 +126,7 @@
                 <div class="portfolio" onclick="gotoProjects();">check all my portfolio</div>
             </div>
             <div class="blog" id="blog-link">
+                <div id="blog-desk"></div>
                 <h1>Looking for some developer reading?</h1>
                 <p>I have a blog where i write about tech, projects and also my learning process.<br><br>If you are interested.</p>
                 <div onclick="gotoBlog();">Visit my blog</div>
@@ -186,13 +192,41 @@
                     <h5 class="v">v0.0.2</h5>
                 </div>
                 <div class="section-2">
-                    <h3 class="hiper">Hiperlinks</h3>
+                    <h3 class="hiper">Main</h3>
                     <div class="footer-div-hiper"></div>
                     <ul class="hiper-list">
                         <li><a href="#desc">Description</a></li>
                         <li><a href="#exp">Experience</a></li>
                         <li><a href="#blog-link">Blog</a></li>
                         <li><a href="#head">Back to top</a></li>
+                    </ul>
+                </div>
+                <div class="section-2-desk">
+                    <h3 class="hiper">Main</h3>
+                    <div class="footer-div-hiper"></div>
+                    <ul class="hiper-list">
+                        <li><a href="#mark-desc">Description</a></li>
+                        <li><a href="#mark-tech">Experience</a></li>
+                        <li><a href="#blog-desk">Blog</a></li>
+                        <li><a href="#head">Back to top</a></li>
+                    </ul>
+                </div>
+                <div class="section-3">
+                    <h3 class="hiper">Projects</h3>
+                    <div class="footer-div-hiper"></div>
+                    <ul class="hiper-list">
+                        <li><a>Latest</a></li>
+                        <li><a>In process</a></li>
+                    </ul>
+                </div>
+                <div class="section-4">
+                    <h3 class="hiper">About Me</h3>
+                    <div class="footer-div-hiper"></div>
+                    <ul class="hiper-list">
+                        <li><a>Who am i</a></li>
+                        <li><a>What can i do</a></li>
+                        <li><a>My studies</a></li>
+                        <li><a>My jobs</a></li>
                     </ul>
                 </div>
             </div>
