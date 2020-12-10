@@ -19,13 +19,18 @@ img {
 .bg {
     z-index: 0;
     position: absolute;
-    background-color: #234462;
+    background: linear-gradient(180deg, #22364E 5%, #234462 50.6%);
     height: 100%;
     width: 100%;
 }
 /* default style*/
 /* Smartphones (portrait and landscape) ----------- */
 @media (max-width : 850px){
+
+    .scroller-head-desk {
+        display: none;
+    }
+
     .section-2-desk {
         display: none;
     }
