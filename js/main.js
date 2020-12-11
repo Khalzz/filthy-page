@@ -138,4 +138,6 @@ function action() {
 
 //version
 console.log('v0.0.2');
+console.log('end main page')
+console.log('you need to se the projects in a popup window/box')
 //version

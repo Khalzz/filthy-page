@@ -22,8 +22,8 @@
         top: 0em;
         font-family: "Roboto";
         left: -2.5vw;
-        margin-top: 0.2vw;
-        font-size: 2.7vw;
+        margin-top: 0.5vw;
+        font-size: 2.3vw;
         font-weight: 500;
         color: #E5E9F0;
         z-index: 30;
@@ -52,7 +52,7 @@
         font-weight: 200;
         margin-left: 1vw;
         margin-right: 1vw;
-        font-size: 2vw;
+        font-size: 1.5vw;
         font-family: "Roboto";
         color: #E5E9F0;
         text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25) 
@@ -353,7 +353,7 @@
         margin: auto auto;
         display: flex;
         width: 80%;
-        height: 40vw;
+        height: 0vw;
         margin-top: -10vw;
         margin-bottom: 10vw;
         justify-content: flex-start;
@@ -427,7 +427,7 @@
     }
 
     footer {
-        margin-top:27vh;
+        margin-top:48vw;
         z-index: 30;
         position:absolute;
         width: 100%;
@@ -437,7 +437,7 @@
         display: flex;
         position: relative;
         align-self: center;
-        top: 10vw
+        top: 16vw
     }
 
     .footer-bg {
@@ -445,16 +445,20 @@
     }
 
     .footer-bg-2 {
-        margin-top: -23vw;
+        margin-top: -19vw;
         width: 100%;
         height: 40vw;
         z-index: 1;
     }
 
-    .complete-svg {
-        margin-top: -2vw;
+    .footer-bg-2 path {
         width: 100%;
-        height: 3vw;
+    }
+
+    .complete-svg {
+        margin-top: -6.5vw;
+        width: 100%;
+        height: 7vw;
         background-color: #1C2730;
         z-index: 1;
     }
@@ -465,6 +469,7 @@
         justify-content: center;
         flex-direction: column;
         margin-left: 4vw;
+        margin-right: 10vw;
         margin-top: 16vw;
     }
     
@@ -485,7 +490,7 @@
 
     .hiper {
         font-family: "Roboto";
-        font-size: 2.5vw;
+        font-size: 2vw;
         font-weight: 200;
         color: #98B8D2;
     }
@@ -493,6 +498,15 @@
     .footer-div-hiper {
         height: 0.15vw;
         width: 18vw;
+        border-radius: 10vw;
+        background-color: rgba(0, 0, 0, 0);
+        margin: 0.5vw;
+        margin-bottom: 0;
+    }
+
+    .footer-div-3 {
+        height: 0.15vw;
+        width: 45vw;
         border-radius: 10vw;
         background-color: #98B8D2;
         margin: 0.5vw;

@@ -19,7 +19,7 @@ img {
 .bg {
     z-index: 0;
     position: absolute;
-    background: linear-gradient(180deg, #22364E 5%, #234462 50.6%);
+    background: linear-gradient(180deg, #22364E 5%, #234462 80.6%);
     height: 100%;
     width: 100%;
 }
