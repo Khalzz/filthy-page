@@ -88,7 +88,7 @@
 
     .name{
         margin-top: -6vh;
-        font-size: min(10vh, 70px);
+        font-size: min(15vh, 100px);
         font-family: "Oswald";
         font-weight: 400;
         color: #E5E9F0;
@@ -116,7 +116,7 @@
         text-align: center;
         font-family: "Oswald";
         font-weight: 200;
-        font-size: 2rem;
+        font-size: 3vw;
         color: #e5e9e5;
     }
 
