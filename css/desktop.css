@@ -198,7 +198,7 @@
     
     .about-me p {
         text-align: left;
-        width: min(60vw,40%);
+        width: 43%;
         align-self: flex-start;
         margin-left: 4vw;
         font-weight: 400;
