@@ -81,7 +81,7 @@ img {
 }
 
 .section-2 h1 {
-    margin-top: -35vh;
+    margin-top: -40vh;
     color: #ffffff;
     font-family: "Oswald";
     font-size: min(8.5vw, 90px);
@@ -114,8 +114,8 @@ img {
 
 .section-2-div{
     transition: 0.2s;
-    margin-top: 35vw;
-    margin-bottom: -63vw;
+    margin-top: 30vw;
+    margin-bottom: -70vw;
     font-family: "Roboto Mono";
     color: #6E7392;
 }
