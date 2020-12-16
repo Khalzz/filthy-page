@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,15 +8,10 @@
     <meta name="description" content="Hi, I'm Rodrigo and here you will find information about me, the projects I worked on and I'm working on">
     <link rel="icon" href="images/logo.ico">
     <link href="css/style.css" rel="stylesheet">
-    <link href="css/desktop.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300;400&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500&display=swap" rel="stylesheet">
     <!--using swiper-->
@@ -26,224 +21,30 @@
     <title>Rodrigo Seguel</title>
 </head>
 <body>
-    <header class="header" id="head">
-        <div class="bg-header"></div>
-        <div class="banner">
-            <div class="flex-container-header">
-                <h1>Rodrigo Seguel</h1>
-            </div>
-            <div onclick="action();" class="menu-button">
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
+    <div class="bg">
+        <div class="section-1">
+            <nav>
+                <!--here it goes the nav-->
+            </nav>
+            <h1>Rodrigo Seguel</h1>
+            <h2 class="subtitle-text">Front-end</h2>
+            <div onclick="gotoSecond();"><img src="images/arrow.svg"></div>
         </div>
-        <div class="navegation">
-            <div class="nav-buttons" id="button-contact" onclick="gotoContact();">Contact me</div>
-            <div class="nav-buttons" id="button-about" onclick="gotoAbout();">About me</div>
-            <div class="nav-buttons" id="button-port" onclick="gotoProjects();">Portfolio</div>
-            <div class="nav-buttons" id="button-blog" onclick="gotoBlog();">Blog</div>
+        <div id="section-2" class="section-2">
+            <h1>Who the #%$& are you?</h1>
+            <img src="images/logo.svg" alt="image not found" title="Hey! thats me!!! :o">
+            <p>I am a Chilean <span>programmer</span> with experience in front-end, videogame development with unity and drinking a lot of coffee!!!</p>
+            <div class="read-more">Read More</div>
+            <div class="section-2-div" onclick="gotoThird();"><img src="images/arrow.svg"></div>
         </div>
-    </header>
-    <div class="bg">          
-        <div class="flex-container">
-            <img class="logo-principal" src="images/logo.svg" alt="image not found :c" title="Hey!, thats me uwu<3">
-            <div class="title-container">
-                <h1 class="name" id="desc">Rodrigo Seguel</h1>
-                <div class="subtitle">
-                    <div></div>
-                    <h3 class="subtitle-text">Front-end</h3>
-                    <div></div>
-                </div>
-                <div class="contact" onclick="gotoContact();">Contact me!</div>
-            </div>
-            <div id="mark-desc"></div>
-            <div class="about-me">
-                <svg class="about-bg-desk" id="about-bg-desk" viewBox="0 0 1092 788" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <g filter="url(#filter0_d)">
-                    <rect x="-118.871" width="1212.36" height="661.612" rx="4" transform="rotate(5.72504 -118.871 0)" fill="#22394E"/>
-                    </g>
-                    <defs>
-                    <filter id="filter0_d" x="-188.87" y="0" width="1280.31" height="787.25" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
-                    <feOffset dy="4"/>
-                    <feGaussianBlur stdDeviation="2"/>
-                    <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
-                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
-                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
-                    </filter>
-                    </defs>
-                </svg>     
-                <div></div>
-                <h1>My Lore</h1>
-                <p>I am a Chilean developer with experience in front-end, game development with Unity and drink a lot of coffee!!!.
-                <br><br>
-                Constantly looking for new things to learn and also new challenges.</p>
-            </div>
-            <div class="read-more" id="exp" onclick="gotoAbout();">Read more</div>
-            <!--desktop techs-->
-            <div id="mark-tech"></div>
-            <div class="scroller-head-desk"><p>With experience in</p></div>
-            <div class="desktop-techs">
-                <div class="logo-tech"><img src="images/html.svg" title="HTML" alt="image not found"></div>
-                <div class="logo-tech"><img src="images/css.svg" title="CSS" alt="image not found"></div>
-                <div class="logo-tech"><img src="images/javascript.svg" title="JavaScript" alt="image not found"></div>
-                <div class="logo-tech"><img src="images/csharp.svg" title="C#" alt="image not found"></div>
-                <div class="logo-tech"><img src="images/python.svg" title="Python" alt="image not found"></div>
-                <div class="logo-tech"><img src="images/kotlin.svg" title="Kotlin" alt="image not found"></div>
-            </div>
-            <h2 class="instruction-desk">Select the technology to see my projects with it.</h2>
-            <h2 class="or-desk">or</h2>
-            <div class="portfolio-desk" onclick="gotoProjects();">check all my portfolio</div>
-            <!--desktop techs-->
-            <div class="tech-scroller">
-                <div class="link" id="scroller"></div>
-                <div class="backside-scroller">
-                    <div class="scroller-background"></div>
-                    <div class="scroller-head"><p>With experience in</p></div>
-                </div>
-                <!--slider-->
-                <div class="divisor">
-                    <!-- Slider main container -->
-                    <div class="swiper-container">
-                    <!-- Additional required wrapper -->
-                        <div class="swiper-wrapper">
-                        <!-- Slides -->
-                            <div class="swiper-slide"><img src="images/css.svg" title="CSS" alt="image not found"></div>
-                            <div class="swiper-slide"><img src="images/javascript.svg" title="JavaScript" alt="image not found"></div>
-                            <div class="swiper-slide"><img src="images/csharp.svg" title="C#" alt="image not found"></div>
-                            <div class="swiper-slide"><img src="images/python.svg" title="Python" alt="image not found"></div>
-                            <div class="swiper-slide"><img src="images/kotlin.svg" title="Kotlin" alt="image not found"></div>
-                            <div class="swiper-slide"><img src="images/html.svg" title="HTML" alt="image not found"></div>
-                        </div>
-                        <div class="swiper-pagination"></div>
-                    </div> 
-                </div>
-                <!--slider-->
-                <h2 class="slider-instruction">Select the technology to see my projects with it.</h2>
-                <h2 class="or">or</h2>
-                <div class="portfolio" onclick="gotoProjects();">check all my portfolio</div>
-            </div>
-            <div class="blog" id="blog-link">
-                <div id="blog-desk"></div>
-                <h1>Looking for some developer reading?</h1>
-                <p>I have a blog where i write about tech, projects and also my learning process.<br><br>If you are interested.</p>
-                <div onclick="gotoBlog();">Visit my blog</div>
-                <svg class="blog-svg" height="636" viewBox="0 0 414 636" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M17.25 45.9018L0 27.5411V508.8V607.607L17 590.571L17.3696 590.226C34.5034 574.199 69.2445 541.703 103 537.193C138 532.65 172 555.364 207 576.943C241 598.521 276 616.693 310 625.779C345 636 379 636 397 636H414V508.8V0L396.75 9.18036C379.5 18.3607 345 36.7214 310.5 41.3116C276 45.9018 241.5 36.7214 207 50.492C172.5 64.2625 138 100.984 103.5 100.984C69 100.984 34.5 64.2625 17.25 45.9018Z" fill="#f3f3f3"/>
-                </svg>
-                <svg class="blog-svg-2" width="1365" height="674" viewBox="0 0 1365 674" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect width="1365" height="674" fill="#F3F3F3"/>
-                    <mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="1365" height="674">
-                    <rect width="1365" height="674" fill="#F3F3F3"/>
-                    </mask>
-                    <g mask="url(#mask0)">
-                    <g filter="url(#filter0_d)">
-                    <path d="M688.832 365.716L1042.49 295.456C1042.49 295.456 1089.41 484.323 1064.52 544.167C1039.62 604.01 829.79 652.999 786.087 623.802C742.385 594.604 688.832 365.716 688.832 365.716Z" fill="#1A1A1A"/>
-                    </g>
-                    <g filter="url(#filter1_d)">
-                    <path d="M1437.16 194.336L1088.55 284.908C1088.55 284.908 1135.47 473.774 1185.82 516.386C1236.17 558.998 1446.44 511.775 1471.71 466.781C1496.98 421.787 1437.16 194.336 1437.16 194.336Z" fill="#1A1A1A"/>
-                    </g>
-                    <path d="M1429.99 238.915L1114.23 311.229C1114.23 311.229 1152.49 468.788 1196.47 501.525C1240.46 534.262 1430.03 491.587 1453.83 455.134C1477.64 418.681 1429.99 238.915 1429.99 238.915Z" fill="#F3F3F3"/>
-                    <path d="M716.19 402.388L874.056 366.234L1031.92 330.08C1031.92 330.08 1071.86 487.255 1048 535.528C1024.15 583.802 834.945 627.87 796.566 605.659C758.187 583.448 716.19 402.388 716.19 402.388Z" fill="#F3F3F3"/>
-                    <path d="M683.001 367.053C684.176 359.628 1065.52 290.184 1065.52 290.184L1442.99 193.002L1446.87 220.74L1444.52 235.59L1077.64 330.84L701.666 405.716L692.587 393.482C692.587 393.482 681.826 374.478 683.001 367.053Z" fill="#1A1A1A"/>
-                    <path d="M1025.35 324.429L1117.47 303.332L1139.49 419.944C1139.49 419.944 1103.35 367.392 1085.71 371.433C1068.06 375.474 1060.53 438.027 1060.53 438.027L1025.35 324.429Z" fill="#1A1A1A"/>
-                    <path d="M1147.94 303.51C1125.58 311.492 1127.6 352.296 1131.41 371.7L1128.53 372.359L1113.39 311.421L1147.94 303.51Z" fill="#1A1A1A"/>
-                    <path d="M744.911 395.81C726.317 402.613 726.144 439.334 729.581 456.57L707.164 402.645L744.911 395.81Z" fill="#1A1A1A"/>
-                    <path d="M998.242 337.793C1021.95 335.227 1039.32 372.514 1045.05 391.479L1047.93 390.819L1032.79 329.881L998.242 337.793Z" fill="#1A1A1A"/>
-                    </g>
-                    <defs>
-                    <filter id="filter0_d" x="684.832" y="295.456" width="390.969" height="345.025" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
-                    <feOffset dy="4"/>
-                    <feGaussianBlur stdDeviation="2"/>
-                    <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
-                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
-                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
-                    </filter>
-                    <filter id="filter1_d" x="1084.55" y="194.336" width="397.39" height="346.739" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
-                    <feOffset dy="4"/>
-                    <feGaussianBlur stdDeviation="2"/>
-                    <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
-                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
-                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
-                    </filter>
-                    </defs>
-                </svg>                      
-            </div>
+        <div id="section-3" class="section-3">
+            <div onclick="gotoFourth();"><img src="images/arrow.svg"></div>
         </div>
-        <footer>
-            <div class="sections">
-                <div class="section-1">
-                    <img class="footer-logo" src="images/footerLogo.svg" alt="image not found" title="Hey!, thats also me :o">
-                    <h3 class="find-me">Find me on</h3>
-                    <div class="footer-div-found"></div>
-                    <div class="fd-me">
-                        <div onclick="openGit();"><img src="images/git.svg" alt="image not found" title="find me on GitHub"></div>
-                        <div onclick="openItch();"><img src="images/itch.svg" alt="image not found" title="find me on Itch.io"></div>
-                        <div onclick="openStack();"><img src="images/stack.svg" alt="image not found" title="find me on Stack overflow"></div>
-                        <div onclick="openIg();"><img src="images/instagram.svg" alt="image not found" title="find me on instagram"></div>
-                    </div>
-                    <h4 class="made-in">Made in Chile with love, passion and lots of caffeine</h4>
-                    <h5 class="v">v0.0.2</h5>
-                </div>
-                <div class="section-2">
-                    <h3 class="hiper">Main</h3>
-                    <div class="footer-div-hiper"></div>
-                    <ul class="hiper-list">
-                        <li><a href="#desc">Description</a></li>
-                        <li><a href="#exp">Experience</a></li>
-                        <li><a href="#blog-link">Blog</a></li>
-                        <li><a href="#head">Back to top</a></li>
-                    </ul>
-                </div>
-                <div class="section-2-desk">
-                    <h3 class="hiper">Main</h3>
-                    <div class="footer-div-hiper"></div>
-                    <ul class="hiper-list">
-                        <li><a href="#mark-desc">Description</a></li>
-                        <li><a href="#mark-tech">Experience</a></li>
-                        <li><a href="#blog-desk">Blog</a></li>
-                        <li><a href="#head">Back to top</a></li>
-                    </ul>
-                </div>
-                <div class="section-3">
-                    <h3 class="hiper">Projects</h3>
-                    <div class="footer-div-3"></div>
-                    <ul class="hiper-list">
-                        <li><a>Latest</a></li>
-                        <li><a>In process</a></li>
-                    </ul>
-                </div>
-                <div class="section-4">
-                    <h3 class="hiper">About Me</h3>
-                    <div class="footer-div-hiper"></div>
-                    <ul class="hiper-list">
-                        <li><a>Who am i</a></li>
-                        <li><a>What can i do</a></li>
-                        <li><a>My studies</a></li>
-                        <li><a>My jobs</a></li>
-                    </ul>
-                </div>
-            </div>
-            <svg class="footer-bg" width="414" height="725" viewBox="0 0 414 725" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M48.1087 21.1639C0.342995 18.6196 -23.1171 13.531 -47 0.809425V725H478V41.224C454.117 48.857 396.314 69.3954 348.548 69.3954C300.782 69.3954 275.736 9.85876 191.406 0.809425C135.999 -5.13622 95.8744 23.7083 48.1087 21.1639Z" fill="#1C2730"/>
-            </svg>
-            <svg class="footer-bg-2" viewBox="0 0 1440 411" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M260.87 11.9978C129.855 10.5554 65.5072 7.67068 0 0.45886V411H1440V23.3698C1374.49 27.6968 1215.95 39.34 1084.93 39.34C953.917 39.34 885.217 5.5889 653.913 0.45886C501.94 -2.91171 391.884 13.4401 260.87 11.9978Z" fill="#1C2730"/>
-                </svg>
-                    
-            <div class="complete-svg"></div>                           
-        </footer>
+        <div id="section-4" class="section-4">
+            <div onclick="gotoFooter();"><img src="images/arrow.svg"></div>
+        </div>
+        <footer id="footer"></footer>
     </div>
-    <!--swiper-->
-    <script src="swiper/swiper-bundle.js"></script>
-    <script src="swiper/swiper-bundle.min.js"></script>
-    <!--swiper-->
     <script src="js/main.js"></script>
 </body>
 </html>
