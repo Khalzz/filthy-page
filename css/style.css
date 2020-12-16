@@ -59,24 +59,15 @@ img {
 .section-1 div {
     transition: 0.2s;
     margin-top: 70vw;
-    margin-bottom: -69vw;
+    margin-bottom: -60vw;
     bottom: 3vh;
     height: 10vw;
-    width: 15vw;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 8vw;
-}
-
-.section-1 div img {
-    height: 4vw;
-    align-self: center;
-}
-
-.section-1 div:active {
-    color:#1C1D25;
-    filter: brightness(0.6);
+    font-family: "Roboto Mono";
+    color: #6E7392;
 }
 
 .section-2 {
@@ -90,7 +81,7 @@ img {
 }
 
 .section-2 h1 {
-    margin-top: -18vh;
+    margin-top: -35vh;
     color: #ffffff;
     font-family: "Oswald";
     font-size: min(8.5vw, 90px);
@@ -123,8 +114,10 @@ img {
 
 .section-2-div{
     transition: 0.2s;
-    margin-top: 20vw;
-    margin-bottom: -55vw;
+    margin-top: 35vw;
+    margin-bottom: -63vw;
+    font-family: "Roboto Mono";
+    color: #6E7392;
 }
 
 .read-more {
@@ -142,17 +135,6 @@ img {
     width: 35vw;
 }
 
-.section-2 div img {
-    height: 4vw;
-    align-self: center;
-}
-
-.section-2 div:active {
-    color:#1C1D25;
-    filter: brightness(0.6);
-}
-
-
 .section-3 {
     scroll-snap-align: start;
     width: 100%;
@@ -165,7 +147,8 @@ img {
 
 .section-3 div{
     transition: 0.2s;
-
+    font-family: "Roboto Mono";
+    color: #6E7392;
     bottom: -197vh;
 }
 
@@ -192,16 +175,8 @@ img {
 .section-4 div{
     transition: 0.2s;
     bottom: -297vh;
-}
-
-.section-4 div img {
-    height: 4vw;
-    align-self: center;
-}
-
-.section-4 div:active {
-    color:#1C1D25;
-    filter: brightness(0.6);
+    font-family: "Roboto Mono";
+    color: #6E7392;
 }
 
 footer {
@@ -212,19 +187,4 @@ footer {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-}
-
-footer div{
-
-    bottom: -197vh;
-}
-
-footer div img {
-    height: 6vw;
-    align-self: center;
-}
-
-footer div:active {
-    color:#1C1D25;
-    filter: brightness(0.6);
 }
