@@ -21,30 +21,51 @@
     <title>Rodrigo Seguel</title>
 </head>
 <body>
-    <div class="bg">
-        <div class="section-1">
-            <nav>
-                <!--here it goes the nav-->
-            </nav>
-            <h1>Rodrigo Seguel</h1>
-            <h2 class="subtitle-text">Front-end</h2>
-            <div onclick="gotoSecond();">Scroll down :o</div>
-        </div>
-        <div id="section-2" class="section-2">
-            <h1>Who the #%$& are you?</h1>
-            <img src="images/logo.svg" alt="image not found" title="Hey! thats me!!! :o">
-            <p>I am a Chilean <span>programmer</span> with experience in front-end, videogame development with unity and drinking a lot of coffee!!!</p>
-            <div class="read-more">Read More</div>
-            <div class="section-2-div" onclick="gotoThird();">Keep going 0w0</div>
-        </div>
-        <div id="section-3" class="section-3">
-            <div onclick="gotoFourth();">There you go :3</div>
-        </div>
-        <div id="section-4" class="section-4">
-            <div onclick="gotoFooter();">One more time!!!</div>
-        </div>
-        <footer id="footer"></footer>
+    <div class="section-1">
+        <nav>
+            <!--here it goes the nav-->
+        </nav>
+        <h1>Rodrigo Seguel</h1>
+        <h2 class="subtitle-text">Front-end</h2>
+        <div onclick="gotoSecond();"><img src="images/arrow.svg"></div>
     </div>
+    <div id="section-2" class="section-2">
+        <h1>Who the #%$& are you?</h1>
+        <img src="images/logo.svg" alt="image not found" title="Hey! thats me!!! :o">
+        <p>I am a Chilean <span>programmer</span> with experience in front-end, videogame development with unity and drinking a lot of coffee!!!</p>
+        <div class="read-more">Read More</div>
+        <div class="section-2-div" onclick="gotoThird();"><img src="images/arrow.svg"></div>
+    </div>
+    <div id="section-3" class="section-3">
+        <div class="scroller-background"></div>
+        <!--slider-->
+        <div class="divisor">
+            <!-- Slider main container -->
+            <div class="swiper-container">
+            <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                <!-- Slides -->
+                    <div class="swiper-slide"><img src="images/css.svg" title="CSS" alt="image not found"></div>
+                    <div class="swiper-slide"><img src="images/javascript.svg" title="JavaScript" alt="image not found"></div>
+                    <div class="swiper-slide"><img src="images/csharp.svg" title="C#" alt="image not found"></div>
+                    <div class="swiper-slide"><img src="images/python.svg" title="Python" alt="image not found"></div>
+                    <div class="swiper-slide"><img src="images/kotlin.svg" title="Kotlin" alt="image not found"></div>
+                    <div class="swiper-slide"><img src="images/html.svg" title="HTML" alt="image not found"></div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div> 
+        </div>
+        <!--slider-->
+        <div class="section-3-div" onclick="gotoFourth();"><img src="images/arrow.svg"></div>
+    </div>
+    <div class="section-4" id="section-4" >
+        <div class="section-4-div" onclick="gotoFooter();"><img src="images/arrow.svg"></div>
+    </div>
+    <footer id="footer"></footer>
+    <!--swiper-->
+    <script src="swiper/swiper-bundle.js"></script>
+    <script src="swiper/swiper-bundle.min.js"></script>
+    <!--swiper-->
     <script src="js/main.js"></script>
 </body>
 </html>

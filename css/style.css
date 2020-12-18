@@ -5,42 +5,34 @@
     padding: 0;
     box-sizing: border-box; 
 }
-
-
+html {
+    width: 100%;
+    height: 100vh;
+    /*overflow-y: scroll;
+    scroll-snap-type: y mandatory;*/
+    scroll-behavior: smooth;
+}
 body {
     background-color: #15161C;
-    overflow-y: scroll;
-    scroll-snap-type: y mandatory;
-
+    
 }
-
 img {
     border-style: none;
     max-width: 100%;
 }
 /*default style*/
-
-.bg {
-    scroll-behavior: smooth;
-    height: 100vh;
-    width: 100%;
-    overflow-y: scroll;
-    scroll-snap-type: y mandatory;
-}
-
 .section-1 {
     scroll-snap-align: start;
     display: flex;
     width: 100%;
     height: 100vh;
     background-color: #1C1D25;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
 .section-1 h1 {
-    margin-top: -10vw;
+    margin-top: 35vh;
     color: #ffffff;
     font-family: "Oswald";
     font-size: min(15vw, 110px);
@@ -54,18 +46,22 @@ img {
     font-family: "Oswald";
     font-weight: 400;
     font-size: min(7.5vw, 80px);
+    margin-bottom: 39vh;
 }
 
-.section-1 div {
-    transition: 0.2s;
-    margin-top: 70vw;
-    margin-bottom: -60vw;
-    bottom: 3vh;
-    height: 10vw;
+
+.section-1 div img{
+    height: 4.5vw;
+}
+
+.section-1 div{
     display: flex;
+    position: relative;
+    height: 6vw;
+    width: 10vw;
     justify-content: center;
     align-items: center;
-    border-radius: 8vw;
+    transition: 0.2s;
     font-family: "Roboto Mono";
     color: #6E7392;
 }
@@ -75,25 +71,23 @@ img {
     width: 100%;
     height: 100vh;
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
 .section-2 h1 {
-    margin-top: -40vh;
+    margin-top: 15vh;
     color: #ffffff;
     font-family: "Oswald";
     font-size: min(8.5vw, 90px);
     font-weight: 400;
+    margin-bottom: 3vh;
     -webkit-text-stroke: 1px #ffffff;
-    margin-bottom: -3.3vw;
 }
 
 .section-2 img {
-    margin-top: 8vh;
-    margin-bottom: 5vh;
-    height: 30vh;
+    height: 25vh;
+    margin-bottom: 2vh;
 }
 
 .section-2 p {
@@ -111,18 +105,24 @@ img {
     color:#DC486A;
 }
 
+.section-2-div img{
+    height: 4.5vw;
+}
 
 .section-2-div{
+    display: flex;
+    margin-top: 13.7vh;
+    height: 6vw;
+    width: 10vw;
+    justify-content: center;
+    align-items: center;
     transition: 0.2s;
-    margin-top: 30vw;
-    margin-bottom: -70vw;
     font-family: "Roboto Mono";
     color: #6E7392;
 }
 
 .read-more {
-    margin-top: 5vh;
-    margin-bottom: -10vh;
+    margin-top: 6vh;
     display: flex;
     justify-content: center;
     font-size: 4vw;
@@ -140,27 +140,97 @@ img {
     width: 100%;
     height: 100vh;
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-.section-3 div{
+
+.section-3-div img{
+    height: 4.5vw;
+}
+
+.section-3-div{
+    display: flex;
+    margin-top: 60vh;
+    height: 6vw;
+    width: 10vw;
+    justify-content: center;
+    align-items: center;
     transition: 0.2s;
     font-family: "Roboto Mono";
     color: #6E7392;
-    bottom: -197vh;
 }
 
-.section-3 div img {
-    height: 4vw;
-    align-self: center;
-}
-
-.section-3 div:active {
+.section-3-div:active {
     color:#1C1D25;
     filter: brightness(0.6);
 }
+
+.scroller-background {
+    position: absolute;
+    margin-top: 40vw;
+    border-radius: 7vw;
+    background-color: #323444;
+    width: 80vw;
+    height: 70vw;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/*slider*/
+.swiper-pagination .swiper-pagination-bullet {
+    height: 2vw;
+    width: 2vw;
+}
+
+.swiper-pagination .swiper-pagination-bullet-active {
+    border-radius: 100%;
+    color: #646886;
+    background-color: #17171E;
+    height: 2vw;
+    width: 2vw;
+    opacity: 1;
+}
+
+.divisor {
+    margin-top: 50vw;
+    height: 15vw;
+    width: 100%;
+    display: flex;
+    
+}
+
+.swiper-container {
+    width: 100%;
+    height: 59vw;
+    display: flex;
+}
+
+.swiper-slide {
+    display: flex;
+}
+
+.swiper-slide img {
+    border-radius: 20px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    height: 40vw;
+    transition: 0.1s;
+}
+
+.swiper-slide img {
+    transform: scale(0.8);
+}
+
+.swiper-slide-active img{
+    transform: scale(1);
+}
+
+.swiper-slide-active img:active{
+    filter: brightness(0.5);
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0); 
+    transform: scale(1);
+}
+
+/*slider*/
 
 .section-4 {
     scroll-snap-align: start;

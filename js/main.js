@@ -18,19 +18,26 @@ setInterval(() => {
   }}, 4000);
 //change sub title
 
+//swiper
+var swiper = new Swiper('.swiper-container', {
+  slidesPerView: 2.2,
+  spaceBetween: 30,
+  initialSlide: 2,
+  loop: true,
+  autoplay: {
+    delay: 3000,
+    disableOnInteraction: false,
+  },
+  centeredSlides: true,
+  pagination: {
+    el: '.swiper-pagination',
+  },
+});
+//swiper
+
 const gotoSecond = () => window.location.href = "#section-2"
 const gotoThird = () => window.location.href = "#section-3"
 const gotoFourth = () => window.location.href = "#section-4"
 const gotoFooter = () => window.location.href = "#footer"
-
-//esconder barra de busqueda
-function hideAddressBar(){
-  if(document.documentElement.scrollHeight<window.outerHeight/window.devicePixelRatio)
-    document.documentElement.style.height=(window.outerHeight/window.devicePixelRatio)+'px';
-  setTimeout(window.scrollTo(1,1),0);
-}
-window.addEventListener("load",function(){hideAddressBar();});
-window.addEventListener("orientationchange",function(){hideAddressBar();});
-//esconder barra de busqueda
 
 console.log('v0.0.0');
