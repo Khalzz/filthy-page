@@ -13,7 +13,7 @@ let counter = 0;
 setInterval(() => {subtitle.innerHTML = subtitles[counter]}, 4000);
 setInterval(() => {
   let newCount = counter++;
-  if (newCount == 2) {
+  if (newCount == 3) {
     counter = 0;
   }}, 4000);
 //change sub title
