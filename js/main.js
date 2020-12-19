@@ -40,4 +40,4 @@ const gotoThird = () => window.location.href = "#section-3"
 const gotoFourth = () => window.location.href = "#section-4"
 const gotoFooter = () => window.location.href = "#footer"
 
-console.log('v0.0.0');
+console.log('v0.0.1');
