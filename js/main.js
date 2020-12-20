@@ -5,9 +5,6 @@
 // i hate you: Rodrigo Seguel.
 // from: Rodrigo Seguel <3
 
-//fullscreen mode
-document.body.requestFullscreen();
-
 //change sub title
 const subtitle = document.querySelector('.subtitle-text');
 const subtitles = ['Programmer', 'Game developer', 'Web developer', 'Front-end'];

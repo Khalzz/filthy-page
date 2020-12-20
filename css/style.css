@@ -8,8 +8,8 @@
 html {
     width: 100%;
     height: 100vh;
-    /*overflow-y: scroll;
-    scroll-snap-type: y mandatory;*/
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
     scroll-behavior: smooth;
 }
 body {
@@ -50,24 +50,6 @@ img {
     margin-bottom: 39vh;
 }
 
-
-.section-1 div img{
-    width: 7vw;
-}
-
-.section-1 div{
-    display: flex;
-    position: absolute;
-    top: 88vh;
-    height: 6vw;
-    width: 10vw;
-    justify-content: center;
-    align-items: center;
-    transition: 0.2s;
-    font-family: "Roboto Mono";
-    color: #6E7392;
-}
-
 .section-2 {
     position: relative;
     scroll-snap-align: start;
@@ -80,7 +62,7 @@ img {
 }
 
 .section-2 h1 {
-    margin-top: -10vh;
+    
     color: #ffffff;
     font-family: "Oswald";
     font-size: min(8.5vw, 90px);
@@ -107,23 +89,6 @@ img {
     color:#DC486A;
 }
 
-.section-2-div img{
-    width: 7vw;
-}
-
-.section-2-div{
-    position: absolute;
-    top: 88vh;
-    display: flex;
-    height: 6vw;
-    width: 10vw;
-    justify-content: center;
-    align-items: center;
-    transition: 0.2s;
-    font-family: "Roboto Mono";
-    color: #6E7392;
-}
-
 .read-more {
     margin-top: 6vh;
     display: flex;
@@ -144,12 +109,13 @@ img {
     width: 100%;
     height: 100vh;
     display: flex;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
 .section-3 h1 {
-    margin-top: 8vh;
+    margin-top: -5vw;
     color: #ffffff;
     font-family: "Oswald";
     font-size: min(8.5vw, 90px);
@@ -158,33 +124,13 @@ img {
 
 }
 
-.section-3-div img{
-    width: 7vw;
-}
-
-.section-3-div{
-    position: absolute;
-    top: 88vh;
-    display: flex;
-    height: 6vw;
-    width: 10vw;
-    justify-content: center;
-    align-items: center;
-    transition: 0.2s;
-}
-
-.section-3-div:active {
-    color:#1C1D25;
-    filter: brightness(0.6);
-}
-
 .scroller-background {
     position: absolute;
-    margin-top: 25vh;
+    margin-top: -13vh;
     border-radius: 7vw;
     background-color: #323444;
-    width: 70vw;
-    height: 60vw;
+    width: 75vw;
+    height: 65vw;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -204,7 +150,7 @@ img {
 }
 
 .divisor {
-    margin-top: 13vh;
+    margin-top: 10vh;
     height: 15vw;
     width: 100%;
     display: flex;
@@ -244,7 +190,7 @@ img {
 /*slider*/
 
 .slider-instruction {
-    margin-top: 46vw;
+    margin-top: 45vw;
     font-family: "roboto";
     font-size: 4vw;
     text-align: center;
@@ -256,7 +202,7 @@ img {
 .or {
     font-family: "roboto";
     margin: 3vw;
-    margin-bottom: 2.5vw;
+    margin-top: 2vw;
     font-size: 4vw;
     text-align: center;
     font-weight: 400;
@@ -271,11 +217,11 @@ img {
     text-align: center;
     font-family: "Roboto Mono";
     color: #DC486A;
-    border: 0.5vw solid #DC486A;
+    border: 0.7vw solid #DC486A;
     border-radius: 2vw;
     padding: 2vw;
     width: 35vw;
-
+    transition: 0.2s;
 }
 
 .portfolio:active {
@@ -296,25 +242,56 @@ img {
     flex-direction: column;
 }
 
-.section-4-div img{
-    width: 7vw;
+.section-4 h1 {
+    margin-bottom: 2vw;
+    font-family: "Oswald";
+    font-size: 13vw;
+    color: #DC486A;
+    font-weight: 400;
 }
 
-.section-4-div{
-    position: absolute;
-    top: 88vh;
+.section-4 p:first-of-type {
+    font-family: "Roboto Mono";
+    color: #DBDCE4;
+    text-align: center;
+    width: 85vw;
+    font-size: 4.45vw;
+}
+
+.section-4 p:last-of-type {
+    margin: 2.2vw;
+    font-family: "Roboto Mono";
+    color: #8184A0;
+    text-align: center;
+    width: 85vw;
+    font-size: 3.5vw;
+}
+
+.section-4 div {
+    margin-top: 7vw;
     display: flex;
-    height: 6vw;
-    width: 10vw;
     justify-content: center;
+    font-size: 4vw;
     align-items: center;
+    text-align: center;
+    font-family: "Roboto Mono";
+    color: #DC486A;
+    border: 0.7vw solid #DC486A;
+    border-radius: 2vw;
+    padding: 2vw;
+    width: 35vw;
+    height: 15vw;
     transition: 0.2s;
+
 }
 
-.section-4-div:active {
-    color:#1C1D25;
-    filter: brightness(0.6);
+.section-4 div:active {
+    background-color: #DC486A;
+    color: #15161C;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+
 }
+
 footer {
     scroll-snap-align: center;
     width: 100%;
@@ -323,4 +300,5 @@ footer {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background: linear-gradient(360deg, #0D0D11 5%, rgba(26, 27, 35, 0) 60%);
 }
