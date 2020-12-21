@@ -21,7 +21,7 @@ setInterval(() => {
 //swiper
 var swiper = new Swiper('.swiper-container', {
   slidesPerView: 2.2,
-  spaceBetween: 30,
+  spaceBetween: 45,
   initialSlide: 2,
   loop: true,
   autoplay: {
@@ -35,9 +35,17 @@ var swiper = new Swiper('.swiper-container', {
 });
 //swiper
 
-const gotoSecond = () => window.location.href = "#section-2"
-const gotoThird = () => window.location.href = "#section-3"
-const gotoFourth = () => window.location.href = "#section-4"
-const gotoFooter = () => window.location.href = "#footer"
+const gotoSecond = () => window.location.href = '#section-2'
+const gotoThird = () => window.location.href = '#section-3'
+const gotoFourth = () => window.location.href = '#section-4'
+const gotoFooter = () => window.location.href = '#footer'
+
+const openContact = () => window.open('html/contact.html')
+const openBlog = () => window.open('html/blog.html')
+const openAbout = () => window.open('html/about.html')
+
+function openProjects() {
+  console.log('open projects screen')
+}
 
 console.log('v0.0.1');

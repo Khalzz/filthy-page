@@ -32,13 +32,13 @@
         <h1>Who the #%$& are you?</h1>
         <img src="images/logo.svg" alt="image not found" title="Hey! thats me!!! :o">
         <p>I am a Chilean <span>programmer</span> with experience in front-end, videogame development with unity and drinking a lot of coffee!!!</p>
-        <div class="read-more">Read More</div>
+        <div class="read-more" onclick="openAbout();">Read More</div>
     </div>
     <div id="section-3" class="section-3">
         <h1>What do you know?</h1>
-        <div class="scroller-background"></div>
         <!--slider-->
         <div class="divisor">
+            <div class="scroller-background"></div>
             <!-- Slider main container -->
             <div class="swiper-container">
             <!-- Additional required wrapper -->
@@ -57,13 +57,13 @@
         <!--slider-->
         <h2 class="slider-instruction">Select the technology to see my projects with it.</h2>
         <h2 class="or">or</h2>
-        <div class="portfolio" onclick="gotoProjects();">check all my portfolio</div>
+        <div class="portfolio" onclick="openProjects();">check all my portfolio</div>
     </div>
     <div class="section-4" id="section-4">
         <h1>Contact me</h1>
         <p>Do you want a web page, are you looking for a new member of your team?</p>
         <p>or only want to say hi.</p>
-        <div>Contact me</div>
+        <div onclick="openContact();">Contact me</div>
     </div>
     <footer id="footer"></footer>
     <!--swiper-->
