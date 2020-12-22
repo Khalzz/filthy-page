@@ -8,8 +8,7 @@
 html {
     width: 100%;
     height: 100vh;
-    overflow-y: scroll;
-    scroll-snap-type: y proximity;
+    scroll-snap-type: y mandatory;
     scroll-behavior: smooth;
 }
 body {
@@ -306,7 +305,7 @@ img {
 }
 
 footer {
-    scroll-snap-align: center;
+    scroll-snap-align: start;
     width: 100%;
     height: 100vh;
     display: flex;
