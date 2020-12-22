@@ -9,7 +9,7 @@ html {
     width: 100%;
     height: 100vh;
     overflow-y: scroll;
-    scroll-snap-type: y mandatory;
+    scroll-snap-type: y proximity;
     scroll-behavior: smooth;
 }
 body {
@@ -315,10 +315,10 @@ footer {
     background: linear-gradient(360deg, #0D0D11 5%, rgba(26, 27, 35, 0) 80%);
 }
 
-footer img{
-    margin-top: 5vh;
+.footer-logo {
+    margin-top:10vh;
     width: 65vw;
-    margin-bottom: 7vh;
+    margin-bottom: 10vh;
 }
 
 .link {
@@ -330,13 +330,13 @@ footer img{
     font-weight: 300;
     width: 100%;
     height: 7.5vh;
-    border-top: 1px solid #A5A7BB;
+    border-top: 0.5px solid #A5A7BB;
     color: #A5A7BB;
     transition: 0.1s;
 }
 
 #hlink {
-    border: 1px solid #A5A7BB;
+    border: 0.5px solid #A5A7BB;
     border-left: 0;
     border-right: 0;
 }
@@ -346,7 +346,7 @@ footer img{
 }
 
 .blog {
-    margin-top: 7vh;
+    margin-top: 8vh;
     display: flex;
     justify-content: center;
     font-size: 7vw;
@@ -361,13 +361,50 @@ footer img{
     width: 40vw;
     height: 14vw;
     transition: 0.2s;
+    margin-bottom: 12vw;
+}
+
+.blog:active {
+    color: #0D0D11;
+    background-color: #DC486A;
 }
 
 .pages img {
-    height: 10vw;
+    margin: 2vw;
+    height: 11vw;
+    transition: 0.1s;
+}
+
+.pages img:active {
+    filter: brightness(0.7);
 }
 
 .pages {
     display: flex;
+    width: 65vw;
+    justify-content: center;
+    margin-bottom: 5vw;
+}
+
+.pages div {
+    height: 15vw;
+}
+
+footer p:first-of-type {
+    color: #B7B9C8;
+    font-family: "Roboto";
+    text-align: center;
+    font-size: 4vw;
     width: 70vw;
+    font-weight: 300;
+}
+
+footer p:last-of-type {
+    margin-top: 0.2vw;
+    color: #618AAE;
+    font-family: "Roboto";
+    text-align: center;
+    font-size: 3.5vw;
+    width: 80vw;
+    font-weight: 300;
 }
