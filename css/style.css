@@ -6,6 +6,7 @@
     box-sizing: border-box; 
 }
 html {
+    scroll-snap-type: y mandatory; /*never put into the html*/
     scroll-behavior: smooth;
 }
 body {
