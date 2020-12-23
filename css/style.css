@@ -6,10 +6,13 @@
     box-sizing: border-box; 
 }
 html {
-    width: 100%;
-    height: 100vh;
+    scroll-snap-type: y mandatory; /*never put into the html*/
+    scroll-behavior: smooth;
+    overflow-y: scroll;
 }
 body {
+    width: 100%;
+    height: 100vh;
     background-color: #15161C;
     
 }
@@ -19,13 +22,7 @@ img {
 }
 /*default style*/
 
-.container {
-    scroll-snap-type: y mandatory;
-    scroll-behavior: smooth;
-    overflow-y: scroll;
-    height: 100vh;
-    width: 100%;
-}
+
 
 .section-1 {
     position: relative;
