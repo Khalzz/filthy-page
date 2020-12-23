@@ -18,6 +18,8 @@ setInterval(() => {
   }}, 4000);
 //change sub title
 
+window.onload=function(){ setTimeout(function(){ 		window.scrollTo(0, 1); 	}, 0); }
+
 //swiper
 var swiper = new Swiper('.swiper-container', {
   slidesPerView: 2.2,
