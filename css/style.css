@@ -20,6 +20,7 @@ img {
 
 .container {
     scroll-snap-type: y mandatory; /*never put into the html*/
+    scroll-snap-stop: always;
     scroll-behavior: smooth;
     overflow-y: scroll;
     height: 100vh;
@@ -28,6 +29,7 @@ img {
 
 .section-1 {
     position: relative;
+    scroll-snap-align: start;
     display: flex;
     width: 100%;
     height: 100vh;
