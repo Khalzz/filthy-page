@@ -20,8 +20,6 @@ img {
 
 .container {
     scroll-snap-type: y mandatory; /*never put into the html*/
-    scroll-snap-stop: always;
-    scroll-behavior: smooth;
     overflow-y: scroll;
     height: 100vh;
     width: 100%;
