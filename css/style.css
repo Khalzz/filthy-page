@@ -1,30 +1,18 @@
 /*default style*/
-* {
-    user-select: none;
-    margin: 0 0;
-    padding: 0;
-    box-sizing: border-box; 
-}
+
 html {
     width: 100%;
+    scroll-snap-type: y mandatory; /*never put into the html*/
+    scroll-behavior: smooth;
+    overflow-y: scroll;
 }
 body {
     background-color: #15161C;
     
 }
-img {
-    border-style: none;
-    max-width: 100%;
-}
+
 /*default style*/
 
-.container {
-    scroll-snap-type: y mandatory; /*never put into the html*/
-    scroll-behavior: smooth;
-    overflow-y: scroll;
-    height: 100vh;
-    width: 100%;
-}
 
 .section-1 {
     position: relative;
