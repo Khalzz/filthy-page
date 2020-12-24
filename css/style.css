@@ -7,8 +7,7 @@
 }
 
 html {
-    scroll-behavior: smooth;
-    scroll-snap-type: y mandatory; /*never put into the html*/
+
     width: 100%;
 }
 
