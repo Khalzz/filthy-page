@@ -6,11 +6,6 @@
     box-sizing: border-box; 
 }
 
-html {
-
-    width: 100%;
-}
-
 body {
     background-color: #15161C;
     width: 100%; 
@@ -23,8 +18,10 @@ img {
 /*default style*/
 
 main {
-    scroll-behavior: smooth;
-    scroll-snap-type: y mandatory; /*never put into the html*/
+    height: 100vh;
+    overflow-y: auto;
+    scroll-snap-type: y mandatory;
+    -webkit-overflow-scrolling: touch;
 }
 
 .section-1 {
