@@ -22,10 +22,12 @@ img {
 }
 /*default style*/
 .main {
+    margin-top: 1px;
     height: 100vh;
     overflow-y: auto;
     scroll-snap-type: y mandatory;
     -webkit-overflow-scrolling: touch;
+    margin-bottom: 1px;
 }
 
 .section-1 {
