@@ -7,7 +7,10 @@
 }
 
 html {
-
+    height: 100vh;
+    overflow-y: auto;
+    scroll-snap-type: y proximity;
+    -webkit-overflow-scrolling: touch;
     width: 100%;
 }
 
@@ -21,14 +24,7 @@ img {
     max-width: 100%;
 }
 /*default style*/
-.main {
-    margin-top: 1px;
-    height: 100vh;
-    overflow-y: auto;
-    scroll-snap-type: y mandatory;
-    -webkit-overflow-scrolling: touch;
-    margin-bottom: 1px;
-}
+
 
 .section-1 {
     position: relative;
