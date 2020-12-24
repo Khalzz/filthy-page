@@ -7,8 +7,7 @@
 }
 
 html {
-    scroll-behavior: smooth;
-    scroll-snap-type: y mandatory; /*never put into the html*/
+
     width: 100%;
 }
 
@@ -22,8 +21,12 @@ img {
     max-width: 100%;
 }
 /*default style*/
-
-
+.main {
+    height: 100vh;
+    overflow-y: auto;
+    scroll-snap-type: y mandatory;
+    -webkit-overflow-scrolling: touch;
+}
 
 .section-1 {
     position: relative;
