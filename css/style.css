@@ -23,6 +23,11 @@ img {
 }
 /*default style*/
 
+main {
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory; /*never put into the html*/
+}
+
 .section-1 {
     position: relative;
     scroll-snap-align: start;
