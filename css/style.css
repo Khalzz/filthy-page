@@ -7,16 +7,16 @@
 }
 
 html {
-    height: 100vh;
-    overflow-y: auto;
-    scroll-snap-type: y mandatory;
-    -webkit-overflow-scrolling: touch;
-    width: 100%;
+    
 }
 
 body {
     background-color: #15161C;
     width: 100%; 
+    height: 100vh;
+    overflow-y: auto;
+    scroll-snap-type: y mandatory;
+    width: 100%;
 }
 
 img {
