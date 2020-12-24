@@ -6,7 +6,6 @@
     box-sizing: border-box; 
 }
 html {
-    scroll-snap-type: y mandatory; /*never put into the html*/
     scroll-behavior: smooth;
 }
 body {
@@ -32,7 +31,7 @@ img {
 }
 
 .section-1 h1 {
-    margin-top: 38vh;
+    margin-top: 40vh;
     color: #ffffff;
     font-family: "Oswald";
     font-size: min(15vw, 110px);
@@ -61,7 +60,6 @@ img {
 }
 
 .section-2 h1 {
-    
     color: #ffffff;
     font-family: "Oswald";
     font-size: min(8.5vw, 90px);
@@ -70,8 +68,8 @@ img {
 }
 
 .section-2 img {
-    margin: 3vh;
-    height: 25vh;
+    margin: 5vh;
+    height: 30vh;
 }
 
 .section-2 p {
@@ -311,13 +309,14 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: flex-end;
     background: linear-gradient(360deg, #0D0D11 5%, rgba(26, 27, 35, 0) 80%);
 }
 
 .footer-logo {
-    margin-top:10vh;
-    width: 65vw;
-    margin-bottom: 10vh;
+    margin-top:8vh;
+    width: 60vw;
+    margin-bottom: 5vh;
 }
 
 .link {
@@ -406,4 +405,5 @@ footer p:last-of-type {
     font-size: 3.5vw;
     width: 80vw;
     font-weight: 300;
+    margin-bottom: 15vw;
 }
