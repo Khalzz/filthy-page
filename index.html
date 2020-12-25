@@ -22,9 +22,11 @@
 </head>
 <body>
     <section class="section-1">
-        <nav>
-            <!--here it goes the nav-->
-        </nav>
+        <div class="nav-button">
+            <div></div>
+            <div class="mid-bar"></div>
+            <div></div>
+        </div>
         <h1>Rodrigo Seguel</h1>
         <h2 class="subtitle-text">Front-end</h2>
     </section>
@@ -67,10 +69,10 @@
     </section>    
     <footer id="footer">
         <img class="footer-logo" src="images/footerLogo.svg" alt="image not found" title="Hey, thats also me :o">
-        <div class="link">About me</div>
-        <div class="link">Experience</div>
-        <div id="hlink" class="link">Contact me</div>
-        <div class="blog">Blog</div>
+        <div class="link" onclick="gotoSecond();">About me</div>
+        <div class="link" onclick="gotoThird();">Experience</div>
+        <div id="hlink" class="link" onclick="gotoFourth();">Contact me</div>
+        <div class="blog" onclick="openBlog();">Blog</div>
         <div class="pages">
             <div onclick="openGit();"><img src="images/git.svg" alt="image not found" title="Find me on GitHub"></div>
             <div onclick="openItch();"><img src="images/itch.svg" alt="image not found" title="Find me on Itch.io"></div>
