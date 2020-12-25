@@ -54,6 +54,7 @@ img {
     margin: 0.5vw;
     height: 1vw;
     width: 8vw;
+    border-radius: 1vw;
     background-color: #6E7392;
 }
 
