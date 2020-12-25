@@ -26,10 +26,10 @@ var swiper = new Swiper('.swiper-container', {
   spaceBetween: 45,
   initialSlide: 2,
   loop: true,
-  //autoplay: {
-    //delay: 3000,
-    //disableOnInteraction: false,
-  //},
+  autoplay: {
+    delay: 3000,
+    disableOnInteraction: false,
+  },
   centeredSlides: true,
   pagination: {
     el: '.swiper-pagination',
