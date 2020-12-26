@@ -74,7 +74,8 @@ function openNav() {
   title.style.marginLeft = '-300vw'
   subtitle.style.marginLeft = '300vw'
   nav.style.height = '100vh'
-
+  
+  
 
   button1.style.top = '0vw'
   button2.style.top = '0vw'
@@ -91,15 +92,18 @@ function openNav() {
   botBar.style.transform = 'rotate(-45deg)';
   
   navButton.style.backgroundColor = 'rgba(0,0,0,0)'
-
   option = 2;
 }
 
 function closeNav() {
+  
+
   title.style.marginLeft = '0'
   subtitle.style.marginLeft = '0'
   nav.style.height = '0vh'
 
+  
+  
   button1.style.top = '-300vw'
   button2.style.top = '-300vw'
   button3.style.top = '-300vw'
@@ -119,8 +123,16 @@ function closeNav() {
 
 function action() {
   if (option == 1) {
+    button1.style.transition = '0.8s'
+    button2.style.transition = '0.6s'
+    button3.style.transition = '0.4s'
+    button4.style.transition = '0.2s'
     openNav();
   } else if (option == 2) {
+    button1.style.transition = '0.3s'
+    button2.style.transition = '0.3s'
+    button3.style.transition = '0.3s'
+    button4.style.transition = '0.3s'
     closeNav();
   }
 }
