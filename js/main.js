@@ -71,8 +71,8 @@ let option = 1;
 
 function openNav() {
   gotoTitle();
-  title.style.marginLeft = '-200vw'
-  subtitle.style.marginLeft = '200vw'
+  title.style.marginLeft = '-300vw'
+  subtitle.style.marginLeft = '300vw'
   nav.style.height = '100vh'
 
   button1.style.fontSize = '8vw'
