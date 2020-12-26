@@ -75,10 +75,11 @@ function openNav() {
   subtitle.style.marginLeft = '300vw'
   nav.style.height = '100vh'
 
-  button1.style.fontSize = '8vw'
-  button2.style.fontSize = '8vw'
-  button3.style.fontSize = '8vw'
-  button4.style.fontSize = '8vw'
+
+  button1.style.top = '0vw'
+  button2.style.top = '0vw'
+  button3.style.top = '0vw'
+  button4.style.top = '0vw'
   html.style.overflowY = 'hidden'
 
   topBar.style.height = '0.5vw';
@@ -99,10 +100,10 @@ function closeNav() {
   subtitle.style.marginLeft = '0'
   nav.style.height = '0vh'
 
-  button1.style.fontSize = '0vw'
-  button2.style.fontSize = '0vw'
-  button3.style.fontSize = '0vw'
-  button4.style.fontSize = '0vw'
+  button1.style.top = '-300vw'
+  button2.style.top = '-300vw'
+  button3.style.top = '-300vw'
+  button4.style.top = '-300vw'
   html.style.overflowY = 'auto'
   
   topBar.style.height = '1vw';
