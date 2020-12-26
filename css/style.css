@@ -268,10 +268,10 @@ img {
 }
 
 .swiper-slide img {
+    transition: 0.2s;
     border-radius: 5vw;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
     height: 38vw;
-    transition: 0.1s;
 }
 
 .swiper-slide img {
@@ -279,6 +279,7 @@ img {
 }
 
 .swiper-slide-active img{
+    transition: 0.2s;
     transform: scale(1);
 }
 
