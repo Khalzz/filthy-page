@@ -38,8 +38,8 @@ var swiper = new Swiper('.swiper-container', {
 //swiper
 const openItch = () => window.open('https://khalzdev.itch.io/');
 const openGit = () => window.open('https://github.com/Khalzz');
-const openStack = () => window.open('https://es.stackoverflow.com/users/175478/khals')
-const openIg = () => window.open('https://www.instagram.com/moon.drawner.chu.p0u/')
+const openStack = () => window.open('https://es.stackoverflow.com/users/175478/khals');
+const openIg = () => window.open('https://www.instagram.com/moon.drawner.chu.p0u/');
 
 const gotoTitle = () => window.location.href = '#section-1';
 const gotoSecond = () => window.location.href = '#section-2';
@@ -47,13 +47,10 @@ const gotoThird = () => window.location.href = '#section-3';
 const gotoFourth = () => window.location.href = '#section-4';
 const gotoFooter = () => window.location.href = '#footer';
 
-const openContact = () => window.open('html/contact.html')
-const openBlog = () => window.open('html/blog.html')
-const openAbout = () => window.open('html/about.html')
-
-function openProjects() {
-  console.log('open projects screen')
-}
+const openContact = () => window.open('html/contact.html');
+const openBlog = () => window.open('html/blog.html');
+const openAbout = () => window.open('html/about.html');
+const openProjects = () => window.open('html/portfolio.html');
 
 const nav = document.querySelector('.nav');
 const button1 = document.querySelector('.button-1');
@@ -71,44 +68,40 @@ let option = 1;
 
 function openNav() {
   gotoTitle();
-  title.style.marginLeft = '-300vw'
-  subtitle.style.marginLeft = '300vw'
-  nav.style.height = '100vh'
-  
-  
+  title.style.marginLeft = '-300vw';
+  subtitle.style.marginLeft = '300vw';
+  nav.style.height = '100vh';
 
-  button1.style.top = '0vw'
-  button2.style.top = '0vw'
-  button3.style.top = '0vw'
-  button4.style.top = '0vw'
-  html.style.overflowY = 'hidden'
+  button1.style.top = '0vw';
+  button2.style.top = '0vw';
+  button3.style.top = '0vw';
+  button4.style.top = '0vw';
+  html.style.overflowY = 'hidden';
 
   topBar.style.height = '0.5vw';
   topBar.style.marginBottom = '-1.25vw';
   topBar.style.transform = 'rotate(45deg)';
-  midBar.style.backgroundColor = 'rgba(0,0,0,0)'
+  midBar.style.backgroundColor = 'rgba(0,0,0,0)';
   botBar.style.height = '0.5vw';
   botBar.style.marginTop = '-1.25vw';
   botBar.style.transform = 'rotate(-45deg)';
   
-  navButton.style.backgroundColor = 'rgba(0,0,0,0)'
+  navButton.style.backgroundColor = 'rgba(0,0,0,0)';
   option = 2;
 }
 
 function closeNav() {
   
 
-  title.style.marginLeft = '0'
-  subtitle.style.marginLeft = '0'
-  nav.style.height = '0vh'
+  title.style.marginLeft = '0';
+  subtitle.style.marginLeft = '0';
+  nav.style.height = '0vh';
 
-  
-  
-  button1.style.top = '-300vw'
-  button2.style.top = '-300vw'
-  button3.style.top = '-300vw'
-  button4.style.top = '-300vw'
-  html.style.overflowY = 'auto'
+  button1.style.top = '-300vw';
+  button2.style.top = '-300vw';
+  button3.style.top = '-300vw';
+  button4.style.top = '-300vw';
+  html.style.overflowY = 'auto';
   
   topBar.style.height = '1vw';
   topBar.style.marginBottom = '0.5vw';
@@ -123,18 +116,18 @@ function closeNav() {
 
 function action() {
   if (option == 1) {
-    button1.style.transition = '0.8s'
-    button2.style.transition = '0.6s'
-    button3.style.transition = '0.4s'
-    button4.style.transition = '0.2s'
+    button1.style.transition = '0.8s';
+    button2.style.transition = '0.6s';
+    button3.style.transition = '0.4s';
+    button4.style.transition = '0.2s';
     openNav();
   } else if (option == 2) {
-    button1.style.transition = '0.3s'
-    button2.style.transition = '0.3s'
-    button3.style.transition = '0.3s'
-    button4.style.transition = '0.3s'
+    button1.style.transition = '0.3s';
+    button2.style.transition = '0.3s';
+    button3.style.transition = '0.3s';
+    button4.style.transition = '0.3s';
     closeNav();
   }
 }
 
-console.log('v0.0.1');
+console.log('v0.0.2');
