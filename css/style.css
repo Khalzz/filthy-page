@@ -95,6 +95,7 @@ img {
 }
 
 .section-1 h1 {
+    transition: 0.2s;
     margin-top: 40vh;
     color: #ffffff;
     font-family: "Oswald";
@@ -105,6 +106,7 @@ img {
 }
 
 .section-1 h2{
+    transition: 0.2s;
     color: #DC486A;
     font-family: "Oswald";
     font-weight: 400;

@@ -65,12 +65,14 @@ const html = document.querySelector('html');
 const topBar = document.querySelector('#up-bar');
 const midBar = document.querySelector('.mid-bar');
 const botBar = document.querySelector('#bottom-bar');
-
+const title = document.querySelector('#name');
 
 let option = 1;
 
 function openNav() {
   gotoTitle();
+  title.style.marginLeft = '-200vw'
+  subtitle.style.marginLeft = '200vw'
   nav.style.height = '100vh'
 
   button1.style.fontSize = '8vw'
@@ -93,6 +95,8 @@ function openNav() {
 }
 
 function closeNav() {
+  title.style.marginLeft = '0'
+  subtitle.style.marginLeft = '0'
   nav.style.height = '0vh'
 
   button1.style.fontSize = '0vw'
