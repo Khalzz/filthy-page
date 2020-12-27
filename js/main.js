@@ -148,9 +148,7 @@ const bar1 = document.querySelector('.bar-1');
 const bar2 = document.querySelector('.bar-2');
 
 const portfolioButton = document.querySelector('.portfolio')
-const or = document.querySelector('.or')
-const instruction = document.querySelector('.slider-instruction')
-const divisor = document.querySelector('.divisor')
+const sectionTitle = document.querySelector('.title-section-3')
 
 let count = 0;
 
@@ -169,6 +167,8 @@ function openHtml(){
   bar2.style.width = '8vw'
   bar2.style.transform = 'rotate(-45deg)'
   portfolioButton.style.marginBottom = '-200vh'
+  sectionTitle.style.webkitTextStroke = '1px #15161C'
+  sectionTitle.style.color = '#15161C'
   count = 1
 }
 
@@ -185,7 +185,9 @@ function closeHtml(){
   bar2.style.height = '0'
   bar2.style.width = '0'
   portfolioButton.style.marginBottom = '0'
+  sectionTitle.style.webkitTextStroke = '1px #ffffff'
   bar2.style.transform = 'rotate(-45deg)'
+  sectionTitle.style.color = '#ffffff'
 }
 
 function openCss(){
@@ -203,6 +205,8 @@ function openCss(){
   bar2.style.width = '8vw'
   bar2.style.transform = 'rotate(-45deg)'
   portfolioButton.style.marginBottom = '-200vh'
+  sectionTitle.style.color = '#15161C'
+  sectionTitle.style.webkitTextStroke = '1px #15161C'
   count = 2
 
 }
@@ -220,6 +224,8 @@ function closeCss(){
   bar2.style.height = '0'
   bar2.style.width = '0'
   portfolioButton.style.marginBottom = '0'
+  sectionTitle.style.webkitTextStroke = '1px #ffffff'
+  sectionTitle.style.color = '#ffffff'
   bar2.style.transform = 'rotate(-45deg)'
 }
 
@@ -238,6 +244,8 @@ function openJs(){
   bar2.style.width = '8vw'
   bar2.style.transform = 'rotate(-45deg)'
   portfolioButton.style.marginBottom = '-200vh'
+  sectionTitle.style.color = '#15161C'
+  sectionTitle.style.webkitTextStroke = '1px #15161C'
   count = 3
 }
 
@@ -254,6 +262,8 @@ function closeJs(){
   bar2.style.height = '0'
   bar2.style.width = '0'
   portfolioButton.style.marginBottom = '0'
+  sectionTitle.style.webkitTextStroke = '1px #ffffff'
+  sectionTitle.style.color = '#ffffff'
   bar2.style.transform = 'rotate(-45deg)'
 }
 
@@ -272,6 +282,8 @@ function openCs(){
   bar2.style.width = '8vw'
   bar2.style.transform = 'rotate(-45deg)'
   portfolioButton.style.marginBottom = '-200vh'
+  sectionTitle.style.color = '#15161C'
+  sectionTitle.style.webkitTextStroke = '1px #15161C'
   count = 4
 }
 
@@ -288,6 +300,8 @@ function closeCs(){
   bar2.style.height = '0'
   bar2.style.width = '0'
   portfolioButton.style.marginBottom = '0'
+  sectionTitle.style.webkitTextStroke = '1px #ffffff'
+  sectionTitle.style.color = '#ffffff'
   bar2.style.transform = 'rotate(-45deg)'
 }
 
@@ -306,6 +320,8 @@ function openPython(){
   bar2.style.width = '8vw'
   bar2.style.transform = 'rotate(-45deg)'
   portfolioButton.style.marginBottom = '-200vh'
+  sectionTitle.style.color = '#15161C'
+  sectionTitle.style.webkitTextStroke = '1px #15161C'
   count = 5
 }
 
@@ -322,6 +338,8 @@ function closePython(){
   bar2.style.height = '0'
   bar2.style.width = '0'
   portfolioButton.style.marginBottom = '0'
+  sectionTitle.style.webkitTextStroke = '1px #ffffff'
+  sectionTitle.style.color = '#ffffff'
   bar2.style.transform = 'rotate(-45deg)'
 }
 
@@ -340,6 +358,8 @@ function openKotlin(){
   bar2.style.width = '8vw'
   bar2.style.transform = 'rotate(-45deg)'
   portfolioButton.style.marginBottom = '-200vh'
+  sectionTitle.style.color = '#15161C'
+  sectionTitle.style.webkitTextStroke = '1px #15161C'
   count = 6
 }
 
@@ -356,6 +376,8 @@ function closeKotlin(){
   bar2.style.width = '0'
   portfolioButton.style.marginBottom = '0'
   bar2.style.transform = 'rotate(-45deg)'
+  sectionTitle.style.webkitTextStroke = '1px #ffffff'
+  sectionTitle.style.color = '#ffffff'
   html.style.overflowY = 'auto';
 }
 
