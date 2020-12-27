@@ -91,8 +91,6 @@ function openNav() {
 }
 
 function closeNav() {
-  
-
   title.style.marginLeft = '0';
   subtitle.style.marginLeft = '0';
   nav.style.height = '0vh';
@@ -127,6 +125,234 @@ function action() {
     button3.style.transition = '0.3s';
     button4.style.transition = '0.3s';
     closeNav();
+  }
+}
+
+const htmlProjects = document.querySelector('.html-projects')
+const css = document.querySelector('.html-projects')
+const js = document.querySelector('.html-projects')
+const cs = document.querySelector('.html-projects')
+const python = document.querySelector('.html-projects')
+const kotlin = document.querySelector('.html-projects')
+
+const titleHtml = document.querySelector('.title-html')
+const titleCss = document.querySelector('.title-css')
+const titleJs = document.querySelector('.title-js')
+const titleCs = document.querySelector('.title-cs')
+const titlePython = document.querySelector('.title-python')
+const titleKotlin = document.querySelector('.title-kotlin')
+
+const closeButton = document.querySelector('.close-button')
+const bar1 = document.querySelector('.bar-1');
+const bar2 = document.querySelector('.bar-2');
+
+let count = 0;
+
+function openHtml(){
+  gotoThird();
+  swiper.autoplay.stop()
+  htmlProjects.style.height = '100vh'
+  titleHtml.style.fontSize = '8vw'
+  html.style.overflowY = 'hidden';
+  closeButton.style.height = '10vw'
+  closeButton.style.top = '3vw'
+  bar1.style.height = '0.5vw'
+  bar1.style.width = '8vw'
+  bar1.style.transform = 'rotate(45deg)'
+  bar2.style.height = '0.5vw'
+  bar2.style.width = '8vw'
+  bar2.style.transform = 'rotate(-45deg)'
+  count = 1
+}
+
+function closeHtml(){
+  swiper.autoplay.start()
+  htmlProjects.style.height = '0vh'
+  titleHtml.style.fontSize = '0'
+  html.style.overflowY = 'auto';
+  closeButton.style.height = '0'
+  closeButton.style.top = '-80vw'
+  bar1.style.height = '0'
+  bar1.style.width = '0'
+  bar1.style.transform = 'rotate(45)'
+  bar2.style.height = '0'
+  bar2.style.width = '0'
+  bar2.style.transform = 'rotate(-45deg)'
+}
+
+function openCss(){
+  gotoThird();
+  swiper.autoplay.stop()
+  css.style.height = '100vh'
+  titleCss.style.fontSize = '8vw'
+  html.style.overflowY = 'hidden';
+  closeButton.style.height = '10vw'
+  closeButton.style.top = '3vw'
+  bar1.style.height = '0.5vw'
+  bar1.style.width = '8vw'
+  bar1.style.transform = 'rotate(45deg)'
+  bar2.style.height = '0.5vw'
+  bar2.style.width = '8vw'
+  bar2.style.transform = 'rotate(-45deg)'
+  count = 2
+}
+
+function closeCss(){
+  swiper.autoplay.start()
+  css.style.height = '0vh'
+  titleCss.style.fontSize = '0'
+  html.style.overflowY = 'auto';
+  closeButton.style.height = '0'
+  closeButton.style.top = '-80vw'
+  bar1.style.height = '0'
+  bar1.style.width = '0'
+  bar1.style.transform = 'rotate(45)'
+  bar2.style.height = '0'
+  bar2.style.width = '0'
+  bar2.style.transform = 'rotate(-45deg)'
+}
+
+function openJs(){
+  gotoThird();
+  swiper.autoplay.stop()
+  js.style.height = '100vh'
+  titleJs.style.fontSize = '8vw'
+  html.style.overflowY = 'hidden';
+  closeButton.style.height = '10vw'
+  closeButton.style.top = '3vw'
+  bar1.style.height = '0.5vw'
+  bar1.style.width = '8vw'
+  bar1.style.transform = 'rotate(45deg)'
+  bar2.style.height = '0.5vw'
+  bar2.style.width = '8vw'
+  bar2.style.transform = 'rotate(-45deg)'
+  count = 3
+}
+
+function closeJs(){
+  swiper.autoplay.start()
+  js.style.height = '0vh'
+  titleJs.style.fontSize = '0'
+  html.style.overflowY = 'auto';
+  closeButton.style.height = '0'
+  closeButton.style.top = '-80vw'
+  bar1.style.height = '0'
+  bar1.style.width = '0'
+  bar1.style.transform = 'rotate(45)'
+  bar2.style.height = '0'
+  bar2.style.width = '0'
+  bar2.style.transform = 'rotate(-45deg)'
+}
+
+function openCs(){
+  gotoThird();
+  swiper.autoplay.stop()
+  cs.style.height = '100vh'
+  titleCs.style.fontSize = '8vw'
+  html.style.overflowY = 'hidden';
+  closeButton.style.height = '10vw'
+  closeButton.style.top = '3vw'
+  bar1.style.height = '0.5vw'
+  bar1.style.width = '8vw'
+  bar1.style.transform = 'rotate(45deg)'
+  bar2.style.height = '0.5vw'
+  bar2.style.width = '8vw'
+  bar2.style.transform = 'rotate(-45deg)'
+  count = 4
+}
+
+function closeCs(){
+  swiper.autoplay.start()
+  cs.style.height = '0vh'
+  titleCs.style.fontSize = '0'
+  html.style.overflowY = 'auto';
+  closeButton.style.height = '0'
+  closeButton.style.top = '-80vw'
+  bar1.style.height = '0'
+  bar1.style.width = '0'
+  bar1.style.transform = 'rotate(45)'
+  bar2.style.height = '0'
+  bar2.style.width = '0'
+  bar2.style.transform = 'rotate(-45deg)'
+}
+
+function openPython(){
+  gotoThird();
+  swiper.autoplay.stop()
+  python.style.height = '100vh'
+  titlePython.style.fontSize = '8vw'
+  html.style.overflowY = 'hidden';
+  closeButton.style.height = '10vw'
+  closeButton.style.top = '3vw'
+  bar1.style.height = '0.5vw'
+  bar1.style.width = '8vw'
+  bar1.style.transform = 'rotate(45deg)'
+  bar2.style.height = '0.5vw'
+  bar2.style.width = '8vw'
+  bar2.style.transform = 'rotate(-45deg)'
+  count = 5
+}
+
+function closePython(){
+  swiper.autoplay.start()
+  python.style.height = '0vh'
+  titlePython.style.fontSize = '0'
+  html.style.overflowY = 'auto';
+  closeButton.style.height = '0'
+  closeButton.style.top = '-80vw'
+  bar1.style.height = '0'
+  bar1.style.width = '0'
+  bar1.style.transform = 'rotate(45)'
+  bar2.style.height = '0'
+  bar2.style.width = '0'
+  bar2.style.transform = 'rotate(-45deg)'
+}
+
+function openKotlin(){
+  gotoThird();
+  swiper.autoplay.stop()
+  kotlin.style.height = '100vh'
+  titleKotlin.style.fontSize = '8vw'
+  html.style.overflowY = 'hidden';
+  closeButton.style.height = '10vw'
+  closeButton.style.top = '3vw'
+  bar1.style.height = '0.5vw'
+  bar1.style.width = '8vw'
+  bar1.style.transform = 'rotate(45deg)'
+  bar2.style.height = '0.5vw'
+  bar2.style.width = '8vw'
+  bar2.style.transform = 'rotate(-45deg)'
+  count = 6
+}
+
+function closeKotlin(){
+  swiper.autoplay.start()
+  kotlin.style.height = '0vh'
+  titleKotlin.style.fontSize = '0'
+  html.style.overflowY = 'auto';
+  closeButton.style.height = '0'
+  closeButton.style.top = '-80vw'
+  bar1.style.height = '0'
+  bar1.style.width = '0'
+  bar1.style.transform = 'rotate(45)'
+  bar2.style.height = '0'
+  bar2.style.width = '0'
+  bar2.style.transform = 'rotate(-45deg)'
+}
+
+function closeProjects() {
+  if (count == 1) {
+    closeHtml();
+  } else if (count == 2){
+    closeCss();
+  } else if (count == 3) {
+    closeJs();
+  } else if (count == 4) {
+    closeCs();
+  } else if (count == 5) {
+    closePython();
+  } else if (count == 6) {
+    closeKotlin();
   }
 }
 

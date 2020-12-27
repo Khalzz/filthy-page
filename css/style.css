@@ -141,6 +141,7 @@ img {
 }
 
 .section-2 {
+    position: relative;
     scroll-snap-align: center;
     width: 100%;
     height: 100vh;
@@ -196,7 +197,25 @@ img {
     background-color: #DC486A;
 }
 
+#project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    position: absolute;
+    width: 100%;
+    height: 0vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: 0.5s;
+}
+
+#project h1 {
+    transition: 0.5s;
+    font-size: 0;
+}
+
 .section-3 {
+    position: relative;
     margin-top: -5vh;
     scroll-snap-align: center;
     width: 100%;
@@ -208,6 +227,16 @@ img {
 }
 
 .section-3 h1 {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    font-family: "Oswald";
+    font-size: min(8.5vw, 90px);
+    font-weight: 400;
+    height: 8vw;
+}
+
+.title-section-3 {
     margin-top: -5vw;
     color: #ffffff;
     font-family: "Oswald";
@@ -216,6 +245,50 @@ img {
     margin-bottom: 5vw;
     -webkit-text-stroke: 1px #ffffff;
 
+}
+
+.close {
+    transition: 0.1s;
+}
+
+.close-button {
+    z-index: 20;
+    position: absolute;
+    top: 80vw;
+    right: 3vw;
+    height: 0vw;
+    width: 12vw;
+    border-radius: 2vw;
+    background-color: rgba(0, 0, 0, 0);
+    transition: 0.8s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.close:active {
+    filter: brightness(0.4);
+}
+
+.bar-1{
+    transition: 0.9s;
+    margin-top: 0.5vw;
+    height: 0;
+    width: 0;
+    border-radius: 1vw;
+    background-color: #DBDCE4;
+    transform: rotate(-45deg);
+}
+
+.bar-2{
+    transition: 0.9s;
+    margin-top: -0.5vw;
+    height: 0vw;
+    width: 0vw;
+    border-radius: 1vw;
+    background-color: #DBDCE4;
+    transform: rotate(-45deg);
 }
 
 .scroller-background {

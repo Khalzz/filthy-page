@@ -44,7 +44,31 @@
         <div class="read-more" onclick="openAbout();">Read More</div>
     </section>
     <section id="section-3" class="section-3">
-        <h1>What do you know?</h1>
+        <div class="close-button">
+            <div onclick="closeProjects();" class="close">
+                <div class="bar-1"></div>
+                <div class="bar-2"></div>
+            </div>
+        </div>
+        <div class="html-projects" id="project">
+            <h1 class="title-html">Html</h1>
+        </div>
+        <div class="css-projects" id="project">
+            <h1 class="title-css">Css</h1>
+        </div>
+        <div class="javascript-projects" id="project">
+            <h1 class="title-js">JavaScript</h1>
+        </div>
+        <div class="csharp-projects" id="project">
+            <h1 class="title-cs">C#</h1>
+        </div>
+        <div class="python-projects" id="project">
+            <h1 class="title-python">Python</h1>
+        </div>
+        <div class="kotlin-projects" id="project">
+            <h1 class="title-kotlin">Kotlin</h1>
+        </div>
+        <h1 class="title-section-3">What do you know?</h1>
         <!--slider-->
         <div class="divisor">
             <div class="scroller-background"></div>
@@ -53,12 +77,12 @@
             <!-- Additional required wrapper -->
                 <div class="swiper-wrapper">
                 <!-- Slides -->
-                    <div class="swiper-slide"><img src="images/css.svg" title="CSS" alt="image not found"></div>
-                    <div class="swiper-slide"><img src="images/javascript.svg" title="JavaScript" alt="image not found"></div>
-                    <div class="swiper-slide"><img src="images/csharp.svg" title="C#" alt="image not found"></div>
-                    <div class="swiper-slide"><img src="images/python.svg" title="Python" alt="image not found"></div>
-                    <div class="swiper-slide"><img src="images/kotlin.svg" title="Kotlin" alt="image not found"></div>
-                    <div class="swiper-slide"><img src="images/html.svg" title="HTML" alt="image not found"></div>
+                    <div class="swiper-slide" onclick="openCss();"><img src="images/css.svg" title="CSS" alt="image not found"></div>
+                    <div class="swiper-slide" onclick="openJs();"><img src="images/javascript.svg" title="JavaScript" alt="image not found"></div>
+                    <div class="swiper-slide" onclick="openCs();"><img src="images/csharp.svg" title="C#" alt="image not found"></div>
+                    <div class="swiper-slide" onclick="openPython();"><img src="images/python.svg" title="Python" alt="image not found"></div>
+                    <div class="swiper-slide" onclick="openKotlin();"><img src="images/kotlin.svg" title="Kotlin" alt="image not found"></div>
+                    <div class="swiper-slide" onclick="openHtml();"><img src="images/html.svg" title="HTML" alt="image not found"></div>
                 </div>
                 <div class="swiper-pagination"></div>
             </div> 
