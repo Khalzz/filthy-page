@@ -326,6 +326,7 @@ img {
     height: 15vw;
     width: 100%;
     display: flex;
+    transition: 0.9s;
     
 }
 
@@ -396,7 +397,7 @@ img {
     border-radius: 2vw;
     padding: 2vw;
     width: 35vw;
-    transition: 0.2s;
+    transition: 0.8s;
 }
 
 .portfolio:active {

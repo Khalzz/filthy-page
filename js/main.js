@@ -128,6 +128,7 @@ function action() {
   }
 }
 
+//projects
 const htmlProjects = document.querySelector('.html-projects')
 const css = document.querySelector('.html-projects')
 const js = document.querySelector('.html-projects')
@@ -146,6 +147,11 @@ const closeButton = document.querySelector('.close-button')
 const bar1 = document.querySelector('.bar-1');
 const bar2 = document.querySelector('.bar-2');
 
+const portfolioButton = document.querySelector('.portfolio')
+const or = document.querySelector('.or')
+const instruction = document.querySelector('.slider-instruction')
+const divisor = document.querySelector('.divisor')
+
 let count = 0;
 
 function openHtml(){
@@ -162,6 +168,7 @@ function openHtml(){
   bar2.style.height = '0.5vw'
   bar2.style.width = '8vw'
   bar2.style.transform = 'rotate(-45deg)'
+  portfolioButton.style.marginBottom = '-200vh'
   count = 1
 }
 
@@ -177,6 +184,7 @@ function closeHtml(){
   bar1.style.transform = 'rotate(45)'
   bar2.style.height = '0'
   bar2.style.width = '0'
+  portfolioButton.style.marginBottom = '0'
   bar2.style.transform = 'rotate(-45deg)'
 }
 
@@ -194,7 +202,9 @@ function openCss(){
   bar2.style.height = '0.5vw'
   bar2.style.width = '8vw'
   bar2.style.transform = 'rotate(-45deg)'
+  portfolioButton.style.marginBottom = '-200vh'
   count = 2
+
 }
 
 function closeCss(){
@@ -209,6 +219,7 @@ function closeCss(){
   bar1.style.transform = 'rotate(45)'
   bar2.style.height = '0'
   bar2.style.width = '0'
+  portfolioButton.style.marginBottom = '0'
   bar2.style.transform = 'rotate(-45deg)'
 }
 
@@ -226,6 +237,7 @@ function openJs(){
   bar2.style.height = '0.5vw'
   bar2.style.width = '8vw'
   bar2.style.transform = 'rotate(-45deg)'
+  portfolioButton.style.marginBottom = '-200vh'
   count = 3
 }
 
@@ -241,6 +253,7 @@ function closeJs(){
   bar1.style.transform = 'rotate(45)'
   bar2.style.height = '0'
   bar2.style.width = '0'
+  portfolioButton.style.marginBottom = '0'
   bar2.style.transform = 'rotate(-45deg)'
 }
 
@@ -258,6 +271,7 @@ function openCs(){
   bar2.style.height = '0.5vw'
   bar2.style.width = '8vw'
   bar2.style.transform = 'rotate(-45deg)'
+  portfolioButton.style.marginBottom = '-200vh'
   count = 4
 }
 
@@ -273,6 +287,7 @@ function closeCs(){
   bar1.style.transform = 'rotate(45)'
   bar2.style.height = '0'
   bar2.style.width = '0'
+  portfolioButton.style.marginBottom = '0'
   bar2.style.transform = 'rotate(-45deg)'
 }
 
@@ -290,6 +305,7 @@ function openPython(){
   bar2.style.height = '0.5vw'
   bar2.style.width = '8vw'
   bar2.style.transform = 'rotate(-45deg)'
+  portfolioButton.style.marginBottom = '-200vh'
   count = 5
 }
 
@@ -305,6 +321,7 @@ function closePython(){
   bar1.style.transform = 'rotate(45)'
   bar2.style.height = '0'
   bar2.style.width = '0'
+  portfolioButton.style.marginBottom = '0'
   bar2.style.transform = 'rotate(-45deg)'
 }
 
@@ -322,6 +339,7 @@ function openKotlin(){
   bar2.style.height = '0.5vw'
   bar2.style.width = '8vw'
   bar2.style.transform = 'rotate(-45deg)'
+  portfolioButton.style.marginBottom = '-200vh'
   count = 6
 }
 
@@ -337,6 +355,7 @@ function closeKotlin(){
   bar1.style.transform = 'rotate(45)'
   bar2.style.height = '0'
   bar2.style.width = '0'
+  portfolioButton.style.marginBottom = '0'
   bar2.style.transform = 'rotate(-45deg)'
 }
 
@@ -355,5 +374,6 @@ function closeProjects() {
     closeKotlin();
   }
 }
+//projects
 
 console.log('v0.0.2');
