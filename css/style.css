@@ -397,7 +397,7 @@ img {
     border-radius: 2vw;
     padding: 2vw;
     width: 35vw;
-    transition: 0.8s;
+    transition: 1s;
 }
 
 .portfolio:active {
