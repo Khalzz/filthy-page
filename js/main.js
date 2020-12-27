@@ -347,7 +347,6 @@ function closeKotlin(){
   swiper.autoplay.start()
   kotlin.style.height = '0vh'
   titleKotlin.style.fontSize = '0'
-  html.style.overflowY = 'auto';
   closeButton.style.height = '0'
   closeButton.style.top = '-80vw'
   bar1.style.height = '0'
@@ -357,6 +356,7 @@ function closeKotlin(){
   bar2.style.width = '0'
   portfolioButton.style.marginBottom = '0'
   bar2.style.transform = 'rotate(-45deg)'
+  html.style.overflowY = 'auto';
 }
 
 function closeProjects() {
