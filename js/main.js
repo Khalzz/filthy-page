@@ -130,11 +130,11 @@ function action() {
 
 //projects
 const htmlProjects = document.querySelector('.html-projects')
-const css = document.querySelector('.html-projects')
-const js = document.querySelector('.html-projects')
-const cs = document.querySelector('.html-projects')
-const python = document.querySelector('.html-projects')
-const kotlin = document.querySelector('.html-projects')
+const css = document.querySelector('.css-projects')
+const js = document.querySelector('.javascript-projects')
+const cs = document.querySelector('.csharp-projects')
+const python = document.querySelector('.python-projects')
+const kotlin = document.querySelector('.kotlin-projects')
 
 const titleHtml = document.querySelector('.title-html')
 const titleCss = document.querySelector('.title-css')
@@ -157,6 +157,7 @@ function openHtml(){
   swiper.autoplay.stop()
   htmlProjects.style.height = '100vh'
   titleHtml.style.fontSize = '8vw'
+  titleHtml.style.top = '3vw'
   html.style.overflowY = 'hidden';
   closeButton.style.height = '10vw'
   closeButton.style.top = '3vw'
@@ -174,6 +175,7 @@ function openHtml(){
 
 function closeHtml(){
   swiper.autoplay.start()
+  titleHtml.style.top = '-80vh'
   htmlProjects.style.height = '0vh'
   titleHtml.style.fontSize = '0'
   html.style.overflowY = 'auto';
@@ -193,6 +195,7 @@ function closeHtml(){
 function openCss(){
   gotoThird();
   swiper.autoplay.stop()
+  titleCss.style.top = '3vw'
   css.style.height = '100vh'
   titleCss.style.fontSize = '8vw'
   html.style.overflowY = 'hidden';
@@ -214,6 +217,7 @@ function openCss(){
 function closeCss(){
   swiper.autoplay.start()
   css.style.height = '0vh'
+  titleCss.style.top = '-80vh'
   titleCss.style.fontSize = '0'
   html.style.overflowY = 'auto';
   closeButton.style.height = '0'
@@ -232,6 +236,7 @@ function closeCss(){
 function openJs(){
   gotoThird();
   swiper.autoplay.stop()
+  titleJs.style.top = '3vw'
   js.style.height = '100vh'
   titleJs.style.fontSize = '8vw'
   html.style.overflowY = 'hidden';
@@ -252,6 +257,7 @@ function openJs(){
 function closeJs(){
   swiper.autoplay.start()
   js.style.height = '0vh'
+  titleJs.style.top = '-80vh'
   titleJs.style.fontSize = '0'
   html.style.overflowY = 'auto';
   closeButton.style.height = '0'
@@ -270,6 +276,7 @@ function closeJs(){
 function openCs(){
   gotoThird();
   swiper.autoplay.stop()
+  titleCs.style.top = '3vw'
   cs.style.height = '100vh'
   titleCs.style.fontSize = '8vw'
   html.style.overflowY = 'hidden';
@@ -290,6 +297,7 @@ function openCs(){
 function closeCs(){
   swiper.autoplay.start()
   cs.style.height = '0vh'
+  titleCs.style.top = '-80vh'
   titleCs.style.fontSize = '0'
   html.style.overflowY = 'auto';
   closeButton.style.height = '0'
@@ -309,6 +317,7 @@ function openPython(){
   gotoThird();
   swiper.autoplay.stop()
   python.style.height = '100vh'
+  titlePython.style.top = '3vw'
   titlePython.style.fontSize = '8vw'
   html.style.overflowY = 'hidden';
   closeButton.style.height = '10vw'
@@ -328,6 +337,7 @@ function openPython(){
 function closePython(){
   swiper.autoplay.start()
   python.style.height = '0vh'
+  titlePython.style.top = '-80vh'
   titlePython.style.fontSize = '0'
   html.style.overflowY = 'auto';
   closeButton.style.height = '0'
@@ -348,6 +358,7 @@ function openKotlin(){
   swiper.autoplay.stop()
   kotlin.style.height = '100vh'
   titleKotlin.style.fontSize = '8vw'
+  titleKotlin.style.top = '3vw'
   html.style.overflowY = 'hidden';
   closeButton.style.height = '10vw'
   closeButton.style.top = '3vw'
@@ -366,6 +377,7 @@ function openKotlin(){
 function closeKotlin(){
   swiper.autoplay.start()
   kotlin.style.height = '0vh'
+  titleKotlin.style.top = '-80vh'
   titleKotlin.style.fontSize = '0'
   closeButton.style.height = '0'
   closeButton.style.top = '-80vw'
