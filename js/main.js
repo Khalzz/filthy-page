@@ -137,11 +137,17 @@ const python = document.querySelector('.python-projects')
 const kotlin = document.querySelector('.kotlin-projects')
 
 const titleHtml = document.querySelector('.title-html')
+const pHtml = document.querySelector('.p-html')
 const titleCss = document.querySelector('.title-css')
+const pCss = document.querySelector('.p-css')
 const titleJs = document.querySelector('.title-js')
+const pJs = document.querySelector('.p-js')
 const titleCs = document.querySelector('.title-cs')
+const pCs = document.querySelector('.p-cs')
 const titlePython = document.querySelector('.title-python')
+const pPy = document.querySelector('.p-py')
 const titleKotlin = document.querySelector('.title-kotlin')
+const pKl = document.querySelector('.p-kl')
 
 const closeButton = document.querySelector('.close-button')
 const bar1 = document.querySelector('.bar-1');
@@ -155,7 +161,10 @@ let count = 0;
 function openHtml(){
   gotoThird();
   swiper.autoplay.stop()
+  pHtml.style.width = '90%'
   htmlProjects.style.height = '100vh'
+  pHtml.style.fontSize = '4.3vw'
+  pHtml.style.top = '18vw'
   titleHtml.style.fontSize = '8vw'
   titleHtml.style.top = '3vw'
   html.style.overflowY = 'hidden';
@@ -175,6 +184,9 @@ function openHtml(){
 
 function closeHtml(){
   swiper.autoplay.start()
+  pHtml.style.fontSize = '0vw'
+  pHtml.style.width = '0%'
+  pHtml.style.top = '-80vh'
   titleHtml.style.top = '-80vh'
   htmlProjects.style.height = '0vh'
   titleHtml.style.fontSize = '0'
@@ -194,6 +206,9 @@ function closeHtml(){
 
 function openCss(){
   gotoThird();
+  pCss.style.fontSize = '4.3vw'
+  pCss.style.top = '18vw'
+  pCss.style.width = '90%'
   swiper.autoplay.stop()
   titleCss.style.top = '3vw'
   css.style.height = '100vh'
@@ -216,6 +231,9 @@ function openCss(){
 
 function closeCss(){
   swiper.autoplay.start()
+  pCss.style.fontSize = '0'
+  pCss.style.width = '0%'
+  pCss.style.top = '-80vh'
   css.style.height = '0vh'
   titleCss.style.top = '-80vh'
   titleCss.style.fontSize = '0'
@@ -236,7 +254,10 @@ function closeCss(){
 function openJs(){
   gotoThird();
   swiper.autoplay.stop()
+  pJs.style.fontSize = '4.3vw'
+  pJs.style.top = '18vw'
   titleJs.style.top = '3vw'
+  pJs.style.width = '90%'
   js.style.height = '100vh'
   titleJs.style.fontSize = '8vw'
   html.style.overflowY = 'hidden';
@@ -256,6 +277,9 @@ function openJs(){
 
 function closeJs(){
   swiper.autoplay.start()
+  pJs.style.fontSize = '0'
+  pJs.style.top = '-80vH'
+  pJs.style.width = '0%'
   js.style.height = '0vh'
   titleJs.style.top = '-80vh'
   titleJs.style.fontSize = '0'
@@ -275,6 +299,9 @@ function closeJs(){
 
 function openCs(){
   gotoThird();
+  pCs.style.fontSize = '4.3vw'
+  pCs.style.top = '18vw'
+  pCs.style.width = '90%'
   swiper.autoplay.stop()
   titleCs.style.top = '3vw'
   cs.style.height = '100vh'
@@ -296,6 +323,9 @@ function openCs(){
 
 function closeCs(){
   swiper.autoplay.start()
+  pCs.style.fontSize = '0'
+  pCs.style.top = '-80vh'
+  pCs.style.width = '0%'
   cs.style.height = '0vh'
   titleCs.style.top = '-80vh'
   titleCs.style.fontSize = '0'
@@ -316,6 +346,9 @@ function closeCs(){
 function openPython(){
   gotoThird();
   swiper.autoplay.stop()
+  pPy.style.fontSize = '4.3vw'
+  pPy.style.top = '18vw'
+  pPy.style.width = '90%'
   python.style.height = '100vh'
   titlePython.style.top = '3vw'
   titlePython.style.fontSize = '8vw'
@@ -336,6 +369,9 @@ function openPython(){
 
 function closePython(){
   swiper.autoplay.start()
+  pPy.style.fontSize = '0'
+  pPy.style.top = '-80vh'
+  pPy.style.width = '0%'
   python.style.height = '0vh'
   titlePython.style.top = '-80vh'
   titlePython.style.fontSize = '0'
@@ -356,6 +392,9 @@ function closePython(){
 function openKotlin(){
   gotoThird();
   swiper.autoplay.stop()
+  pKl.style.fontSize = '4.3vw'
+  pKl.style.top = '18vw'
+  pKl.style.width = '90%'
   kotlin.style.height = '100vh'
   titleKotlin.style.fontSize = '8vw'
   titleKotlin.style.top = '3vw'
@@ -376,6 +415,9 @@ function openKotlin(){
 
 function closeKotlin(){
   swiper.autoplay.start()
+  pKl.style.fontSize = '0'
+  pKl.style.top = '-80vh'
+  pKl.style.width = '0%'
   kotlin.style.height = '0vh'
   titleKotlin.style.top = '-80vh'
   titleKotlin.style.fontSize = '0'

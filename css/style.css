@@ -203,7 +203,7 @@ img {
     position: absolute;
     width: 100%;
     text-align: center;
-    overflow-y: auto;
+    /*overflow-y: auto;*/
     height: 0vh;
     background-color: rgba(0, 0, 0, 0.8);
     transition: 0.5s;
@@ -212,7 +212,7 @@ img {
 
 
 #project h1 {
-    position: relative;
+    position: absolute;
     transition: 0.8s;
     font-size: 0;
     color: #ffffff;
@@ -224,14 +224,14 @@ img {
 }
 
 #project p {
-    top: 18vw;
+    top: -80vh; /*18vw*/
     position: absolute;
     transition: 0.8s;
-    font-size: 4.3vw;
+    font-size: 0vw;
     color: #DBDCE4;
     font-family: "Oswald";
     font-weight: 300;
-    width: 90%;
+    width: 0%;
     height: 20vw;
 }
 
