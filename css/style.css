@@ -202,6 +202,8 @@ img {
     z-index: 10;
     position: absolute;
     width: 100%;
+    text-align: center;
+    overflow-y: auto;
     height: 0vh;
     background-color: rgba(0, 0, 0, 0.8);
     transition: 0.5s;
@@ -210,14 +212,27 @@ img {
 
 
 #project h1 {
-    position: absolute;
+    position: relative;
     transition: 0.8s;
     font-size: 0;
     color: #ffffff;
     font-family: "Oswald";
     font-weight: 400;
     height: 0vw;
+    width: 100%;
     top: -80vh;
+}
+
+#project p {
+    top: 18vw;
+    position: absolute;
+    transition: 0.8s;
+    font-size: 4.3vw;
+    color: #DBDCE4;
+    font-family: "Oswald";
+    font-weight: 300;
+    width: 90%;
+    height: 20vw;
 }
 
 .section-3 {
