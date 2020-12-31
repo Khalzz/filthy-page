@@ -203,6 +203,7 @@ img {
     position: absolute;
     width: 100%;
     text-align: center;
+    flex-direction: column;
     /*overflow-y: auto;*/
     height: 0vh;
     background-color: rgba(0, 0, 0, 0.8);
@@ -235,29 +236,6 @@ img {
     height: 20vw;
 }
 
-.works {
-    width: 90vw;
-    height: 0vw;
-    position: absolute;
-    top: 0vh;
-    border: 0px solid #DBDCE4;
-    border-radius: 3vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    transition: 0.48s;
-}
-
-.works h3 {
-    transition: 0.8s;
-    font-size: 0;
-    color: #AFB3DA;
-    font-family: "Roboto Mono";
-    font-weight: 400;
-    height: 3vw;
-}
-
 .section-3 {
     position: relative;
     margin-top: -5vh;
@@ -269,8 +247,6 @@ img {
     align-items: center;
     flex-direction: column;
 }
-
-
 
 .title-section-3 {
     transition: 0.8s;
