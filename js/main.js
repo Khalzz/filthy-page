@@ -24,7 +24,7 @@ window.onload=function(){ setTimeout(function(){ 		window.scrollTo(0, 1); 	}, 0)
 var swiper = new Swiper('.swiper-container', {
   slidesPerView: 2.2,
   spaceBetween: 45,
-  initialSlide: 2,
+  initialSlide: -1,
   loop: true,
   autoplay: {
     delay: 3000,
@@ -136,6 +136,24 @@ const cs = document.querySelector('.csharp-projects')
 const python = document.querySelector('.python-projects')
 const kotlin = document.querySelector('.kotlin-projects')
 
+const htmlWorks = document.querySelector('#html-works')
+const htmlBaseText = document.querySelector('.html-uh-oh')
+
+const cssWorks = document.querySelector('#css-works')
+const cssBaseText = document.querySelector('.css-uh-oh')
+
+const jsWorks = document.querySelector('#javascript-works')
+const jsBaseText = document.querySelector('.javascript-uh-oh')
+
+const csWorks = document.querySelector('#csharp-works')
+const csBaseText = document.querySelector('.csharp-uh-oh')
+
+const pyWorks = document.querySelector('#python-works')
+const pyBaseText = document.querySelector('.python-uh-oh')
+
+const klWorks = document.querySelector('#kotlin-works')
+const klBaseText = document.querySelector('.kotlin-uh-oh')
+
 const titleHtml = document.querySelector('.title-html')
 const pHtml = document.querySelector('.p-html')
 const titleCss = document.querySelector('.title-css')
@@ -160,6 +178,10 @@ let count = 0;
 
 function openHtml(){
   gotoThird();
+  htmlWorks.style.border = '1px solid #DBDCE4'
+  htmlWorks.style.height = '110vw'
+  htmlBaseText.style.fontSize = '4vw'
+  htmlWorks.style.top = '30vh'
   swiper.autoplay.stop()
   pHtml.style.width = '90%'
   htmlProjects.style.height = '100vh'
@@ -185,6 +207,10 @@ function openHtml(){
 function closeHtml(){
   swiper.autoplay.start()
   pHtml.style.fontSize = '0vw'
+  htmlWorks.style.height = '0vw'
+  htmlBaseText.style.fontSize = '0'
+  htmlWorks.style.top = '0vh'
+  htmlWorks.style.border = '0px solid #DBDCE4'
   pHtml.style.width = '0%'
   pHtml.style.top = '-80vh'
   titleHtml.style.top = '-80vh'
@@ -206,6 +232,10 @@ function closeHtml(){
 
 function openCss(){
   gotoThird();
+  cssWorks.style.border = '1px solid #DBDCE4'
+  cssWorks.style.height = '110vw'
+  cssBaseText.style.fontSize = '4vw'
+  cssWorks.style.top = '30vh'
   pCss.style.fontSize = '4.3vw'
   pCss.style.top = '18vw'
   pCss.style.width = '90%'
@@ -231,6 +261,10 @@ function openCss(){
 
 function closeCss(){
   swiper.autoplay.start()
+  cssWorks.style.border = '0px solid #DBDCE4'
+  cssWorks.style.height = '0vw'
+  cssBaseText.style.fontSize = '0vw'
+  cssWorks.style.top = '0vh'
   pCss.style.fontSize = '0'
   pCss.style.width = '0%'
   pCss.style.top = '-80vh'
@@ -253,6 +287,10 @@ function closeCss(){
 
 function openJs(){
   gotoThird();
+  jsWorks.style.border = '1px solid #DBDCE4'
+  jsWorks.style.height = '110vw'
+  jsBaseText.style.fontSize = '4vw'
+  jsWorks.style.top = '30vh'
   swiper.autoplay.stop()
   pJs.style.fontSize = '4.3vw'
   pJs.style.top = '18vw'
@@ -277,6 +315,10 @@ function openJs(){
 
 function closeJs(){
   swiper.autoplay.start()
+  jsWorks.style.border = '0px solid #DBDCE4'
+  jsWorks.style.height = '0vw'
+  jsBaseText.style.fontSize = '0vw'
+  jsWorks.style.top = '0vh'
   pJs.style.fontSize = '0'
   pJs.style.top = '-80vH'
   pJs.style.width = '0%'
@@ -299,6 +341,10 @@ function closeJs(){
 
 function openCs(){
   gotoThird();
+  csWorks.style.border = '1px solid #DBDCE4'
+  csWorks.style.height = '110vw'
+  csBaseText.style.fontSize = '4vw'
+  csWorks.style.top = '30vh'
   pCs.style.fontSize = '4.3vw'
   pCs.style.top = '18vw'
   pCs.style.width = '90%'
@@ -322,6 +368,10 @@ function openCs(){
 }
 
 function closeCs(){
+  csWorks.style.border = '0px solid #DBDCE4'
+  csWorks.style.height = '0'
+  csBaseText.style.fontSize = '0'
+  csWorks.style.top = '0'
   swiper.autoplay.start()
   pCs.style.fontSize = '0'
   pCs.style.top = '-80vh'
@@ -345,6 +395,10 @@ function closeCs(){
 
 function openPython(){
   gotoThird();
+  pyWorks.style.border = '1px solid #DBDCE4'
+  pyWorks.style.height = '110vw'
+  pyBaseText.style.fontSize = '4vw'
+  pyWorks.style.top = '30vh'
   swiper.autoplay.stop()
   pPy.style.fontSize = '4.3vw'
   pPy.style.top = '18vw'
@@ -368,6 +422,10 @@ function openPython(){
 }
 
 function closePython(){
+  pyWorks.style.border = '0px solid #DBDCE4'
+  pyWorks.style.height = '0'
+  pyBaseText.style.fontSize = '0'
+  pyWorks.style.top = '0'
   swiper.autoplay.start()
   pPy.style.fontSize = '0'
   pPy.style.top = '-80vh'
@@ -391,6 +449,10 @@ function closePython(){
 
 function openKotlin(){
   gotoThird();
+  klWorks.style.border = '1px solid #DBDCE4'
+  klWorks.style.height = '110vw'
+  klBaseText.style.fontSize = '4vw'
+  klWorks.style.top = '30vh'
   swiper.autoplay.stop()
   pKl.style.fontSize = '4.3vw'
   pKl.style.top = '18vw'
@@ -414,6 +476,10 @@ function openKotlin(){
 }
 
 function closeKotlin(){
+  klWorks.style.border = '0px solid #DBDCE4'
+  klWorks.style.height = '0'
+  klBaseText.style.fontSize = '0'
+  klWorks.style.top = '0'
   swiper.autoplay.start()
   pKl.style.fontSize = '0'
   pKl.style.top = '-80vh'
