@@ -85,7 +85,6 @@ img {
     background-color: #15161C;
     align-items: center;
     flex-direction: column;
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .nav-button {
@@ -208,13 +207,14 @@ img {
     height: 0vh;
     background-color: rgba(0, 0, 0, 0.8);
     transition: 0.5s;
-    justify-content: center;
+    align-items: center;
 }
 
 
 #project h1 {
     position: absolute;
     transition: 0.8s;
+    align-self: start;
     font-size: 0;
     color: #ffffff;
     font-family: "Oswald";
@@ -226,7 +226,8 @@ img {
 
 #project p {
     top: -80vh; /*18vw*/
-    position: absolute;
+    position: relative;
+    align-self: center;
     transition: 0.8s;
     font-size: 0vw;
     color: #DBDCE4;
@@ -268,7 +269,7 @@ img {
     z-index: 20;
     position: absolute;
     top: 80vw;
-    right: 3vw;
+    right: 1.3vw;
     height: 0vw;
     width: 12vw;
     border-radius: 2vw;

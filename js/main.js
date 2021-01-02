@@ -161,8 +161,8 @@ let count = 0;
 function openHtml(){
   gotoThird();
   swiper.autoplay.stop()
-  pHtml.style.width = '90%'
   htmlProjects.style.height = '100vh'
+  pHtml.style.width = '90%'
   pHtml.style.fontSize = '4.3vw'
   pHtml.style.top = '18vw'
   titleHtml.style.fontSize = '8vw'
