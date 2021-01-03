@@ -202,8 +202,8 @@ function closeHtml(){
   pHtml.style.top = '-80vh'
   pHtml.style.marginTop = '0vw'
   titleHtml.style.top = '-80vh'
-  htmlProjects.style.height = '0vh'
   titleHtml.style.fontSize = '0'
+  htmlProjects.style.height = '0vh'
   html.style.overflowY = 'auto';
   closeButton.style.height = '0'
   closeButton.style.top = '-80vw'
@@ -488,6 +488,21 @@ function closeKotlin(){
   sectionTitle.style.color = '#ffffff'
   html.style.overflowY = 'auto';
 }
+
+function hideHtml() {
+  pHtml.style.fontSize = '0vw'
+  pHtml.style.width = '0%'
+  pHtml.style.top = '-80vh'
+  pHtml.style.marginTop = '0vw'
+  titleHtml.style.top = '-80vh'
+  titleHtml.style.fontSize = '0'
+}
+function reverse() {}
+function hide() {}
+function reverse() {}
+function hide() {}
+function reverse() {}
+
 
 function closeProjects() {
   if (count == 1) {
