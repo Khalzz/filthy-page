@@ -130,11 +130,17 @@ function action() {
 
 //projects
 const htmlProjects = document.querySelector('.html-projects')
+const htmlBackground = document.querySelector('#html-background')
 const css = document.querySelector('.css-projects')
+const cssBackground = document.querySelector('#css-background')
 const js = document.querySelector('.javascript-projects')
+const jsBackground = document.querySelector('#js-background')
 const cs = document.querySelector('.csharp-projects')
+const csBackground = document.querySelector('#cs-background')
 const python = document.querySelector('.python-projects')
+const pyBackground = document.querySelector('#py-background')
 const kotlin = document.querySelector('.kotlin-projects')
+const klBackground = document.querySelector('#kl-background')
 
 const titleHtml = document.querySelector('.title-html')
 const pHtml = document.querySelector('.p-html')
@@ -160,16 +166,20 @@ let count = 0;
 
 function openHtml(){
   gotoThird();
+  htmlBackground.style.backgroundColor = '#1E1F27'
+  htmlBackground.style.height = '95vh'
   swiper.autoplay.stop()
   htmlProjects.style.height = '100vh'
   pHtml.style.width = '90%'
-  pHtml.style.fontSize = '4.3vw'
-  pHtml.style.top = '18vw'
+  pHtml.style.fontSize = '4vw'
+  pHtml.style.top = '0vw'
+  pHtml.style.marginTop = '18vw'
   titleHtml.style.fontSize = '8vw'
-  titleHtml.style.top = '3vw'
+  titleHtml.style.top = '2.2vw'
+  titleHtml.style.position = 'relative'
   html.style.overflowY = 'hidden';
   closeButton.style.height = '10vw'
-  closeButton.style.top = '3vw'
+  closeButton.style.top = '7vw'
   bar1.style.height = '0.5vw'
   bar1.style.width = '8vw'
   bar1.style.transform = 'rotate(45deg)'
@@ -183,10 +193,13 @@ function openHtml(){
 }
 
 function closeHtml(){
+  htmlBackground.style.backgroundColor = 'rgba(0, 0, 0, 0.8)'
   swiper.autoplay.start()
+  htmlBackground.style.height = '0vh'
   pHtml.style.fontSize = '0vw'
   pHtml.style.width = '0%'
   pHtml.style.top = '-80vh'
+  pHtml.style.marginTop = '0vw'
   titleHtml.style.top = '-80vh'
   htmlProjects.style.height = '0vh'
   titleHtml.style.fontSize = '0'
@@ -205,17 +218,21 @@ function closeHtml(){
 }
 
 function openCss(){
+  cssBackground.style.backgroundColor = '#1E1F27'
+  cssBackground.style.height = '95vh'
   gotoThird();
-  pCss.style.fontSize = '4.3vw'
-  pCss.style.top = '18vw'
+  pCss.style.fontSize = '4vw'
+  pCss.style.top = '0vw'
+  pCss.style.marginTop = '18vw'
   pCss.style.width = '90%'
   swiper.autoplay.stop()
-  titleCss.style.top = '3vw'
+  titleCss.style.top = '2.2vw'
+  titleCss.style.position = 'relative'
   css.style.height = '100vh'
   titleCss.style.fontSize = '8vw'
   html.style.overflowY = 'hidden';
   closeButton.style.height = '10vw'
-  closeButton.style.top = '3vw'
+  closeButton.style.top = '7vw'
   bar1.style.height = '0.5vw'
   bar1.style.width = '8vw'
   bar1.style.transform = 'rotate(45deg)'
@@ -230,10 +247,13 @@ function openCss(){
 }
 
 function closeCss(){
+  cssBackground.style.backgroundColor = 'rgba(0,0,0,0.8)'
+  cssBackground.style.height = '0vh'
   swiper.autoplay.start()
   pCss.style.fontSize = '0'
   pCss.style.width = '0%'
   pCss.style.top = '-80vh'
+  pCss.style.marginTop = '0vw'
   css.style.height = '0vh'
   titleCss.style.top = '-80vh'
   titleCss.style.fontSize = '0'
@@ -253,16 +273,20 @@ function closeCss(){
 
 function openJs(){
   gotoThird();
+  jsBackground.style.backgroundColor = '#1E1F27'
+  jsBackground.style.height = '95vh'
   swiper.autoplay.stop()
-  pJs.style.fontSize = '4.3vw'
-  pJs.style.top = '18vw'
-  titleJs.style.top = '3vw'
+  pJs.style.fontSize = '4vw'
+  pJs.style.top = '0vw'
+  pJs.style.marginTop = '18vw'
+  titleJs.style.top = '2.2vw'
+  titleJs.style.position = 'relative'
   pJs.style.width = '90%'
   js.style.height = '100vh'
   titleJs.style.fontSize = '8vw'
   html.style.overflowY = 'hidden';
   closeButton.style.height = '10vw'
-  closeButton.style.top = '3vw'
+  closeButton.style.top = '7vw'
   bar1.style.height = '0.5vw'
   bar1.style.width = '8vw'
   bar1.style.transform = 'rotate(45deg)'
@@ -276,9 +300,12 @@ function openJs(){
 }
 
 function closeJs(){
+  jsBackground.style.backgroundColor = 'rgba(0,0,0,0.8)'
+  jsBackground.style.height = '0vh'
   swiper.autoplay.start()
   pJs.style.fontSize = '0'
-  pJs.style.top = '-80vH'
+  pJs.style.top = '-80vh'
+  pJs.style.marginTop = '18vw'
   pJs.style.width = '0%'
   js.style.height = '0vh'
   titleJs.style.top = '-80vh'
@@ -299,16 +326,20 @@ function closeJs(){
 
 function openCs(){
   gotoThird();
-  pCs.style.fontSize = '4.3vw'
-  pCs.style.top = '18vw'
+  csBackground.style.backgroundColor = '#1E1F27'
+  csBackground.style.height = '95vh'
+  pCs.style.fontSize = '4vw'
+  pCs.style.top = '0vw'
+  pCs.style.marginTop = '18vw'
   pCs.style.width = '90%'
   swiper.autoplay.stop()
-  titleCs.style.top = '3vw'
+  titleCs.style.top = '2.2vw'
+  titleCs.style.position = 'relative'
   cs.style.height = '100vh'
   titleCs.style.fontSize = '8vw'
   html.style.overflowY = 'hidden';
   closeButton.style.height = '10vw'
-  closeButton.style.top = '3vw'
+  closeButton.style.top = '7vw'
   bar1.style.height = '0.5vw'
   bar1.style.width = '8vw'
   bar1.style.transform = 'rotate(45deg)'
@@ -322,9 +353,12 @@ function openCs(){
 }
 
 function closeCs(){
+  csBackground.style.backgroundColor = '#rgba(0,0,0,0.8)'
+  csBackground.style.height = '0vh'
   swiper.autoplay.start()
   pCs.style.fontSize = '0'
   pCs.style.top = '-80vh'
+  pCs.style.marginTop = '18vw'
   pCs.style.width = '0%'
   cs.style.height = '0vh'
   titleCs.style.top = '-80vh'
@@ -345,16 +379,20 @@ function closeCs(){
 
 function openPython(){
   gotoThird();
+  pyBackground.style.backgroundColor = '#1E1F27'
+  pyBackground.style.height = '95vh'
   swiper.autoplay.stop()
-  pPy.style.fontSize = '4.3vw'
-  pPy.style.top = '18vw'
+  pPy.style.fontSize = '4vw'
+  pPy.style.top = '0vw'
+  pPy.style.marginTop = '18vw'
   pPy.style.width = '90%'
   python.style.height = '100vh'
-  titlePython.style.top = '3vw'
+  titlePython.style.top = '2.2vw'
+  titlePython.style.position = 'relative'
   titlePython.style.fontSize = '8vw'
   html.style.overflowY = 'hidden';
   closeButton.style.height = '10vw'
-  closeButton.style.top = '3vw'
+  closeButton.style.top = '7vw'
   bar1.style.height = '0.5vw'
   bar1.style.width = '8vw'
   bar1.style.transform = 'rotate(45deg)'
@@ -368,9 +406,12 @@ function openPython(){
 }
 
 function closePython(){
+  pyBackground.style.backgroundColor = 'rgba(0,0,0,0.8)'
+  pyBackground.style.height = '0vh'
   swiper.autoplay.start()
   pPy.style.fontSize = '0'
   pPy.style.top = '-80vh'
+  pPy.style.marginTop = '18vw'
   pPy.style.width = '0%'
   python.style.height = '0vh'
   titlePython.style.top = '-80vh'
@@ -391,20 +432,24 @@ function closePython(){
 
 function openKotlin(){
   gotoThird();
+  klBackground.style.backgroundColor = '#1E1F27'
+  klBackground.style.height = '95vh'
   swiper.autoplay.stop()
-  pKl.style.fontSize = '4.3vw'
-  pKl.style.top = '18vw'
+  pKl.style.fontSize = '4vw'
+  pKl.style.top = '0vw'
+  pKl.style.marginTop = '18vw'
   pKl.style.width = '90%'
   kotlin.style.height = '100vh'
   titleKotlin.style.fontSize = '8vw'
-  titleKotlin.style.top = '3vw'
+  titleKotlin.style.top = '2.2vw'
+  titleKotlin.style.position = 'relative'
   html.style.overflowY = 'hidden';
   closeButton.style.height = '10vw'
-  closeButton.style.top = '3vw'
-  bar1.style.height = '0.5vw'
+  closeButton.style.top = '7vw'
+  bar1.style.height = '1vw'
   bar1.style.width = '8vw'
   bar1.style.transform = 'rotate(45deg)'
-  bar2.style.height = '0.5vw'
+  bar2.style.height = '1vw'
   bar2.style.width = '8vw'
   bar2.style.transform = 'rotate(-45deg)'
   portfolioButton.style.marginBottom = '-200vh'
@@ -415,8 +460,11 @@ function openKotlin(){
 
 function closeKotlin(){
   swiper.autoplay.start()
+  klBackground.style.backgroundColor = 'rgba(0,0,0,0.8)'
+  klBackground.style.height = '0vh'
   pKl.style.fontSize = '0'
   pKl.style.top = '-80vh'
+  pHtml.style.marginTop = '0vw'
   pKl.style.width = '0%'
   kotlin.style.height = '0vh'
   titleKotlin.style.top = '-80vh'
