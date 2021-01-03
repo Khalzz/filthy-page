@@ -193,6 +193,7 @@ function openHtml(){
 }
 
 function closeHtml(){
+  titleHtml.style.position = 'absolute'
   htmlBackground.style.backgroundColor = 'rgba(0, 0, 0, 0.8)'
   swiper.autoplay.start()
   htmlBackground.style.height = '0vh'
@@ -247,6 +248,7 @@ function openCss(){
 }
 
 function closeCss(){
+  titleCss.style.position = 'absolute'
   cssBackground.style.backgroundColor = 'rgba(0,0,0,0.8)'
   cssBackground.style.height = '0vh'
   swiper.autoplay.start()
@@ -300,6 +302,7 @@ function openJs(){
 }
 
 function closeJs(){
+  titleJs.style.position = 'absolute'
   jsBackground.style.backgroundColor = 'rgba(0,0,0,0.8)'
   jsBackground.style.height = '0vh'
   swiper.autoplay.start()
@@ -353,6 +356,7 @@ function openCs(){
 }
 
 function closeCs(){
+  titleCs.style.position = 'absolute'
   csBackground.style.backgroundColor = '#rgba(0,0,0,0.8)'
   csBackground.style.height = '0vh'
   swiper.autoplay.start()
@@ -406,6 +410,7 @@ function openPython(){
 }
 
 function closePython(){
+  titlePython.style.position = 'absolute'
   pyBackground.style.backgroundColor = 'rgba(0,0,0,0.8)'
   pyBackground.style.height = '0vh'
   swiper.autoplay.start()
@@ -459,6 +464,7 @@ function openKotlin(){
 }
 
 function closeKotlin(){
+  titleKotlin.style.position = 'absolute'
   swiper.autoplay.start()
   klBackground.style.backgroundColor = 'rgba(0,0,0,0.8)'
   klBackground.style.height = '0vh'
