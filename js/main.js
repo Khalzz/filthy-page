@@ -446,10 +446,10 @@ function openKotlin(){
   html.style.overflowY = 'hidden';
   closeButton.style.height = '10vw'
   closeButton.style.top = '7vw'
-  bar1.style.height = '1vw'
+  bar1.style.height = '0.5vw'
   bar1.style.width = '8vw'
   bar1.style.transform = 'rotate(45deg)'
-  bar2.style.height = '1vw'
+  bar2.style.height = '0.5vw'
   bar2.style.width = '8vw'
   bar2.style.transform = 'rotate(-45deg)'
   portfolioButton.style.marginBottom = '-200vh'
