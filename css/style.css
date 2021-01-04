@@ -250,6 +250,8 @@ img {
 }
 
 .project-divisor {
+    transition: 0.8s;
+    position: relative;
     margin-top: 5vw;
     margin-bottom: 4vh;
     justify-content: center;
@@ -258,7 +260,6 @@ img {
     flex-direction: row;
     height: 5vh;
     width: 100%;
-    
 }
 
 .project-divisor h3 {

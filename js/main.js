@@ -162,6 +162,13 @@ const bar2 = document.querySelector('.bar-2');
 const portfolioButton = document.querySelector('.portfolio')
 const sectionTitle = document.querySelector('.title-section-3')
 
+const htmlDivider = document.querySelector('#html-divisor')
+const cssDivider = document.querySelector('#css-divisor')
+const jsDivider = document.querySelector('#js-divisor')
+const csDivider = document.querySelector('#cs-divisor')
+const pyDivider = document.querySelector('#py-divisor')
+const klDivider = document.querySelector('#kl-divisor')
+
 let count = 0;
 
 function openHtml(){
@@ -490,6 +497,8 @@ function closeKotlin(){
 }
 
 function hideHtml() {
+  htmlDivider.style.marginTop = '-10vh'
+  htmlDivider.style.marginBottom = '14vh'
   pHtml.style.fontSize = '0vw'
   pHtml.style.width = '0%'
   pHtml.style.top = '-80vh'
@@ -498,9 +507,27 @@ function hideHtml() {
   titleHtml.style.fontSize = '0'
 }
 function reverse() {}
-function hide() {}
+function hideCss() {
+  cssDivider.style.marginTop = '-10vh'
+  cssDivider.style.marginBottom = '14vh'
+  pCss.style.fontSize = '0vw'
+  pCss.style.width = '0%'
+  pCss.style.top = '-80vh'
+  pCss.style.marginTop = '0vw'
+  titleCss.style.top = '-80vh'
+  titleCss.style.fontSize = '0'
+}
 function reverse() {}
-function hide() {}
+function hideJs() {
+  jsDivider.style.marginTop = '-10vh'
+  jsDivider.style.marginBottom = '14vh'
+  pJs.style.fontSize = '0vw'
+  pJs.style.width = '0%'
+  pJs.style.top = '-80vh'
+  pJs.style.marginTop = '0vw'
+  titleJs.style.top = '-80vh'
+  titleJs.style.fontSize = '0'
+}
 function reverse() {}
 
 
