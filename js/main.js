@@ -496,7 +496,10 @@ function closeKotlin(){
   html.style.overflowY = 'auto';
 }
 
+let projetsCount = 0
+
 function hideHtml() {
+  showBackButton();
   htmlDivider.style.marginTop = '-10vh'
   htmlDivider.style.marginBottom = '14vh'
   pHtml.style.fontSize = '0vw'
@@ -505,9 +508,10 @@ function hideHtml() {
   pHtml.style.marginTop = '0vw'
   titleHtml.style.top = '-80vh'
   titleHtml.style.fontSize = '0'
+  projetsCount = 1
 }
-function reverse() {}
 function hideCss() {
+  showBackButton();
   cssDivider.style.marginTop = '-10vh'
   cssDivider.style.marginBottom = '14vh'
   pCss.style.fontSize = '0vw'
@@ -516,9 +520,10 @@ function hideCss() {
   pCss.style.marginTop = '0vw'
   titleCss.style.top = '-80vh'
   titleCss.style.fontSize = '0'
+  projetsCount = 2
 }
-function reverse() {}
 function hideJs() {
+  showBackButton();
   jsDivider.style.marginTop = '-10vh'
   jsDivider.style.marginBottom = '14vh'
   pJs.style.fontSize = '0vw'
@@ -527,9 +532,79 @@ function hideJs() {
   pJs.style.marginTop = '0vw'
   titleJs.style.top = '-80vh'
   titleJs.style.fontSize = '0'
+  projetsCount = 3
 }
-function reverse() {}
 
+function goBack() {
+  if (projetsCount == 1) {
+    hideBackButton()
+    htmlDivider.style.marginTop = '5vw'
+    htmlDivider.style.marginBottom = '4vh'
+    pHtml.style.fontSize = '4vw'
+    pHtml.style.width = '90%'
+    pHtml.style.top = '0vw'
+    pHtml.style.marginTop = '18vw'
+    titleHtml.style.top = '2.2vw'
+    titleHtml.style.fontSize = '8vw'
+  } else if (projetsCount == 2) {
+    hideBackButton()
+    cssDivider.style.marginTop = '5vw'
+    cssDivider.style.marginBottom = '4vh'
+    pCss.style.fontSize = '4vw'
+    pCss.style.width = '90%'
+    pCss.style.top = '0vw'
+    pCss.style.marginTop = '18vw'
+    titleCss.style.top = '2.2vw'
+    titleCss.style.fontSize = '8vw'
+  } else if (projetsCount == 3) {
+    hideBackButton()
+    jsDivider.style.marginTop = '5vw'
+    jsDivider.style.marginBottom = '4vh'
+    pJs.style.fontSize = '4vw'
+    pJs.style.width = '90%'
+    pJs.style.top = '0vw'
+    pJs.style.marginTop = '18vw'
+    titleJs.style.top = '2.2vw'
+    titleJs.style.fontSize = '8vw'
+  }
+}
+
+const backButton = document.querySelector('.back-button')
+const backBar1 = document.querySelector('.bar-1-back');
+const backBar2 = document.querySelector('.bar-2-back');
+
+function showBackButton() {
+  closeButton.style.height = '0'
+  closeButton.style.top = '-80vw'
+  bar1.style.height = '0'
+  bar1.style.width = '0'
+  bar1.style.transform = 'rotate(45)'
+  bar2.style.height = '0'
+  bar2.style.width = '0'
+  backButton.style.height = '10vw'
+  backButton.style.top = '7vw'
+  backBar1.style.height = '0.8vw'
+  backBar1.style.width = '6vw'
+  backBar2.style.height = '0.8vw'
+  backBar2.style.width = '6vw'
+}
+
+function hideBackButton() {
+  closeButton.style.height = '10vw'
+  closeButton.style.top = '7vw'
+  bar1.style.height = '0.5vw'
+  bar1.style.width = '8vw'
+  bar1.style.transform = 'rotate(45deg)'
+  bar2.style.height = '0.5vw'
+  bar2.style.width = '8vw'
+  bar2.style.transform = 'rotate(-45deg)'
+  backButton.style.height = '0vw'
+  backButton.style.top = '-80vw'
+  backBar1.style.height = '0vw'
+  backBar1.style.width = '0vw'
+  backBar2.style.height = '0vw'
+  backBar2.style.width = '0vw'
+}
 
 function closeProjects() {
   if (count == 1) {

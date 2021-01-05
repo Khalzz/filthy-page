@@ -321,6 +321,42 @@ img {
 
 }
 
+.back-button {
+    z-index: 20;
+    position: absolute;
+    top: -80vw;
+    left: 5vw;
+    height: 0vw;
+    width: 12vw;
+    border-radius: 2vw;
+    background-color: rgba(0, 0, 0, 0);
+    transition: 0.9s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bar-1-back{
+    transition: 0.9s;
+    height: 0vw;
+    width: 0vw;
+    border-radius: 10vw;
+    background-color: #DBDCE4;
+    transform: rotate(-45deg);
+}
+
+.bar-2-back{
+    transition: 0.9s;
+    margin-top: 3.1vw;
+    height: 0vw;
+    width: 0vw;
+    border-radius: 10vw;
+    background-color: #DBDCE4;
+    transform: rotate(45deg);
+}
+
+
 .close {
     transition: 0.1s;
 }
