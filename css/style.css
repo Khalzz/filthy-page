@@ -321,6 +321,14 @@ img {
 
 }
 
+.back {
+    transition: 0.1s;
+}
+
+.back:active {
+    filter: brightness(0.4);
+}
+
 .back-button {
     z-index: 20;
     position: absolute;
@@ -356,9 +364,12 @@ img {
     transform: rotate(45deg);
 }
 
-
 .close {
     transition: 0.1s;
+}
+
+.close:active {
+    filter: brightness(0.4);
 }
 
 .close-button {
@@ -375,10 +386,6 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-.close:active {
-    filter: brightness(0.4);
 }
 
 .bar-1{
