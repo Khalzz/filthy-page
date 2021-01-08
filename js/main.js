@@ -169,10 +169,13 @@ const csDivider = document.querySelector('#cs-divisor')
 const pyDivider = document.querySelector('#py-divisor')
 const klDivider = document.querySelector('#kl-divisor')
 
+const filthyPage = document.querySelector('.filthy-page')
+
 let count = 0;
 
 function openHtml(){
   gotoThird();
+
   htmlBackground.style.backgroundColor = '#1E1F27'
   htmlBackground.style.height = '95vh'
   swiper.autoplay.stop()
@@ -500,6 +503,7 @@ let projetsCount = 0
 
 function hideHtml() {
   showBackButton();
+  filthyPage.style.top = '0'
   htmlDivider.style.marginTop = '-10vh'
   htmlDivider.style.marginBottom = '14vh'
   pHtml.style.fontSize = '0vw'
