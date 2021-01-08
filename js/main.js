@@ -169,13 +169,10 @@ const csDivider = document.querySelector('#cs-divisor')
 const pyDivider = document.querySelector('#py-divisor')
 const klDivider = document.querySelector('#kl-divisor')
 
-const filthyPage = document.querySelector('.filthy-page')
-
 let count = 0;
 
 function openHtml(){
   gotoThird();
-
   htmlBackground.style.backgroundColor = '#1E1F27'
   htmlBackground.style.height = '95vh'
   swiper.autoplay.stop()
@@ -503,7 +500,7 @@ let projetsCount = 0
 
 function hideHtml() {
   showBackButton();
-  filthyPage.style.top = '0'
+  filthyPageHtml.style.top = '0'
   htmlDivider.style.marginTop = '-10vh'
   htmlDivider.style.marginBottom = '14vh'
   pHtml.style.fontSize = '0vw'
@@ -516,6 +513,7 @@ function hideHtml() {
 }
 function hideCss() {
   showBackButton();
+  filthyPageCss.style.top = '0'
   cssDivider.style.marginTop = '-10vh'
   cssDivider.style.marginBottom = '14vh'
   pCss.style.fontSize = '0vw'
@@ -528,6 +526,7 @@ function hideCss() {
 }
 function hideJs() {
   showBackButton();
+  filthyPageJs.style.top = '0'
   jsDivider.style.marginTop = '-10vh'
   jsDivider.style.marginBottom = '14vh'
   pJs.style.fontSize = '0vw'
@@ -537,6 +536,42 @@ function hideJs() {
   titleJs.style.top = '-80vh'
   titleJs.style.fontSize = '0'
   projetsCount = 3
+}
+
+const filthyPageHtml = document.querySelector('#filthy-page-html')
+const htmlDescription = document.querySelector('.html-description')
+
+const filthyPageCss = document.querySelector('#filthy-page-css')
+const cssDescription = document.querySelector('.css-description')
+
+const filthyPageJs = document.querySelector('#filthy-page-js')
+const jsDescription = document.querySelector('.js-description')
+
+
+let hideCount = 0;
+
+function openFilthyProjectHtml() {
+  hideHtml();
+  filthyPageHtml.style.left = '0'
+  htmlDescription.style.fontSize = '4vw'
+  htmlDescription.style.width = '90%'
+  hideCount = 1;
+}
+
+function openFilthyProjectCss() {
+  hideCss();
+  filthyPageCss.style.left = '0'
+  cssDescription.style.fontSize = '4vw'
+  cssDescription.style.width = '90%'
+  hideCount = 1;
+}
+
+function openFilthyProjectJs() {
+  hideJs();
+  filthyPageJs.style.left = '0'
+  jsDescription.style.fontSize = '4vw'
+  jsDescription.style.width = '90%'
+  hideCount = 1;
 }
 
 function goBack() {
@@ -550,6 +585,12 @@ function goBack() {
     pHtml.style.marginTop = '18vw'
     titleHtml.style.top = '2.2vw'
     titleHtml.style.fontSize = '8vw'
+    if (hideCount == 1) {
+      hideCount = 0;
+      filthyPageHtml.style.left = '180vw'
+      htmlDescription.style.fontSize = '0'
+      htmlDescription.style.width = '0'
+    }
   } else if (projetsCount == 2) {
     hideBackButton()
     cssDivider.style.marginTop = '5vw'
@@ -560,6 +601,12 @@ function goBack() {
     pCss.style.marginTop = '18vw'
     titleCss.style.top = '2.2vw'
     titleCss.style.fontSize = '8vw'
+    if (hideCount == 1) {
+      hideCount = 0;
+      filthyPageCss.style.left = '180vw'
+      cssDescription.style.fontSize = '0'
+      cssDescription.style.width = '0'
+    }
   } else if (projetsCount == 3) {
     hideBackButton()
     jsDivider.style.marginTop = '5vw'
@@ -570,6 +617,12 @@ function goBack() {
     pJs.style.marginTop = '18vw'
     titleJs.style.top = '2.2vw'
     titleJs.style.fontSize = '8vw'
+    if (hideCount == 1) {
+      hideCount = 0;
+      filthyPageJs.style.left = '180vw'
+      jsDescription.style.fontSize = '0'
+      jsDescription.style.width = '0'
+    }
   }
 }
 
