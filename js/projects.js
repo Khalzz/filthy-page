@@ -40,6 +40,7 @@ const pyDivider = document.querySelector('#py-divisor')
 const klDivider = document.querySelector('#kl-divisor')
 
 let count = 0;
+let openCount = 0;
 
 function openHtml(){
   gotoThird();
@@ -67,6 +68,7 @@ function openHtml(){
   sectionTitle.style.webkitTextStroke = '1px #15161C'
   sectionTitle.style.color = '#15161C'
   count = 1
+  openCount = 1
 }
 
 function closeHtml(){
@@ -93,6 +95,7 @@ function closeHtml(){
   sectionTitle.style.webkitTextStroke = '1px #ffffff'
   bar2.style.transform = 'rotate(-45deg)'
   sectionTitle.style.color = '#ffffff'
+  openCount = 0
 }
 
 function openCss(){
@@ -121,7 +124,7 @@ function openCss(){
   sectionTitle.style.color = '#15161C'
   sectionTitle.style.webkitTextStroke = '1px #15161C'
   count = 2
-
+  openCount = 3
 }
 
 function closeCss(){
@@ -148,6 +151,7 @@ function closeCss(){
   sectionTitle.style.webkitTextStroke = '1px #ffffff'
   sectionTitle.style.color = '#ffffff'
   bar2.style.transform = 'rotate(-45deg)'
+  openCount = 0
 }
 
 function openJs(){
@@ -176,6 +180,7 @@ function openJs(){
   sectionTitle.style.color = '#15161C'
   sectionTitle.style.webkitTextStroke = '1px #15161C'
   count = 3
+  openCount = 5
 }
 
 function closeJs(){
@@ -202,6 +207,7 @@ function closeJs(){
   sectionTitle.style.webkitTextStroke = '1px #ffffff'
   sectionTitle.style.color = '#ffffff'
   bar2.style.transform = 'rotate(-45deg)'
+  openCount = 0
 }
 
 function openCs(){
@@ -431,6 +437,7 @@ function openFilthyProjectHtml() {
   htmlDescription.style.fontSize = '4vw'
   htmlDescription.style.width = '90%'
   hideCount = 1;
+  openCount = 2
 }
 
 function openFilthyProjectCss() {
@@ -442,6 +449,7 @@ function openFilthyProjectCss() {
   cssDescription.style.fontSize = '4vw'
   cssDescription.style.width = '90%'
   hideCount = 1;
+  openCount = 4
 }
 
 function openFilthyProjectJs() {
@@ -453,6 +461,7 @@ function openFilthyProjectJs() {
   jsDescription.style.fontSize = '4vw'
   jsDescription.style.width = '90%'
   hideCount = 1;
+  openCount = 6
 }
 
 function goBack() {
@@ -474,6 +483,7 @@ function goBack() {
       htmlBackground.style.overflowY = 'auto'
       htmlDescription.style.fontSize = '0'
       htmlDescription.style.width = '0'
+      openCount = 1
     }
   } else if (projetsCount == 2) {
     hideBackButton()
@@ -493,6 +503,7 @@ function goBack() {
       cssBackground.style.overflowY = 'auto'
       cssDescription.style.fontSize = '0'
       cssDescription.style.width = '0'
+      openCount = 3
     }
   } else if (projetsCount == 3) {
     hideBackButton()
@@ -512,6 +523,7 @@ function goBack() {
       jsBackground.style.overflowY = 'auto'
       jsDescription.style.fontSize = '0'
       jsDescription.style.width = '0'
+      openCount = 5
     }
   }
 }
@@ -553,6 +565,29 @@ function hideBackButton() {
   backBar2.style.width = '0vw'
 }
 
+function openFilthyPageHtml() {
+  if (openCount == 1) {
+    openFilthyProjectHtml()
+  } else if (openCount == 2) {
+    location.reload() //the idea is to enter int othe same page, not reload it but it works by now
+  }
+}
+
+function openFilthyPageCss() {
+  if (openCount == 3) {
+    openFilthyProjectCss()
+  } else if (openCount == 4) {
+    location.reload() //the idea is to enter int othe same page, not reload it but it works by now
+  }
+}
+
+function openFilthyPageJs() {
+  if (openCount == 5) {
+    openFilthyProjectJs()
+  } else if (openCount == 6) {
+    location.reload() //the idea is to enter int othe same page, not reload it but it works by now
+  }
+}
 function closeProjects() {
   if (count == 1) {
     closeHtml();

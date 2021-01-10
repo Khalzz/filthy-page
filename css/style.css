@@ -185,7 +185,7 @@ img {
     align-items: center;
     font-family: "Roboto Mono";
     color: #DC486A;
-    border: 0.5vw solid #DC486A;
+    border: 2px solid #DC486A;
     border-radius: 2vw;
     height: 15vw;
     width: 35vw;
@@ -248,6 +248,37 @@ img {
     font-family: "Roboto Mono";
     font-weight: 400;
     width: 0%;
+}
+
+#check-on {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    width: 40vw;
+}
+
+#check-on p{
+    font-family: "Roboto Mono";
+    color: #DC486A;
+    font-size: 3.5vw;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 16vw;
+    width: 50vw;
+    border-radius: 3vw;
+    border: 2px solid #DC486A;
+    transition: 0.2s;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+#check-on p:active {
+    background-color: #DC486A;
+    color: #15161C;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
 }
 
 .project-divisor {
@@ -539,7 +570,6 @@ img {
 }
 
 .swiper-container {
-    margin-left: 30vw;
     margin-top: 5vw;
     width: 100%;
     height: 53vw;
