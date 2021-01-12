@@ -1,0 +1,9 @@
+.transition {
+    position: fixed;
+    width: 200vw;
+    height: 100vh;
+    left: 0vw;
+    transition: 0.8s;
+    z-index: 100;
+    background-color: #DC486A;
+}

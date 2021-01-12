@@ -8,6 +8,8 @@
     <meta name="description" content="Hi, I'm Rodrigo and here you will find information about me, the projects I worked on and I'm working on">
     <link rel="icon" href="images/logo.ico">
     <link href="css/style.css" rel="stylesheet">
+    <link href="html/otherCss/base.css" rel="stylesheet">
+    <link href="html/transitions/transitions.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -23,6 +25,7 @@
     <title>Rodrigo Seguel</title>
 </head>
 <body>
+    <div class="transition"></div>
     <div class="nav">
         <div class="button-1" onclick="openAbout();"><p>About me</p></div>
         <div class="button-2" onclick="openProjects();"><p>Projects</p></div>
@@ -56,142 +59,6 @@
             <div onclick="closeProjects();" class="close">
                 <div class="bar-1"></div>
                 <div class="bar-2"></div>
-            </div>
-        </div>
-        <div class="html-projects" id="project">
-            <div class="projects-background"  id="html-background">    
-                <h1 class="title-html" id="project-h1">Html</h1>
-                <p class="p-html" id="project-p">Html (HiperText Markup Language) it's a language who lets us create the "basic structure of our web pages" adding text, images and another parts of it without think about how it looks.</p>
-                <div class="project-divisor" id=html-divisor>
-                    <div id="lines"></div>
-                    <h3>Projects</h3>
-                    <div id="lines"></div>
-                </div>
-                <!--project Filthy-->
-                <div id="filthy-project" class="filthy-project-html">
-                    <img onclick="openFilthyPageHtml();" src="images/filthyPageProject.svg">
-                </div>
-                <div class="filthy-page" id="filthy-page-html">
-                    <h3 id="instructions">Press the banner to see the whole project</h3>
-                    <h1>Filthy Page</h1>
-                    <p id="description" class="html-description">This is my personal portfolio, where you can find information about me, my projects, my contact information and even a personal blog, where I write about development, technology and also my learning process.</p>
-                    <h3 id="developed-with">Developed with:</h3>
-                    <div id="line-1">
-                        <div>Html</div>
-                        <div>Css</div>
-                        <div>JavaScript</div>
-                    </div>
-                    <div id="line-2">
-                        <div>Figma</div>
-                        <div>GitHub</div>
-                    </div>
-                    <div class="github-filthy" id="check-on">
-                        <p onclick="openGitFilthy();">Check it out on github</p>
-                    </div>
-                </div>
-                <!--project Filthy-->
-                
-            </div>
-        </div>
-        <div class="css-projects" id="project">
-            <div class="projects-background" id="css-background">
-                <h1 class="title-css" id="project-h1">Css</h1>
-                <p class="p-css" id="project-p">Css (Cascade Style Sheets) it's the "second part" of our web pages, the language that we are gonna use to create the style or "design" of our page using the Html that we have like our base.</p>
-                <div class="project-divisor" id=css-divisor>
-                    <div id="lines"></div>
-                    <h3>Projects</h3>
-                    <div id="lines"></div>
-                </div>
-                <!--project Filthy-->
-                <div id="filthy-project" class="filthy-project-css">
-                    <img onclick="openFilthyPageCss();"src="images/filthyPageProject.svg">
-                </div>
-                <div class="filthy-page" id="filthy-page-css">
-                    <h3 id="instructions">Press the banner to see the whole project</h3>
-                    <h1>Filthy Page</h1>
-                    <p id="description" class="css-description">This is my personal portfolio, where you can find information about me, my projects, my contact information and even a personal blog, where I write about development, technology and also my learning process.</p>
-                    <h3 id="developed-with">Developed with:</h3>
-                    <div id="line-1">
-                        <div>Html</div>
-                        <div>Css</div>
-                        <div>JavaScript</div>
-                    </div>
-                    <div id="line-2">
-                        <div>Figma</div>
-                        <div>GitHub</div>
-                    </div>
-                    <div class="github-filthy" id="check-on">
-                        <p onclick="openGitFilthy();">Check it out on github</p>
-                    </div>
-                </div>
-                <!--project Filthy-->
-            </div>
-        </div>
-        <div class="javascript-projects" id="project">
-            <div class="projects-background" id="js-background">
-                <h1 class="title-js" id="project-h1">JavaScript</h1>
-                <p class="p-js" id="project-p">JavaScript it's the last part of our "Web trinity", the actual programming language that we can use to make our web page "interactive".</p>
-                <div class="project-divisor" id=js-divisor>
-                    <div id="lines"></div>
-                    <h3>Projects</h3>
-                    <div id="lines"></div>
-                </div>
-                <!--project Filthy-->
-                <div id="filthy-project" class="filthy-project-js">
-                    <img onclick="openFilthyPageJs();" src="images/filthyPageProject.svg">
-                </div>
-                <div class="filthy-page" id="filthy-page-js">
-                    <h3 id="instructions">Press the banner to see the whole project</h3>
-                    <h1>Filthy Page</h1>
-                    <p id="description" class="js-description">This is my personal portfolio, where you can find information about me, my projects, my contact information and even a personal blog, where I write about development, technology and also my learning process.</p>
-                    <h3 id="developed-with">Developed with:</h3>
-                    <div id="line-1">
-                        <div>Html</div>
-                        <div>Css</div>
-                        <div>JavaScript</div>
-                    </div>
-                    <div id="line-2">
-                        <div>Figma</div>
-                        <div>GitHub</div>
-                    </div>
-                    <div class="github-filthy" id="check-on">
-                        <p onclick="openGitFilthy();">Check it out on github</p>
-                    </div>
-                </div>
-                <!--project Filthy-->
-            </div>
-        </div>
-        <div class="csharp-projects" id="project">
-            <div class="projects-background" id="cs-background">
-                <h1 class="title-cs" id="project-h1">C#</h1>
-                <p class="p-cs" id="project-p">C# it's a programming lenguage created by microsoft like a part of the ".NET framework" ussually used in desktop developing with Windows forms, mobile with Xamarin and my favorite Videogame development with Unity.</p>
-                <div class="project-divisor" id=cs-divisor>
-                    <div id="lines"></div>
-                    <h3>Projects</h3>
-                    <div id="lines"></div>
-                </div>
-            </div>
-        </div>
-        <div class="python-projects" id="project">
-            <div class="projects-background" id="py-background">
-                <h1 class="title-python" id="project-h1">Python</h1>
-                <p class="p-py" id="project-p">Python it's a scripting programming language who try to be easy to learn and use, the most common uses of it are "terminal or console scripting", backend with some frameworks, and also machine learning (but actually it have a lot of more uses)</p>
-                <div class="project-divisor" id=py-divisor>
-                    <div id="lines"></div>
-                    <h3>Projects</h3>
-                    <div id="lines"></div>
-                </div>
-            </div>
-        </div>
-        <div class="kotlin-projects" id="project">
-            <div class="projects-background" id="kl-background">
-                <h1 class="title-kotlin"  id="project-h1">Kotlin</h1>
-                <p class="p-kl" id="project-p">Kotlin it's a Programming language mainly used in native mobile development and who are winning popularity thanks that google are trying to put it as a standard of native mobile development</p>
-                <div class="project-divisor" id=kl-divisor>
-                    <div id="lines"></div>
-                    <h3>Projects</h3>
-                    <div id="lines"></div>
-                </div>
             </div>
         </div>
         <h1 class="title-section-3">What do you know?</h1>
@@ -243,7 +110,7 @@
     <script src="swiper/swiper-bundle.js"></script>
     <script src="swiper/swiper-bundle.min.js"></script>
     <!--swiper-->
-    <script src="js/projects.js"></script>
+    <script src="html/transitions/transitions.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>

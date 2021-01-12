@@ -18,8 +18,6 @@ setInterval(() => {
   }}, 4000);
 //change sub title
 
-window.onload=function(){ setTimeout(function(){ 		window.scrollTo(0, 1); 	}, 0); }
-
 //swiper
 var swiper = new Swiper('.swiper-container', {
   slidesPerView: 2.2,
@@ -37,7 +35,6 @@ var swiper = new Swiper('.swiper-container', {
 });
 //swiper
 
-
 const openItch = () => window.open('https://khalzdev.itch.io/');
 const openGit = () => window.open('https://github.com/Khalzz');
 const openGitFilthy = () => window.open('https://github.com/Khalzz/filthy-page');
@@ -50,10 +47,67 @@ const gotoThird = () => window.location.href = '#section-3';
 const gotoFourth = () => window.location.href = '#section-4';
 const gotoFooter = () => window.location.href = '#footer';
 
-const openContact = () => window.open('html/contact.html');
-const openBlog = () => window.open('html/blog.html');
-const openAbout = () => window.open('html/about.html');
-const openProjects = () => window.open('html/portfolio.html');
+const openContact = () => {
+  transitionClose();
+  setTimeout(() => {
+    window.open('html/contact.html', '_self');
+  }, 800);
+}
+const openBlog = () => {
+  transitionClose()
+  setTimeout(() => {
+    window.open('html/blog.html', '_self');
+  }, 800);
+}
+const openAbout = () => {
+  transitionClose()
+  setTimeout(() => {
+    window.open('html/about.html', '_self');
+  }, 800);
+}
+const openProjects = () => {
+  transitionClose()
+  setTimeout(() => {
+    window.open('html/portfolio.html', '_self');
+  }, 800);
+}
+
+const openHtml = () => {
+  transitionClose()
+  setTimeout(() => {
+    window.open('html/htmlProjects.html', '_self')
+  }, 800);
+}
+const openCss = () => {
+  transitionClose()
+  setTimeout(() => {
+    window.open('html/cssProjects.html', '_self')
+  }, 800);
+}
+const openJs = () => {
+  transitionClose()
+  setTimeout(() => {
+    window.open('html/jsProjects.html', '_self')
+  }, 800);
+}
+const openCs = () => {
+  transitionClose()
+  setTimeout(() => {
+    window.open('html/csharpProjects.html', '_self')
+  }, 800);
+}
+const openPython = () => {
+  transitionClose()
+  setTimeout(() => {
+    window.open('html/pythonProjects.html', '_self')
+  }, 800);
+}
+const openKotlin = () => {
+  transitionClose()
+  setTimeout(() => {
+    window.open('html/kotlinProjects.html', '_self')
+  }, 800);
+}
 
 const nav = document.querySelector('.nav');
 const button1 = document.querySelector('.button-1');
