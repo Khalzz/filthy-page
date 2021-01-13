@@ -13,6 +13,7 @@
 }
 
 .transition-name {
+    margin-top: -20vw;
     width: 100%;
     position: relative;
     text-align: center;
@@ -27,7 +28,7 @@
 }
 
 .transition-subtitle {
-    margin-top: -3vw;
+    margin-top: -3.5vw;
     text-align: center;
     left: 0vw;
     position: relative;
