@@ -1,0 +1,130 @@
+html {
+    height: 100vh;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.back-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 10vw;
+    height: 10vw;
+    top: 3vh;
+    left: 3vh;
+    transition: 0.2s;
+}
+
+.back-button:active #line{
+    filter: brightness(0.6);
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+}
+
+#line {
+    transition: 0.2s;
+    height: 1vw;
+    width: 7.3vw;
+    background-color: #DBDCE4;
+    border-radius: 15vw;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.line-1{
+    transform: rotate(-40deg);
+}
+
+.line-2 {
+    margin-top: 3vw;
+    transform: rotate(40deg);
+
+}
+
+#project {
+    justify-content: center;
+    display: flex;
+    z-index: 10;
+    width: 100%;
+    flex-direction: column;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: 0.5s;
+    align-items: center;
+}
+
+#project-h1 {
+    display: flex;
+    justify-content: center;
+    transition: 0.8s;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Oswald";
+    font-weight: 400;
+    width: 100%;
+    margin: 2vh;
+}
+
+#project-p {
+    text-align: center;
+    align-self: center;
+    transition: 0.8s;
+    font-size: 3.5vw;
+    color: #DBDCE4;
+    font-family: "Roboto Mono";
+    font-weight: 400;
+    width: 95vw;
+}
+
+.project-divisor {
+    transition: 0.8s;
+    margin-top: 5vw;
+    margin-bottom: 4vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    height: 5vh;
+    width: 100%;
+}
+
+.project-divisor h3 {
+    font-family: "Roboto";
+    font-size: 5vw;
+    font-weight: 300;
+    color: #C6C9DE;
+}
+
+#lines{
+    border-radius: 50vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    height: 0.2vw;
+    width: 20%;
+    background-color: #C6C9DE;
+}
+
+#filthy-project {
+    margin: 1vw;
+    position: relative;
+    width: 80%;
+}
+
+#filthy-project img{
+    position: relative;
+    width: 100%;
+    transition: 0.2s;
+    border: 1.5px solid #DC486A;
+    border-radius: 5vw;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#filthy-project img:active{
+    filter: brightness(0.7);
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+}
