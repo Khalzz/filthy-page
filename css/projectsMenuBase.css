@@ -29,8 +29,8 @@ body {
 
 #line {
     transition: 0.2s;
-    height: 1vw;
-    width: 7.3vw;
+    height: 0.6vw;
+    width: 6vw;
     background-color: #DBDCE4;
     border-radius: 15vw;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
