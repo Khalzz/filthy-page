@@ -39,8 +39,7 @@ const closeData = () => {
 const openFilthy = () => {
     openData()
     gotoFilthy();
-    projectImg.style.paddingTop = '27vw'
-    projectImg.style.marginBottom = '90vh'
+    projectImg.style.marginTop = '13vh'
     count = 2
 }
 
