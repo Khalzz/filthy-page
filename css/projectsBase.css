@@ -1,3 +1,11 @@
+body {
+    height: 100vh;
+    display: flex;	
+    flex-direction: column;	
+    justify-content: center;	
+    align-items: center;
+}
+
 /*text for projects*/
 .back-button {
     z-index: 90;
@@ -37,7 +45,7 @@
 }
 
 #filthy-project {
-    margin-top: 20vw;
+    margin-top: 10vw;
     width: 100vw;
     display: flex;
     align-items: center;
@@ -57,17 +65,8 @@
     filter: brightness(0.7);
     box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
 }
-.project-elements {	
-    transition: 1s;		
-    display: flex;	
-    flex-direction: column;	
-    justify-content: center;	
-    align-items: center;	
-    width: 100%;	
-    margin-top: 5vw;
-}	
 
-.project-elements h1 {	
+#project-title {	
     font-family: "Oswald";	
     margin: 2vw;	
     font-weight: 400;	
@@ -76,6 +75,7 @@
 }	
 
 #instructions {	
+    margin-top: 2vw;
     font-family: "Roboto Mono";	
     font-weight: 400;	
     font-size: 3vw;	

@@ -77,5 +77,5 @@ const openFilthyJs = () => {
 //filthy project
 
 //open projects//
-const openFilthy = () => window.open('https://khalzz.github.io/filthy-page/')
+const openGitFilthy = () => window.open('https://khalzz.github.io/filthy-page/')
 //open projects//

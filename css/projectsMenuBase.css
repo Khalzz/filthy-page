@@ -1,9 +1,4 @@
-html {
-    height: 100vh;
-}
-
 body {
-    height: 100vh;
     display: flex;
     overflow-y: auto;
     align-items: center;
