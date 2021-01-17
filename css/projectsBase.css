@@ -77,15 +77,17 @@ body {
 #instructions {	
     margin-top: 2vw;
     font-family: "Roboto Mono";	
-    font-weight: 400;	
+    font-weight: 400;
+    text-align: center;
+    width: 85vw;	
     font-size: 3vw;	
     color: #748492;	
 }	
 
 #description {	
     transition: 1s;	
-    font-family: "Oswald";	
-    font-weight: 300;	
+    font-family: "Roboto Mono";	
+    font-weight: 400;	
     font-size: 3.7vw;	
     width: 95%;	
     text-align: center;	
