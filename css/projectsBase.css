@@ -107,6 +107,7 @@ body {
 }	
 
 #line-1 div {	
+    transition: 0.2s;
     font-family: "Oswald";	
     font-size: 4vw;	
     font-weight: 400;	
@@ -118,8 +119,13 @@ body {
     width: 25vw;	
     height: 6vw;	
     color: #1C1D25;	
-    background-color: #DC486A;	
-}	
+    background-color: #DC486A;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#line-1 div:active {
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+}
 
 #line-2 {	
     display: flex;	
@@ -128,6 +134,7 @@ body {
 }	
 
 #line-2 div {	
+    transition: 0.2s;
     font-family: "Oswald";	
     font-size: 4vw;	
     font-weight: 400;	
@@ -141,7 +148,12 @@ body {
     height: 6vw;	
     color: #1C1D25;	
     background-color: #DC486A;	
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }	
+
+#line-2 div:active {
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+}
 
 #check-on p{	
     font-family: "Roboto Mono";	
