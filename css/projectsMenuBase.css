@@ -113,10 +113,6 @@ body {
     background-color: #C6C9DE;
 }
 
-#container {
-    transition: 0.3s;
-}
-
 #filthy-project {
     margin: 1vw;
     height: 20vh;

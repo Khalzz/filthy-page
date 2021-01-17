@@ -1,3 +1,5 @@
+let menuId = 'none'
+
 const transitionScuare = document.querySelector('.transition')
 const transitionName = document.querySelector('.transition-name')
 const transitionSubtitle = document.querySelector('.transition-subtitle')
@@ -29,3 +31,51 @@ const backToIndex = () => {
     window.open('../index.html', '_self');
   }, 800);
 }
+
+//back to language menus
+const backToHtmlMenu = () => {
+  transitionClose();
+  setTimeout(() => {
+    window.open('../htmlProjects.html', '_self');
+  }, 800);
+}
+
+const backToCssMenu = () => {
+  transitionClose();
+  setTimeout(() => {
+    window.open('../cssProjects.html', '_self');
+  }, 800);
+}
+
+const backToJsMenu = () => {
+  transitionClose();
+  setTimeout(() => {
+    window.open('../jsProjects.html', '_self');
+  }, 800);
+}
+//back to language menus
+
+//filthy project
+const openFilthyHtml = () => {
+  transitionClose();
+  setTimeout(() => {
+      window.open('projects/filthyProjectHtml.html', '_self');
+    }, 800);
+}
+const openFilthyCss = () => {
+  transitionClose();
+  setTimeout(() => {
+      window.open('projects/filthyProjectCss.html', '_self');
+    }, 800);
+}
+const openFilthyJs = () => {
+  transitionClose();
+  setTimeout(() => {
+      window.open('projects/filthyProjectJs.html', '_self');
+    }, 800);
+}
+//filthy project
+
+//open projects//
+const openFilthy = () => window.open('https://khalzz.github.io/filthy-page/')
+//open projects//
