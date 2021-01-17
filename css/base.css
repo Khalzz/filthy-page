@@ -9,13 +9,14 @@
 html {
     height: 100vh;
     scroll-behavior: smooth;
-    overflow-y: auto; /*hidden*/
+    
 }
 
 body {
     background-color: #1C1D25;
     width: 100%;
     overflow-x: hidden;
+    overflow-y: auto; /*hidden*/
 }
 
 img {

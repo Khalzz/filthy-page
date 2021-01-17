@@ -5,6 +5,7 @@ html {
 body {
     height: 100vh;
     display: flex;
+    overflow-y: auto;
     align-items: center;
     flex-direction: column;
     scroll-behavior: smooth;
