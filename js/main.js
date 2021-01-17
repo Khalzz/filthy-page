@@ -37,7 +37,6 @@ var swiper = new Swiper('.swiper-container', {
 
 const openItch = () => window.open('https://khalzdev.itch.io/');
 const openGit = () => window.open('https://github.com/Khalzz');
-const openGitFilthy = () => window.open('https://github.com/Khalzz/filthy-page');
 const openStack = () => window.open('https://es.stackoverflow.com/users/175478/khals');
 const openIg = () => window.open('https://www.instagram.com/moon.drawner.chu.p0u/');
 
