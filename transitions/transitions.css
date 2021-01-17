@@ -3,7 +3,8 @@
 .transition {
     position: fixed;
     width: 100%;
-    height: 100vh;
+    margin-top: -10vh;
+    height: 120vh;
     left: 0vw;
     transition: 0.8s;
     z-index: 100;
