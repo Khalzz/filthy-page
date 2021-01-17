@@ -22,14 +22,14 @@ const transitionOpen = () => {
 window.onload = () => {
   setTimeout(() => {
       transitionOpen()
-  }, 800);
+  }, 500);
 }
 
 const backToIndex = () => {
   transitionClose();
   setTimeout(() => {
     window.open('../index.html', '_self');
-  }, 800);
+  }, 500);
 }
 
 //back to language menus
@@ -37,21 +37,21 @@ const backToHtmlMenu = () => {
   transitionClose();
   setTimeout(() => {
     window.open('../htmlProjects.html', '_self');
-  }, 800);
+  }, 500);
 }
 
 const backToCssMenu = () => {
   transitionClose();
   setTimeout(() => {
     window.open('../cssProjects.html', '_self');
-  }, 800);
+  }, 500);
 }
 
 const backToJsMenu = () => {
   transitionClose();
   setTimeout(() => {
     window.open('../jsProjects.html', '_self');
-  }, 800);
+  }, 500);
 }
 //back to language menus
 
@@ -60,19 +60,19 @@ const openFilthyHtml = () => {
   transitionClose();
   setTimeout(() => {
       window.open('projects/filthyProjectHtml.html', '_self');
-    }, 800);
+    }, 500);
 }
 const openFilthyCss = () => {
   transitionClose();
   setTimeout(() => {
       window.open('projects/filthyProjectCss.html', '_self');
-    }, 800);
+    }, 500);
 }
 const openFilthyJs = () => {
   transitionClose();
   setTimeout(() => {
       window.open('projects/filthyProjectJs.html', '_self');
-    }, 800);
+    }, 500);
 }
 //filthy project
 

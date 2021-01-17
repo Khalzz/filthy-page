@@ -135,7 +135,8 @@ body {
     align-items: center;	
     justify-content: center;	
     border-radius: 5vw;	
-    margin: 2vw;	
+    margin: 2vw;
+    margin-bottom: 0;	
     width: 25vw;	
     height: 6vw;	
     color: #1C1D25;	
