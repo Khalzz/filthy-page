@@ -102,7 +102,7 @@ body {
 
 #line-1 {	
     display: flex;	
-    justify-content: center;	
+    justify-content: space-evenly;	
     align-items: center;	
 }	
 
@@ -125,6 +125,7 @@ body {
 
 #line-1 div:active {
     box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    filter: brightness(0.7);
 }
 
 #line-2 {	
@@ -153,6 +154,7 @@ body {
 
 #line-2 div:active {
     box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    filter: brightness(0.7);
 }
 
 #check-on p{	
