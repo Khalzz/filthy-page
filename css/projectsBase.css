@@ -71,7 +71,8 @@ body {
     margin: 2vw;	
     font-weight: 400;	
     margin-top: 5vw;	
-    color: #ffffff;	
+    color: #DBDCE4;	
+    font-size: 8vw;
 }	
 
 #instructions {	
@@ -87,9 +88,9 @@ body {
 #description {	
     transition: 1s;	
     font-family: "Roboto Mono";	
-    font-weight: 400;	
+    font-weight: 300;	
     font-size: 3.7vw;	
-    width: 95%;	
+    width: 88%;	
     text-align: center;	
     color: #DBDCE4;	
     margin-bottom: 7vw;	
