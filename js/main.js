@@ -156,7 +156,7 @@ function closeNav() {
   button3.style.top = '-300vw';
   button4.style.top = '-300vw';
   html.style.overflowY = 'auto';
-  
+
   topBar.style.height = '1vw';
   topBar.style.marginBottom = '0.5vw';
   topBar.style.transform = 'rotate(0)';
