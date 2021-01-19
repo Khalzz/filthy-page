@@ -127,13 +127,11 @@ function openNav() {
   title.style.marginLeft = '-300vw';
   subtitle.style.marginLeft = '300vw';
   nav.style.height = '100vh';
-
   button1.style.top = '0vw';
   button2.style.top = '0vw';
   button3.style.top = '0vw';
   button4.style.top = '0vw';
   html.style.overflowY = 'hidden';
-
   topBar.style.height = '0.5vw';
   topBar.style.marginBottom = '-1.25vw';
   topBar.style.transform = 'rotate(45deg)';
@@ -141,7 +139,6 @@ function openNav() {
   botBar.style.height = '0.5vw';
   botBar.style.marginTop = '-1.25vw';
   botBar.style.transform = 'rotate(-45deg)';
-  
   navButton.style.backgroundColor = 'rgba(0,0,0,0)';
   option = 2;
 }
@@ -150,13 +147,11 @@ function closeNav() {
   title.style.marginLeft = '0';
   subtitle.style.marginLeft = '0';
   nav.style.height = '0vh';
-
   button1.style.top = '-300vw';
   button2.style.top = '-300vw';
   button3.style.top = '-300vw';
   button4.style.top = '-300vw';
   html.style.overflowY = 'auto';
-
   topBar.style.height = '1vw';
   topBar.style.marginBottom = '0.5vw';
   topBar.style.transform = 'rotate(0)';
@@ -164,7 +159,6 @@ function closeNav() {
   botBar.style.height = '1vw';
   botBar.style.marginTop = '0.5vw';
   botBar.style.transform = 'rotate(0)';
-
   option = 1;
 }
 

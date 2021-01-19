@@ -16,7 +16,6 @@ body {
     background-color: #1c1d25;
     background-image: url("../images/concrete-wall.png");
     width: 100%;
-    height: 100vh;
     overflow-x: hidden;
     overflow-y: auto; /*hidden*/
 }
