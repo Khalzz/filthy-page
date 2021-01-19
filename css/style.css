@@ -134,6 +134,14 @@
     -webkit-text-stroke: 1px #ffffff;
 }
 
+.section-2 h1 span {
+    color: #DC486A;
+    font-family: "Oswald";
+    font-size: min(8.5vw, 90px);
+    font-weight: 400;
+    -webkit-text-stroke: 1px #DC486A;
+}
+
 .section-2 img {
     margin: 5vh;
     height: 30vh;
