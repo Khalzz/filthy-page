@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <link href="../transitions/transitions.css" rel="stylesheet">
     <link href="../css/base.css" rel="stylesheet">
+    <link href="../css/footer.css" rel="stylesheet">
+    <link href="../css/aboutStyle.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">    
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
@@ -21,6 +23,34 @@
         <h1 class="transition-name">Rodrigo Seguel</h1>
         <h2 class="transition-subtitle">Developer</h2>
     </div>
+    <div class="back-button" onclick="backToIndex();">
+        <div class="line-1" id="line"></div>
+        <div class="line-2" id="line"></div>
+    </div>
+    <section>
+        about me
+    </section>
+    <section>
+        what can i do
+    </section>
+    <section>
+        companies who prefers me
+    </section>
+    <footer id="footer">
+        <img class="footer-logo" src="../images/footerLogo.svg" alt="image not found" title="Hey, thats also me :o">
+        <div class="link" onclick="gotoSecond();">Who are you</div>
+        <div class="link" onclick="gotoThird();">Experience</div>
+        <div id="hlink" class="link" onclick="gotoFourth();">Contact me</div>
+        <div class="blog" onclick="openBlog();">Blog</div>
+        <div class="pages">
+            <div onclick="openGit();"><img src="../images/git.svg" alt="image not found" title="Find me on GitHub"></div>
+            <div onclick="openItch();"><img src="../images/itch.svg" alt="image not found" title="Find me on Itch.io"></div>
+            <div onclick="openStack();"><img src="../images/stack.svg" alt="image not found" title="Find me on Stack Overflow"></div>
+            <div onclick="openIg();"><img src="../images/instagram.svg" alt="image not found" title="Find me on Instagram"></div>
+        </div>
+        <p>Made in Chile with love, passion and lots of caffeine</p>
+        <p>v0.0.2</p>
+    </footer>
     <script src="../transitions/transitions.js"></script>
 </body>
 </html>

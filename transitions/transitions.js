@@ -1,5 +1,3 @@
-let menuId = 'none'
-
 const transitionScuare = document.querySelector('.transition')
 const transitionName = document.querySelector('.transition-name')
 const transitionSubtitle = document.querySelector('.transition-subtitle')
