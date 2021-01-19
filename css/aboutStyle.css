@@ -18,10 +18,8 @@ body {
     width: 10vw;
     height: 10vw;
     margin-top: 3vh;
-    left: 3vh;
-    scroll-behavior: smooth;
-    
-    transition: 0.2s;
+    left: 3vh;    
+    transition: 0.5s;
 }
 
 .back-button:active #line{
