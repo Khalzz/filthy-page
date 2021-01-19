@@ -2,7 +2,6 @@ const backButton = document.querySelector('.back-button')
 
 window.onscroll = () => {
     let y = window.scrollY;
-    console.log(y);
     if (y >= 200) {
         
         setTimeout(() => {
