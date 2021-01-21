@@ -43,7 +43,7 @@ const openIg = () => window.open('https://www.instagram.com/moon.drawner.chu.p0u
 const gotoTitle = () => window.location.href = '#section-1';
 const gotoSecond = () => window.location.href = '#section-2';
 const gotoThird = () => window.location.href = '#section-3';
-const gotoFourth = () => window.location.href = '#section-4';
+const gotoFourth = () => window.location.href = '#section-5';
 const gotoFooter = () => window.location.href = '#footer';
 
 const openContact = () => {
