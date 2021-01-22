@@ -153,7 +153,11 @@
     font-family: "Roboto Mono";
     color: #DBDCE4;
     font-size: min(4vw, 30px);
-    width: 88%;
+    width: 85%;
+}
+
+#extra{
+    display: none;
 }
 
 .section-2 span {
