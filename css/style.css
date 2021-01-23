@@ -430,6 +430,10 @@
     transition: 1s;
 }
 
+.background-tech {
+    display: none;
+}
+
 .portfolio:active {
     background-color: #DC486A;
     color: #15161C;
@@ -445,27 +449,39 @@
     justify-content: center;
 }
 
-.section-4 div {
+.all-services {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+#services{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: 4vw
+}
+
+#services div {
     margin: 3vw;
     border-radius: 5vw;
     width: 85vw;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     padding-top: 5vw;
     padding-bottom: 5vw;
 }
 
-.section-4 div:first-of-type {
+.divisor-line{
     margin-top: -0.5vw;
     width: 50vw;
     height: 0.8vw;
     padding: 0;
     background-color: #DC486A;
-}
-
-.first-service {
-    margin-top: 10vw;
+    margin-bottom: 3vw;
 }
 
 .section-4 h1 {
@@ -477,21 +493,22 @@
     width: 50vw;
 }
 
-.section-4 h2 {
+#services h2 {
     text-align: center;
     font-family: "Oswald";
     color: #DC486A;
     font-weight: 300;
     margin-top: -0.5vh;
     height: 5vh;
+    width: 100%;
     margin-bottom: 1vh;
 }
 
-.section-4 img {
+#services img {
     height: 4vh;
 }
 
-.section-4 p {
+#services p {
     text-align: center;
     font-family: "Roboto Mono";
     width: 76vw;

@@ -149,7 +149,7 @@
         height: 0.2vw;
         background-color: #DC486A;
         border-radius: 10vw;
-        margin-bottom: 5vh;
+        margin-bottom: 3vh;
     }
     
     #section-2-desktop h1 span {
@@ -180,7 +180,7 @@
     }
     
     .read-more {
-        margin-top: 5vh;
+        margin-top: 7vh;
         position: relative;
         display: flex;
         justify-content: center;
@@ -192,6 +192,7 @@
         border-radius: 0.5vw;
         height: 3.5vw;
         width: 8vw;
+        box-shadow: 0 4px 4px rgba(0,0,0,0.25);
     }
     
     .read-more:hover {
@@ -200,28 +201,14 @@
     }
     
     .read-more:active {
-        filter: brightness(0.8);
+        filter: brightness(0.5);
+        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
     }
     
-    .projects-background {
-        overflow-x: hidden;
-        border-radius: 9vw;
-        display: flex;
-        width: 95%;
-        height: 0;
-        overflow-y: auto;
-        text-align: center;
-        transition: 0.5s;
-        background-color: rgba(0, 0, 0, 0.8);
-        flex-direction: column;
-        align-items: center;
-        justify-content: start;
-    }
-    
-    /*-------------------------------------------------*/
+    /*---------------------------------------------------------------------------------------------*/
     .section-3 {
-        position: relative;
         margin-top: 0vh;
+        position: relative;
         scroll-snap-align: center;
         width: 100%;
         height: 100vh;
@@ -232,9 +219,8 @@
     }
     
     .title-section-3 {
-        position: absolute;
+        position: relative;
         transition: 0.8s;
-        margin-top: 0;
         color: #ffffff;
         font-family: "Oswald";
         font-size: min(8.5vw, 90px);
@@ -251,98 +237,44 @@
     .back:active {
         filter: brightness(0.4);
     }
-    
-    .back-button {
-        z-index: 20;
-        position: absolute;
-        top: -80vw;
-        left: 5vw;
-        height: 0vw;
-        width: 12vw;
-        border-radius: 2vw;
-        background-color: rgba(0, 0, 0, 0);
-        transition: 0.9s;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .bar-1-back{
-        transition: 0.9s;
-        height: 0vw;
-        width: 0vw;
-        border-radius: 10vw;
-        background-color: #DBDCE4;
-        transform: rotate(-45deg);
-    }
-    
-    .bar-2-back{
-        transition: 0.9s;
-        margin-top: 3.1vw;
-        height: 0vw;
-        width: 0vw;
-        border-radius: 10vw;
-        background-color: #DBDCE4;
-        transform: rotate(45deg);
-    }
-    
-    .close {
-        transition: 0.1s;
-    }
-    
-    .close:active {
-        filter: brightness(0.4);
-    }
-    
-    .close-button {
-        z-index: 20;
-        position: absolute;
-        top: -80vw;
-        right: 5vw;
-        height: 0vw;
-        width: 12vw;
-        border-radius: 2vw;
-        background-color: rgba(0, 0, 0, 0);
-        transition: 0.9s;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .bar-1{
-        transition: 0.9s;
-        margin-top: 0.5vw;
-        height: 0;
-        width: 0;
-        border-radius: 1vw;
-        background-color: #DBDCE4;
-        transform: rotate(-45deg);
-    }
-    
-    .bar-2{
-        transition: 0.9s;
-        margin-top: -0.5vw;
-        height: 0vw;
-        width: 0vw;
-        border-radius: 1vw;
-        background-color: #DBDCE4;
-        transform: rotate(-45deg);
-    }
-    
+
     .scroller-background {
         display: none;
     }
     
-    .swiper-container {
+    .divisor {
         display: none;
     }
-    
+
+    .background-tech {
+        background-color: #323444;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 25%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .background-tech img{
+        height: 19vh;
+        margin: 1.5vw;
+        border-radius: 1vw;
+        transition: 0.3s;
+        box-shadow: 0 4px 4px rgba(0,0,0,0.25)
+    }
+
+    .background-tech img:hover{
+        height: 22vh;
+        margin: 1.5vw;
+        border-radius: 1vw;
+        box-shadow: 0 6px 6px rgba(0,0,0,0.25)
+    }
+
     .slider-instruction {
-        margin-top: 25vw;
+        margin-top: 1vw;
         font-family: "roboto";
-        font-size: 4vw;
+        font-size: 1.5vw;
         text-align: center;
         font-weight: 300;
         width: 59vw;
@@ -351,9 +283,10 @@
     
     .or {
         font-family: "roboto";
-        margin: 3vw;
-        margin-top: 2vw;
-        font-size: 4vw;
+        margin: 0vw;
+        margin-top: 0.5vw;
+        margin-bottom: 1vw;
+        font-size: 1.3vw;
         text-align: center;
         font-weight: 400;
         color: #748492;
@@ -362,21 +295,174 @@
     .portfolio {
         display: flex;
         justify-content: center;
-        font-size: 4vw;
+        font-size: 1.2vw;
+        font-weight: 400;
         align-items: center;
         text-align: center;
         font-family: "Roboto Mono";
         color: #DC486A;
-        border: 0.7vw solid #DC486A;
-        border-radius: 2vw;
+        border: 0.15vw solid #DC486A;
+        border-radius: 1vw;
         padding: 2vw;
-        width: 35vw;
-        transition: 1s;
+        width: 14vw;
+        height: 5.5vw;
+        transition: 0.2s;
+        box-shadow: 0 4px 4px rgba(0,0,0,0.25);
     }
     
+    .portfolio:hover {
+        background-color: #DC486A;
+        color: #15161C;
+    }
+
     .portfolio:active {
         background-color: #DC486A;
         color: #15161C;
+        filter: brightness(0.5);
+        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+    }
+
+    .section-4 {
+        width: 100%;
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .all-services {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+    }
+    
+    #services{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        margin: 1vw
+    }
+    
+    #services div {
+        margin: 3vw;
+        border-radius: 5vw;
+        width: 85vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 5vw;
+        padding-bottom: 5vw;
+    }
+    
+    .divisor-line{
+        margin-top: -0.5vw;
+        width: 20vw;
+        height: 0.3vw;
+        padding: 0;
+        border-radius: 100vw;
+        background-color: #DC486A;
+        margin-bottom: 3vw;
+    }
+    
+    .section-4 h1 {
+        font-family: "Oswald";
+        color: #DC486A;
+        text-align: center;
+        font-weight: 400;
+        font-size: 4vw;
+        width: 50vw;
+    }
+    
+    #services h2 {
+        text-align: center;
+        font-family: "Oswald";
+        color: #DC486A;
+        font-weight: 300;
+        margin-top: -0.5vh;
+        height: 5vh;
+        width: 100%;
+        margin-bottom: 1vh;
+    }
+    
+    #services img {
+        height: 4vh;
+    }
+    
+    #services p {
+        text-align: center;
+        font-family: "Roboto Mono";
+        width: 30vw;
+        font-weight: 200;
+        color: #DBDCE4;
+        font-size: 1.5vw;
+    }
+
+    .section-5 {
+        scroll-snap-align: center;
+        width: 100%;
+        height: 60vh;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .section-5 h1 {
+        margin-bottom: 2vw;
+        font-family: "Oswald";
+        font-size: 4vw;
+        height: 4vw;
+        color: #DC486A;
+        font-weight: 400;
+    }
+    
+    .section-5 p:first-of-type {
+        font-family: "Roboto Mono";
+        color: #DBDCE4;
+        text-align: center;
+        width: 30vw;
+        font-size: 1.2vw;
+    }
+    
+    .section-5 p:last-of-type {
+        margin: 0.4vw;
+        font-family: "Roboto Mono";
+        color: #8184A0;
+        text-align: center;
+        width: 85vw;
+        font-size: 1vw;
+        margin-bottom: 3vw;
+    }
+    
+    .section-5 div {
+        display: flex;
+        justify-content: center;
+        font-size: 1.2vw;
+        font-weight: 400;
+        align-items: center;
+        text-align: center;
+        font-family: "Roboto Mono";
+        color: #DC486A;
+        border: 0.15vw solid #DC486A;
+        border-radius: 1vw;
+        padding: 2vw;
+        width: 14vw;
+        height: 5.5vw;
+        transition: 0.2s;
+        box-shadow: 0 4px 4px rgba(0,0,0,0.25);
+    }
+    
+    .section-5 div:hover {
+        background-color: #DC486A;
+        color: #15161C;
+    }
+
+    .section-5 div:active {
+        background-color: #DC486A;
+        color: #15161C;    
+        filter: brightness(0.5);
         box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
     }
 }

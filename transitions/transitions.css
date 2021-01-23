@@ -64,13 +64,13 @@
         left: 0vw;
         color: #ffffff;
         font-family: "Oswald";
-        font-size: min(7vw, 110px);
+        font-size: min(5vw, 110px);
         font-weight: 400;
         -webkit-text-stroke: 1px #ffffff;
     }
     
     .transition-subtitle {
-        margin-top: -3.5vw;
+        margin-top: -1.5vw;
         text-align: center;
         left: 0vw;
         position: relative;
@@ -79,7 +79,7 @@
         color: #15161C;
         font-family: "Oswald";
         font-weight: 400;
-        font-size: min(7.5vw, 80px);
+        font-size: min(3vw, 80px);
         z-index: 101;
     } 
 }
