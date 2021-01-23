@@ -118,7 +118,16 @@ footer {
 }
 
 @media (min-width: 600px) {
-
+    footer {
+        scroll-snap-align: center;
+        width: 100%;
+        height: 55vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+        background: linear-gradient(360deg, #0D0D11 5%, rgba(26, 27, 35, 0) 100%);
+    }
     
     .footer-div-2 {
         height: 55vh;
@@ -147,8 +156,8 @@ footer {
         color: #B7B9C8;
         font-family: "Roboto";
         text-align: center;
-        font-size: 1.5vw;
-        width: 25vw;
+        font-size: 1.2vw;
+        width: 22vw;
         font-weight: 300;
     }
     
@@ -168,6 +177,10 @@ footer {
         margin: 1vw;
         height: 2.2vw;
         transition: 0.1s;
+    }
+
+    .pages img:hover {
+        cursor: pointer;
     }
     
     .pages img:active {
@@ -208,23 +221,26 @@ footer {
         justify-content: center;
         align-items: center;
         font-family: "Roboto";
-        font-size: 1vh;
+        font-size: 1.2vw;
         font-weight: 300;
-        width: 100%;
         height: 7.5vh;
-        border-top: 0.5px solid #A5A7BB;
+        border: 0.5px solid #A5A7BB;
         color: #A5A7BB;
         transition: 0.1s;
+        margin: 0.5vw;
+        border-radius: 1vw;
     }
     
     #hlink {
         border: 0.5px solid #A5A7BB;
-        border-left: 0;
-        border-right: 0;
+    }
+
+    .link:hover {
+        cursor: pointer;
     }
     
     .link:active {
-        color: #818394;
+        filter: brightness(0.7);
     }
 
     .footer-blog {
@@ -241,7 +257,7 @@ footer {
         display: flex;
         justify-content: center;
         font-size: 2vw;
-        font-weight: 400;
+        font-weight: 300;
         align-items: center;
         text-align: center;
         font-family: "Roboto";
@@ -255,6 +271,7 @@ footer {
     }
 
     .blog:hover {
+        cursor: pointer;
         color: #0D0D11;
         background-color: #DC486A;
     }
