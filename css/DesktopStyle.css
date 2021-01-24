@@ -365,6 +365,7 @@
     
     #services div {
         margin: 3vw;
+        margin-top: 0;
         border-radius: 5vw;
         width: 85vw;
         display: flex;
@@ -376,8 +377,8 @@
     }
     
     .divisor-line{
-        margin-top: 1.8em;
-        width: 20vw;
+        margin-top: 2rem;
+        width: 18vw;
         height: 0.15vw;
         padding: 0;
         border-radius: 100vw;
