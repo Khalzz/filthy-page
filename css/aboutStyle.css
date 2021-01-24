@@ -1,6 +1,6 @@
 section {
     width: 100%;
-    height: 100vh;
+    /*height:100vh*/
 }
 
 body {
@@ -42,4 +42,202 @@ body {
 .line-2 {
     margin-top: 3vw;
     transform: rotate(40deg);
+}
+
+@media (min-width: 600px) {
+    .back-button {
+        z-index: 90;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        width: 3vw;
+        height: 3vw;
+        margin-top: 3vh;
+        left: 3vh;    
+        transition: 0.5s;
+    }
+
+
+    .back-button:hover #line{
+        filter: brightness(0.6);
+        box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    }
+
+    .back-button:active #line{
+        filter: brightness(0.6);
+        box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    }
+
+    #line {
+        transition: 0.2s;
+        height: 0.2vw;
+        width: 2vw;
+        background-color: #DBDCE4;
+        border-radius: 15vw;
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+    }
+
+    .line-1{
+        transform: rotate(-40deg);
+    }
+
+    .line-2 {
+        margin-top: 1vw;
+        transform: rotate(40deg);
+    }
+
+    .section-1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 130vh;
+    }
+
+    .section-1 img{
+        width: 15vw;
+        margin-bottom: 2vw;
+    }
+
+    .section-1 p {
+        text-align: center;
+        display: inline;
+        font-family: "Roboto Mono";
+        color: #DBDCE4;
+        font-size: min(1.3vw, 30px);
+        width: 48vw;
+    }
+    
+    .section-1 span {
+        font-size:1.4vw;
+        color:#DC486A;
+    }
+
+    .info {
+        margin-top: 2em;
+        width: 55vw;
+        height: 13vw;
+        border: 2px solid #DC486A;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+
+    .info div {
+        margin-left: 2vw;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 25vw;
+    }
+
+    .info div:first-of-type {
+        width: 22vw;
+    }
+
+    .info div p {
+        font-size: 1.2vw;
+        text-align: start;
+        width: 30vw;
+        color: #DC486A;
+        margin: 0.5vw;
+    }
+
+    .info div p span{
+        font-size: 1.2vw;
+        color: #DBDCE4;
+    }
+
+    .section-2 {
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #15161C;
+        box-shadow: 0 6px 4px rgba(0,0,0,0.25);
+        border-top: 2px solid #DC486A;
+        border-bottom: 2px solid #DC486A;
+    }
+    
+    .all-services {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+    }
+    
+    #services{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        margin: 1vw;
+        border: 2px solid #DC486A;
+        padding: 1vw; 
+        border-radius: 1vw;
+    }
+    
+    #services div {
+        margin: 3vw;
+        margin-top: 0;
+        border-radius: 5vw;
+        width: 85vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 5vw;
+        padding-bottom: 5vw;
+    }
+    
+    .divisor-line{
+        margin-top: 0rem;
+        width: 18vw;
+        height: 0.2vw;
+        padding: 0;
+        border-radius: 100vw;
+        background-color: #DC486A;
+        margin-bottom:1em;
+    }
+    
+    .section-2 h1 {
+        font-family: "Oswald";
+        color: #DC486A;
+        text-align: center;
+        font-weight: 400;
+        font-size: 4vw;
+        margin-top: 0;
+        width: 50vw;
+    }
+    
+    #services h2 {
+        text-align: center;
+        font-family: "Oswald";
+        color: #DC486A;
+        font-weight: 300;
+        margin-top: -0.5vh;
+        height: 5vh;
+        width: 100%;
+        font-size: 1.7vw;
+        margin-bottom: 0em;
+    }
+    
+    #services img {
+        height: 4vh;
+    }
+    
+    #services p {
+        margin-top: 0.3vh;
+        text-align: center;
+        font-family: "Roboto Mono";
+        width: 25vw;
+        font-weight: 200;
+        color: #DBDCE4;
+        font-size: 1.2vw;
+    }
 }
