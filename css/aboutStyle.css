@@ -93,10 +93,12 @@ body {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 130vh;
+        height: 110vh;
+        
     }
 
     .section-1 img{
+        margin-top: 13rem;
         width: 15vw;
         margin-bottom: 2vw;
     }
@@ -116,9 +118,9 @@ body {
     }
 
     .info {
-        margin-top: 2em;
+        margin-top: 3em;
         width: 55vw;
-        height: 13vw;
+        height: 15vw;
         border: 2px solid #DC486A;
         display: flex;
         justify-content: start;
@@ -129,8 +131,10 @@ body {
         margin-left: 2vw;
         display: flex;
         flex-direction: column;
+        justify-content: center;
         align-items: flex-start;
         width: 25vw;
+        height: 25vh;
     }
 
     .info div:first-of-type {
@@ -148,6 +152,13 @@ body {
     .info div p span{
         font-size: 1.2vw;
         color: #DBDCE4;
+    }
+
+    .section-2-og {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .section-2 {
@@ -239,5 +250,38 @@ body {
         font-weight: 200;
         color: #DBDCE4;
         font-size: 1.2vw;
+    }
+
+    .companies {
+        margin-top: -10rem;
+        height: 80vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .companies div {
+        width: 80vw;
+        height: 40vh;
+        border: 2px solid #DC486A;
+        border-radius: 2vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .companies h1 {
+        font-family: "Oswald";
+        font-weight: 400;
+        color: #DC486A;
+        font-size: 4vw;
+        margin-bottom: 0.5vw;
+    }
+
+    .companies div h3 {
+        font-family: "Roboto Mono";
+        font-weight: 300;
+        color: #DBDCE4;
     }
 }

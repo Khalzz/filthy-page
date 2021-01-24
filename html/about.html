@@ -27,7 +27,7 @@
         <div class="line-1" id="line"></div>
         <div class="line-2" id="line"></div>
     </div>
-    <section class="section-1">
+    <section class="section-1" id="section-1">
         <img src="../images/logo.svg" alt="image not found" title="Hey! thats me!!! :o">
         <p>I am a Chilean <span>programmer</span> with experience in front-end, videogame development with unity and drink a lot of coffee!!!.<br><br>Coding since march of 2020 i've got a lot of knowledge at the work recently creating little projects, like this web or an imposible bot for tic tac toe.<br><br>Also i am a decent ui designer... sometimes... i guess...</p>
         <div class="info">
@@ -43,44 +43,72 @@
             </div>
         </div>
     </section>
-    <section class="section-2" id="section-2">
-        <h1>My services</h1>
-        <div class="divisor-line"></div>
-        <div class="all-services">
-            <div id="services">
-                <img src="../images/mark.svg" alt="image not found" title="yep this is a html tag">
-                <h2>Programming</h2>
-                <p>I can develop a well structured and efficient code for your projects.</p>
-            </div>
-            <div id="services">
-                <img src="../images/Design icon.svg" alt="image not found" title="finally i have a good designs for this">
-                <h2>Creative Design</h2>
-                <p>I can create cool and aesthetic ui designs to build a pretty web page or android apps.</p>
-            </div>
-            <div id="services">
-                <img src="../images/glasses.svg" alt="image not found" title="nice glasses ma dud">
-                <h2>Teaching</h2>
-                <p>I can teach you and your team about code and prepare you to develop great solutions.</p>
+    <section class="section-2-og" id="section-2">
+        <div class="section-2">            
+            <h1>My services</h1>
+            <div class="divisor-line"></div>
+            <div class="all-services">
+                <div id="services">
+                    <img src="../images/mark.svg" alt="image not found" title="yep this is a html tag">
+                    <h2>Programming</h2>
+                    <p>I can develop a well structured and efficient code for your projects.</p>
+                </div>
+                <div id="services">
+                    <img src="../images/Design icon.svg" alt="image not found" title="finally i have a good designs for this">
+                    <h2>Creative Design</h2>
+                    <p>I can create cool and aesthetic ui designs to build a pretty web page or android apps.</p>
+                </div>
+                <div id="services">
+                    <img src="../images/glasses.svg" alt="image not found" title="nice glasses ma dud">
+                    <h2>Teaching</h2>
+                    <p>I can teach you and your team about code and prepare you to develop great solutions.</p>
+                </div>
             </div>
         </div>
     </section>
-    <section>
-        companies who prefers me
+    <section class="companies" id="section-3">
+        <h1>Companies and people I worked for</h1>
+        <div>
+            <h3>None yet :C</h3>
+        </div>
     </section>
     <footer id="footer">
-        <img class="footer-logo" src="../images/footerLogo.svg" alt="image not found" title="Hey, thats also me :o">
-        <div class="link" onclick="gotoSecond();">Who are you</div>
-        <div class="link" onclick="gotoThird();">Experience</div>
-        <div id="hlink" class="link" onclick="gotoFourth();">Contact me</div>
-        <div class="blog" onclick="openBlog();">Blog</div>
-        <div class="pages">
-            <div onclick="openGit();"><img src="../images/git.svg" alt="image not found" title="Find me on GitHub"></div>
-            <div onclick="openItch();"><img src="../images/itch.svg" alt="image not found" title="Find me on Itch.io"></div>
-            <div onclick="openStack();"><img src="../images/stack.svg" alt="image not found" title="Find me on Stack Overflow"></div>
-            <div onclick="openIg();"><img src="../images/instagram.svg" alt="image not found" title="Find me on Instagram"></div>
+        <div class="footer-div-1">
+            <img class="footer-logo" src="../images/footerLogo.svg" alt="image not found" title="Hey, thats also me :o">
+            <div class="link" onclick="gotoFirst();">Who are you</div>
+            <div class="link" onclick="gotoSecond();">My Services</div>
+            <div id="hlink" class="link" onclick="gotoThird();">Who have I worked for?</div>
+            <div class="blog" onclick="openBlog();">Blog</div>
+            <div class="pages">
+                <div onclick="openGit();"><img src="../images/git.svg" alt="image not found" title="Find me on GitHub"></div>
+                <div onclick="openItch();"><img src="../images/itch.svg" alt="image not found" title="Find me on Itch.io"></div>
+                <div onclick="openStack();"><img src="../images/stack.svg" alt="image not found" title="Find me on Stack Overflow"></div>
+                <div onclick="openIg();"><img src="../images/instagram.svg" alt="image not found" title="Find me on Instagram"></div>
+            </div>
+            <p>Made in Chile with love, passion and lots of caffeine</p>
+            <p>v0.0.2</p>
         </div>
-        <p>Made in Chile with love, passion and lots of caffeine</p>
-        <p>v0.0.2</p>
+        <div class="footer-div-2">
+            <div class="footer-info">
+                <img class="footer-logo" src="../images/footerLogo.svg" alt="image not found" title="Hey, thats also me :o">
+                <div class="pages">
+                    <div onclick="openGit();"><img src="../images/git.svg" alt="image not found" title="Find me on GitHub"></div>
+                    <div onclick="openItch();"><img src="../images/itch.svg" alt="image not found" title="Find me on Itch.io"></div>
+                    <div onclick="openStack();"><img src="../images/stack.svg" alt="image not found" title="Find me on Stack Overflow"></div>
+                    <div onclick="openIg();"><img src="../images/instagram.svg" alt="image not found" title="Find me on Instagram"></div>
+                </div>
+                <p>Made in Chile with love, passion and lots of caffeine</p>
+                <p>v0.0.2</p>
+            </div>
+            <div class="footer-blog">
+                <div class="blog" onclick="openBlog();">Blog</div>
+            </div>
+            <div class="footer-links">
+                <div class="link" onclick="gotoFirst();">Who are you</div>
+                <div class="link" onclick="gotoSecond();">My Services</div>
+                <div id="hlink" class="link" onclick="gotoThird();">Who have I worked for?</div>
+            </div>
+        </div> 
     </footer>
     <script src="../js/about.js"></script>
     <script src="../transitions/transitions.js"></script>
