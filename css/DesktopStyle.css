@@ -377,13 +377,13 @@
     }
     
     .divisor-line{
-        margin-top: 2rem;
+        margin-top: 0rem;
         width: 18vw;
         height: 0.15vw;
         padding: 0;
         border-radius: 100vw;
         background-color: #DC486A;
-        margin-bottom: 0em;
+        margin-bottom:1em;
     }
     
     .section-4 h1 {
@@ -392,7 +392,7 @@
         text-align: center;
         font-weight: 400;
         font-size: 4vw;
-        margin-top: -0.5em;
+        margin-top: 0;
         width: 50vw;
     }
     
