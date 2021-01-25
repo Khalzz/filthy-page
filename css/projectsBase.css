@@ -192,3 +192,195 @@ body {
     transition: 1.5s;	
 }	
 /*text for projects*/
+@media (min-width: 600px) {
+    .back-button {
+        z-index: 90;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        width: 3vw;
+        height: 3vw;
+        margin-top: 3vh;
+        left: 3vh;    
+        transition: 0.5s;
+    }
+
+
+    .back-button:hover #line{
+        filter: brightness(0.9);
+        box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    }
+
+    .back-button:active #line{
+        filter: brightness(0.6);
+        box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    }
+
+    #line {
+        transition: 0.2s;
+        height: 0.2vw;
+        width: 2vw;
+        background-color: #DBDCE4;
+        border-radius: 15vw;
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+    }
+
+    .line-1{
+        transform: rotate(-40deg);
+    }
+
+    .line-2 {
+        margin-top: 1vw;
+        transform: rotate(40deg);
+    }
+    
+    #filthy-project {
+        margin-top: 10vw;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #filthy-project img{
+        z-index: 50;
+        width: 70vw;
+        transition: 0.2s;
+        border: 1.5px solid #DC486A;
+        border-radius: 5vw;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    #filthy-project img:active{
+        filter: brightness(0.7);
+        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+    }
+
+    #project-title {	
+        font-family: "Oswald";	
+        margin: 2vw;	
+        font-weight: 400;	
+        margin-top: 5vw;	
+        color: #DBDCE4;	
+        font-size: 8vw;
+    }	
+
+    #instructions {	
+        margin-top: 2vw;
+        font-family: "Roboto Mono";	
+        font-weight: 400;
+        text-align: center;
+        width: 85vw;	
+        font-size: 3vw;	
+        color: #748492;	
+    }	
+
+    #description {	
+        transition: 1s;	
+        font-family: "Roboto Mono";	
+        font-weight: 300;	
+        font-size: 3.7vw;	
+        width: 88%;	
+        text-align: center;	
+        color: #DBDCE4;	
+        margin-bottom: 7vw;	
+    }	
+
+    #developed-with {	
+        font-family: "Oswald";	
+        font-weight: 400;	
+        color: #DBDCE4;	
+        margin-bottom: 2vw;	
+    }	
+
+    #line-1 {	
+        display: flex;	
+        justify-content: space-evenly;	
+        align-items: center;	
+    }	
+
+    #line-1 div {	
+        transition: 0.2s;
+        font-family: "Oswald";	
+        font-size: 4vw;	
+        font-weight: 400;	
+        display: flex;	
+        align-items: center;	
+        justify-content: center;	
+        border-radius: 5vw;	
+        margin: 2vw;	
+        width: 25vw;	
+        height: 6vw;	
+        color: #1C1D25;	
+        background-color: #DC486A;
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    #line-1 div:active {
+        box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+        filter: brightness(0.7);
+    }
+
+    #line-2 {	
+        display: flex;	
+        justify-content: center;	
+        align-items: center;	
+    }	
+
+    #line-2 div {	
+        transition: 0.2s;
+        font-family: "Oswald";	
+        font-size: 4vw;	
+        font-weight: 400;	
+        display: flex;	
+        align-items: center;	
+        justify-content: center;	
+        border-radius: 5vw;	
+        margin: 2vw;
+        margin-bottom: 0;	
+        width: 25vw;	
+        height: 6vw;	
+        color: #1C1D25;	
+        background-color: #DC486A;	
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    }	
+
+    #line-2 div:active {
+        box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+        filter: brightness(0.7);
+    }
+
+    #check-on p{	
+        font-family: "Roboto Mono";	
+        color: #DC486A;	
+        font-size: 3.5vw;	
+        font-weight: 400;	
+        display: flex;	
+        justify-content: center;	
+        align-items: center;	
+        text-align: center;		
+        height: 16vw;		
+        width: 50vw;	
+        border-radius: 3vw;	
+        border: 2px solid #DC486A;	
+        transition: 0.2s;	
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);	
+    }	
+
+    #check-on p:active {	
+        background-color: #DC486A;	
+        color: #15161C;	    	
+        box-shadow: 0 0 0 rgba(0, 0, 0, 0);	
+    }	
+
+    #check-on {	
+        display: flex;	    	
+        align-items: center;	    	
+        justify-content: center;	   	
+        height: 20vh;	    	
+        width: 40vw;	 	
+        transition: 1.5s;	
+    }	
+}
