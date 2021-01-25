@@ -216,13 +216,13 @@ body {
     .project-divisor {
         position: relative;
         transition: 0.8s;
-        margin-top: 1vw;
-        margin-bottom: 2vw;
+        margin-top: 3vw;
+        margin-bottom: 0.7em;
         justify-content: center;
         align-items: center;
         display: flex;
         flex-direction: row;
-        height: 5vh;
+        height: 3vh;
         width: 100%;
     }
     
@@ -243,22 +243,30 @@ body {
     }
     
     #filthy-project {
-        margin: 1vw;
+        margin: 3.5vw;
+        margin-top: 0;
         width: 85vw;
-        height: 20vh;
+        height: 15vw;
         display: flex;
         align-items: center;
         justify-content: center;
     }
     
     #filthy-project img{
+        align-self: center;
         z-index: 50;
+        height: 12vw;
         transition: 0.2s;
         border: 1.5px solid #DC486A;
         border-radius: 2vw;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     }
     
+    #filthy-project img:hover{
+        filter: brightness(0.9);
+        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+    }
+
     #filthy-project img:active{
         filter: brightness(0.7);
         box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);

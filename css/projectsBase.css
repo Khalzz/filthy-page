@@ -193,6 +193,13 @@ body {
 }	
 /*text for projects*/
 @media (min-width: 600px) {
+    body {
+        display: flex;	
+        flex-direction: column;	
+        justify-content: center;	
+        align-items: center;
+    }
+    
     .back-button {
         z-index: 90;
         display: flex;
@@ -237,7 +244,7 @@ body {
     }
     
     #filthy-project {
-        margin-top: 10vw;
+        margin: 0;
         width: 100vw;
         display: flex;
         align-items: center;
@@ -246,10 +253,10 @@ body {
 
     #filthy-project img{
         z-index: 50;
-        width: 70vw;
+        width: 20vw;
         transition: 0.2s;
         border: 1.5px solid #DC486A;
-        border-radius: 5vw;
+        border-radius: 1vw;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     }
 
@@ -260,20 +267,20 @@ body {
 
     #project-title {	
         font-family: "Oswald";	
-        margin: 2vw;	
+        margin: 0vw;	
         font-weight: 400;	
-        margin-top: 5vw;	
+        margin-top: 2vw;	
         color: #DBDCE4;	
-        font-size: 8vw;
+        font-size: 3vw;
     }	
 
     #instructions {	
-        margin-top: 2vw;
+        margin-top: 0.4vw;
         font-family: "Roboto Mono";	
         font-weight: 400;
         text-align: center;
         width: 85vw;	
-        font-size: 3vw;	
+        font-size: 0.8vw;	
         color: #748492;	
     }	
 
@@ -281,18 +288,18 @@ body {
         transition: 1s;	
         font-family: "Roboto Mono";	
         font-weight: 300;	
-        font-size: 3.7vw;	
-        width: 88%;	
+        font-size: 1vw;	
+        width: 50%;	
         text-align: center;	
         color: #DBDCE4;	
-        margin-bottom: 7vw;	
+        margin-bottom: 2vw;	
     }	
 
     #developed-with {	
         font-family: "Oswald";	
         font-weight: 400;	
         color: #DBDCE4;	
-        margin-bottom: 2vw;	
+        margin-bottom: 1vw;	
     }	
 
     #line-1 {	
@@ -304,26 +311,27 @@ body {
     #line-1 div {	
         transition: 0.2s;
         font-family: "Oswald";	
-        font-size: 4vw;	
+        font-size: 1vw;	
         font-weight: 400;	
         display: flex;	
         align-items: center;	
         justify-content: center;	
-        border-radius: 5vw;	
-        margin: 2vw;	
-        width: 25vw;	
-        height: 6vw;	
+        border-radius: 5vw;
+        margin: 0 0.6vw;	
+        width: 5vw;	
+        height: 2vw;	
         color: #1C1D25;	
         background-color: #DC486A;
         box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
     }
 
     #line-1 div:active {
-        box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+        box-shadow: 0 0 0rgba(0, 0, 0, 0);
         filter: brightness(0.7);
     }
 
-    #line-2 {	
+    #line-2 {
+        margin-top: 1vw;	
         display: flex;	
         justify-content: center;	
         align-items: center;	
@@ -332,16 +340,15 @@ body {
     #line-2 div {	
         transition: 0.2s;
         font-family: "Oswald";	
-        font-size: 4vw;	
+        font-size: 1vw;	
         font-weight: 400;	
         display: flex;	
         align-items: center;	
         justify-content: center;	
         border-radius: 5vw;	
-        margin: 2vw;
-        margin-bottom: 0;	
-        width: 25vw;	
-        height: 6vw;	
+        margin: 0 0.6vw;	
+        width: 5vw;	
+        height: 2vw;	
         color: #1C1D25;	
         background-color: #DC486A;	
         box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
@@ -355,18 +362,23 @@ body {
     #check-on p{	
         font-family: "Roboto Mono";	
         color: #DC486A;	
-        font-size: 3.5vw;	
+        font-size: 1vw;	
         font-weight: 400;	
         display: flex;	
         justify-content: center;	
         align-items: center;	
         text-align: center;		
-        height: 16vw;		
+        height: 10vh;		
         width: 50vw;	
         border-radius: 3vw;	
         border: 2px solid #DC486A;	
         transition: 0.2s;	
-        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);	
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);	
+    }	
+
+    #check-on p:hover {	
+        background-color: #DC486A;	
+        color: #15161C;	    	
     }	
 
     #check-on p:active {	
@@ -378,9 +390,10 @@ body {
     #check-on {	
         display: flex;	    	
         align-items: center;	    	
-        justify-content: center;	   	
-        height: 20vh;	    	
-        width: 40vw;	 	
+        justify-content: center;
+        margin-top: 5vw;	   	
+        height: 5vh;	    	
+        width: 20vw;	 	
         transition: 1.5s;	
     }	
 }
