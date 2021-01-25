@@ -69,12 +69,12 @@ body {
     display: inline;
     font-family: "Roboto Mono";
     color: #DBDCE4;
-    font-size: min(4vw, 30px);
+    font-size: min(3vw, 30px);
     width: 90vw;
 }
 
 .section-1 span {
-    font-size:4.5vw;
+    font-size:3vw;
     color:#DC486A;
 }
 
@@ -294,7 +294,7 @@ body {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 110vh;
+        height: 140vh;
         
     }
 
