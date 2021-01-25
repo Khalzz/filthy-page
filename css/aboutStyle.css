@@ -69,12 +69,12 @@ body {
     display: inline;
     font-family: "Roboto Mono";
     color: #DBDCE4;
-    font-size: min(3vw, 30px);
+    font-size: min(4vw, 30px);
     width: 90vw;
 }
 
 .section-1 span {
-    font-size:3vw;
+    font-size:4vw;
     color:#DC486A;
 }
 
