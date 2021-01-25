@@ -59,7 +59,7 @@ body {
 }
 
 .section-1 img{
-    margin-top: 8em;
+    margin-top: 2em;
     width: 50vw;
     margin-bottom: 1rem;
 }
@@ -782,3 +782,4 @@ footer {
         filter: brightness(0.5);
     }
 }
+
