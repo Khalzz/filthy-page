@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <link href="../transitions/transitions.css" rel="stylesheet">
     <link href="../css/base.css" rel="stylesheet">
-    <link href="../css/footer.css" rel="stylesheet">
     <link href="../css/aboutStyle.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">    
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -29,7 +28,7 @@
     </div>
     <section class="section-1" id="section-1">
         <img src="../images/logo.svg" alt="image not found" title="Hey! thats me!!! :o">
-        <p>I am a Chilean <span>programmer</span> with experience in front-end, videogame development with unity and drink a lot of coffee!!!.<br><br>Coding since march of 2020 i've got a lot of knowledge at the work recently creating little projects, like this web or an imposible bot for tic tac toe.<br><br>Also i am a decent ui designer... sometimes... i guess...</p>
+        <p class="who">I am a Chilean <span>programmer</span> with experience in front-end, videogame development with unity and drink a lot of coffee!!!.<br><br>Coding since march of 2020 i've got a lot of knowledge at the work recently creating little projects, like this web or an imposible bot for tic tac toe.<br><br>Also i am a decent ui designer... sometimes... i guess...</p>
         <div class="info">
             <div>
                 <p>Name: <span>Rodrigo Seguel</span></p>
@@ -37,7 +36,7 @@
                 <p>Adress: <span>Los Angeles, Chile</span></p>
             </div>
             <div>
-                <p>E-mail: <span>rodrigo.seguel.dev@gmail.com</span></p>
+                <p>E-mail: <span>rseguel.dev@gmail.com</span></p>
                 <p>Phone: <span>+56 9 5520 4898</span></p>
                 <p>Work: <span>Avalible for freelancing</span></p>
             </div>
@@ -45,7 +44,7 @@
     </section>
     <section class="section-2-og" id="section-2">
         <div class="section-2">            
-            <h1>My services</h1>
+            <h1 id="title-services">My services</h1>
             <div class="divisor-line"></div>
             <div class="all-services">
                 <div id="services">
@@ -67,18 +66,18 @@
         </div>
     </section>
     <section class="companies" id="section-3">
-        <h1>Companies and people I worked for</h1>
-        <div>
+        <h1>Recent Clients</h1>
+        <div class="divisor-line-companies"></div>
+        <div class="companies-div">
             <h3>None yet :C</h3>
         </div>
     </section>
     <footer id="footer">
         <div class="footer-div-1">
             <img class="footer-logo" src="../images/footerLogo.svg" alt="image not found" title="Hey, thats also me :o">
-            <div class="link" onclick="gotoFirst();">Who are you</div>
-            <div class="link" onclick="gotoSecond();">My Services</div>
-            <div id="hlink" class="link" onclick="gotoThird();">Who have I worked for?</div>
-            <div class="blog" onclick="openBlog();">Blog</div>
+            <div class="link" onclick="gotoFirst();">About me</div>
+            <div class="link" onclick="gotoSecond();">Services</div>
+            <div id="hlink" class="link" onclick="gotoThird();">Clients</div>
             <div class="pages">
                 <div onclick="openGit();"><img src="../images/git.svg" alt="image not found" title="Find me on GitHub"></div>
                 <div onclick="openItch();"><img src="../images/itch.svg" alt="image not found" title="Find me on Itch.io"></div>
@@ -101,12 +100,11 @@
                 <p>v0.0.2</p>
             </div>
             <div class="footer-blog">
-                <div class="blog" onclick="openBlog();">Blog</div>
             </div>
             <div class="footer-links">
-                <div class="link" onclick="gotoFirst();">Who are you</div>
-                <div class="link" onclick="gotoSecond();">My Services</div>
-                <div id="hlink" class="link" onclick="gotoThird();">Who have I worked for?</div>
+                <div class="link" onclick="gotoFirst();">About me</div>
+                <div class="link" onclick="gotoSecond();">Services</div>
+                <div id="hlink" class="link" onclick="gotoThird();">Clients</div>
             </div>
         </div> 
     </footer>

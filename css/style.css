@@ -460,6 +460,13 @@
     flex-direction: column;
     justify-content: center;
     align-content: center;
+    margin: 1vw;
+    border: 2px solid #DC486A;
+    background-color: #15161C;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 1vw; 
+    border-radius: 5vw;
+    padding: 2vh;
     margin: 4vw
 }
 
@@ -484,7 +491,7 @@
     margin-bottom: 3vw;
 }
 
-.section-4 h1 {
+#title-services {
     font-family: "Oswald";
     color: #DC486A;
     text-align: center;
