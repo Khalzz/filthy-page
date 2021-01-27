@@ -18,14 +18,71 @@
     <title>Rodrigo Seguel</title>
 </head>
 <body>
-    <div class="transition">
-        <h1 class="transition-name">Rodrigo Seguel</h1>
-        <h2 class="transition-subtitle">Developer</h2>
+        <div class="transition">
+            <h1 class="transition-name">Rodrigo Seguel</h1>
+            <h2 class="transition-subtitle">Developer</h2>
+        </div>
+        <div class="back-button" onclick="backToIndex();">
+            <div class="line-1" id="line"></div>
+            <div class="line-2" id="line"></div>
+        </div>
+    <div class="bg">
+        <div id="container">
+            <div id="head">
+                <div class="html-id" id="name" onclick="openHtml();">
+                    <div class="html-id-state" id="state"></div>
+                    Html
+                </div>
+                <div class="css-id" id="name" onclick="openCss();">
+                    <div class="css-id-state" id="state"></div>
+                    Css
+                </div>
+                <div class="js-id" id="name" onclick="openJs();">
+                    <div class="js-id-state" id="state"></div>
+                    JavaScript
+                </div>
+                <div class="cs-id" id="name" onclick="openCs();">
+                    <div class="cs-id-state" id="state"></div>
+                    C#
+                </div>
+                    <div class="py-id" id="name" onclick="openPy();">
+                        <div class="py-id-state" id="state"></div>
+                        Python
+                    </div>
+                <div class="kl-id" id="name" onclick="openKl();">
+                    <div class="kl-id-state" id="state"></div>
+                    Kotlin
+                </div>
+                <div class="all-id" id="name" onclick="openAll();">
+                    <div class="all-id-state" id="state"></div>
+                    All
+                </div>
+            </div>
+            <div class="html-content" id="content">
+                7
+            </div>
+            <div class="css-content" id="content">
+                6
+            </div>
+            <div class="js-content" id="content">
+                5
+            </div>
+            <div class="cs-content" id="content">
+                4
+            </div>
+            <div class="py-content" id="content">
+                3
+            </div>
+            <div class="kl-content" id="content">
+                2
+            </div>
+            
+            <div class="all-content" id="content">
+                1
+            </div>
+        </div>
     </div>
-    <div class="back-button" onclick="backToIndex();">
-        <div class="line-1" id="line"></div>
-        <div class="line-2" id="line"></div>
-    </div>
+    <script src="../js/portfolio.js"></script>
     <script src="../transitions/transitions.js"></script>
 </body>
 </html>

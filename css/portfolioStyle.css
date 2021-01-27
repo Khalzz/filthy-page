@@ -78,4 +78,147 @@
         margin-top: 1vw;
         transform: rotate(40deg);
     }
+
+    body {
+        width: 100%;
+        height: 100%;
+    }
+
+    .bg {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #container {
+        margin: auto auto;
+        width:85vw;
+        height: 85vh;
+    }
+
+    .html {
+        z-index: 80;
+    }
+    .css {
+        z-index: 80;
+    }
+    .js {
+        z-index: 80;
+    }
+    .cs {
+        z-index: 80;
+    }
+    .py {
+        z-index: 80;
+    }
+    .kl {
+        z-index: 80;
+    }
+    .all {
+        z-index: 80;
+    }
+    #head {
+        width: 85vw;
+        height: 5vh;
+        z-index: 40;
+        position: absolute;
+    }
+
+    #name {
+        position: absolute;
+        width: 10%;
+        height: 100%;
+        background-color: #15161C;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-weight: 300;
+        font-family: "Oswald";
+        color: #DBDCE4
+    }
+
+    .html-id {
+        position: relative;
+        filter: brightness(0.4);
+    }
+
+    .css-id {
+        position: relative;
+        left: 10.3%;
+        filter: brightness(0.4);
+    }
+
+    .js-id {
+        position: relative;
+        left: 20.6%;
+        filter: brightness(0.4);
+    }
+    .cs-id {
+        position: relative;
+        left: 30.9%;
+        filter: brightness(0.4);
+    }
+    .py-id {
+        position: relative;
+        left: 41.2%;
+        filter: brightness(0.4);
+    }
+    .kl-id {
+        position: relative;
+        left: 51.5%;
+        filter: brightness(0.4);
+    }
+    .all-id {
+        position: relative;
+        left: 61.8%;
+        filter: brightness(0.4);
+    }
+
+    #state {
+        position: relative;
+        top: -0.5vw;
+        height: 10%;
+        width: 100%;
+        
+    }
+
+    .html-id-state {
+        background-color: #DC486A;
+    }
+
+    .css-id-state {
+        background-color: #DC486A;        
+    }
+
+    .js-id-state {
+        background-color: #DC486A;
+    }
+
+    .cs-id-state {
+        background-color: #DC486A;
+    }
+
+    .py-id-state {
+        background-color: #DC486A;
+    }
+
+    .kl-id-state {
+        background-color: #DC486A;
+    }
+
+    .all-id-state {
+        background-color: #DC486A;
+    }
+
+    #content {
+        margin-top: 5vh;
+        position: absolute;
+        width: 85vw;
+        height: 80vh;
+        background-color: #15161C;
+    }
 }
