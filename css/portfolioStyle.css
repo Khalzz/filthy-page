@@ -99,26 +99,26 @@
         height: 85vh;
     }
 
-    .html {
+    .html-content {
         z-index: 80;
     }
-    .css {
+    .css-content {
         z-index: 80;
     }
-    .js {
+    .js-content {
         z-index: 80;
     }
-    .cs {
+    .cs-content {
         z-index: 80;
     }
-    .py {
+    .py-content {
         z-index: 80;
     }
-    .kl {
+    .kl-content {
         z-index: 80;
     }
-    .all {
-        z-index: 80;
+    .all-content {
+        z-index: 90;
     }
     #head {
         width: 85vw;
@@ -175,7 +175,7 @@
     .all-id {
         position: relative;
         left: 61.8%;
-        filter: brightness(0.4);
+        filter: brightness(1);
     }
 
     #state {
@@ -215,10 +215,130 @@
     }
 
     #content {
+        padding-top: 2.5vw;
         margin-top: 5vh;
         position: absolute;
         width: 85vw;
         height: 80vh;
         background-color: #15161C;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        overflow-y: scroll;
+        overflow-x: hidden;
     }
+
+    #content::-webkit-scrollbar {
+        width: 0.5em;
+      }
+       
+    #content::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+      }
+       
+    #content::-webkit-scrollbar-thumb {
+        background-color: darkgrey;
+        outline: 1px solid slategrey;
+      }
+
+    #project {
+        justify-content: center;
+        display: flex;
+        z-index: 10;
+        width: 100%;
+        flex-direction: column;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.8);
+        transition: 0.5s;
+        align-items: center;
+    }
+    
+    #project-h1 {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        transition: 0.8s;
+        text-align: center;
+        color: #ffffff;
+        font-family: "Oswald";
+        font-weight: 400;
+        width: 50vw;
+        margin: 2vh;
+        margin-top: 0vh;
+    }
+    
+    #project-p {
+        position: relative;
+        text-align: center;
+        align-self: center;
+        transition: 0.8s;
+        font-size: 1vw;
+        color: #DBDCE4;
+        font-family: "Roboto Mono";
+        font-weight: 400;
+        width: 48vw;
+    }
+    
+    .project-divisor {
+        position: relative;
+        transition: 0.8s;
+        margin-top: 3vw;
+        margin-bottom: 0.7em;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        height: 3vh;
+        width: 100%;
+    }
+    
+    .project-divisor h3 {
+        font-family: "Roboto";
+        font-size: 1.5vw;
+        font-weight: 300;
+        color: #C6C9DE;
+    }
+    
+    #lines{
+        border-radius: 50vw;
+        margin-left: 1vw;
+        margin-right: 1vw;
+        height: 0.1vw;
+        width: 11%;
+        background-color: #C6C9DE;
+    }
+
+    
+    #filthy-project {
+        z-index: 80;
+        margin: 0vw;
+        margin-top: 0;
+        width: 85vw;
+        height: 12vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #filthy-project img{
+        align-self: center;
+        z-index: 80;
+        height: 10vw;
+        transition: 0.2s;
+        border: 1.5px solid #DC486A;
+        border-radius: 2vw;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    
+    #filthy-project img:hover{
+        filter: brightness(0.9);
+        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+    }
+
+    #filthy-project img:active{
+        filter: brightness(0.7);
+        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+    }
+
 }
