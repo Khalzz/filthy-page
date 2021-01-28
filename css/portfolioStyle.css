@@ -134,11 +134,15 @@
         background-color: #15161C;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: start;
         align-items: center;
         font-weight: 300;
         font-family: "Oswald";
         color: #DBDCE4
+    }
+
+    #name p {
+        margin: auto;
     }
 
     .html-id {
@@ -180,10 +184,9 @@
 
     #state {
         position: relative;
-        top: -0.5vw;
+        align-self: flex-start;
         height: 10%;
-        width: 100%;
-        
+        width: 100%;        
     }
 
     .html-id-state {
@@ -283,7 +286,7 @@
     .project-divisor {
         position: relative;
         transition: 0.8s;
-        margin-top: 3vw;
+        margin-top: 2vw;
         margin-bottom: 0.7em;
         justify-content: center;
         align-items: center;

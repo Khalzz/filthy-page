@@ -206,7 +206,7 @@ body {
         text-align: center;
         align-self: center;
         transition: 0.8s;
-        font-size: 1.4vw;
+        font-size: 1.2vw;
         color: #DBDCE4;
         font-family: "Roboto Mono";
         font-weight: 400;
@@ -216,7 +216,7 @@ body {
     .project-divisor {
         position: relative;
         transition: 0.8s;
-        margin-top: 3vw;
+        margin-top: 2vw;
         margin-bottom: 0.7em;
         justify-content: center;
         align-items: center;

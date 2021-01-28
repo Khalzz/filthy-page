@@ -51,6 +51,13 @@ const backToJsMenu = () => {
     window.open('../jsProjects.html', '_self');
   }, 500);
 }
+
+const backToAllMenu = () => {
+  transitionClose();
+  setTimeout(() => {
+    window.open('../portfolio.html', '_self');
+  }, 500);
+}
 //back to language menus
 
 //filthy project
@@ -70,6 +77,12 @@ const openFilthyJs = () => {
   transitionClose();
   setTimeout(() => {
       window.open('projects/filthyProjectJs.html', '_self');
+    }, 500);
+}
+const openFilthyGeneral = () => {
+  transitionClose();
+  setTimeout(() => {
+      window.open('projects/filthyProjectGeneral.html', '_self');
     }, 500);
 }
 //filthy project
