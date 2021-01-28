@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <link href="../transitions/transitions.css" rel="stylesheet">
     <link href="../css/base.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/contact.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">   
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
@@ -20,6 +21,24 @@
     <div class="transition">
         <h1 class="transition-name">Rodrigo Seguel</h1>
         <h2 class="transition-subtitle">Developer</h2>
+    </div>
+    <div class="back-button" onclick="backToIndex();">
+        <div class="line-1" id="line"></div>
+        <div class="line-2" id="line"></div>
+    </div>
+    <div class="bg">
+        <section>
+            <h1 class="title">Contact</h1>
+            <form action=”contact.php” method=”post” enctype=”text/plain”>
+                <h2>Name</h2>
+                <input type="text" name="name" placeholder="Juan Perez">
+                <h2>E-mail</h2>
+                <input type="email" name="email" placeholder="Juan@Perez.com" id="">
+                <h2>Message</h2>
+                <textarea id="msg" name="msg" placeholder="Im Juan Perez, hi Rodrigo :D" rows="10" cols="40"></textarea>
+                <input id="send" type="submit" value="Send">
+            </form>
+        </section>
     </div>
     <script src="../transitions/transitions.js"></script>
 </body>
