@@ -225,101 +225,14 @@
 
 .title-section-3 {
     transition: 0.8s;
-    margin-top: -5vw;
+    margin-top: -2vw;
     color: #ffffff;
     font-family: "Oswald";
     font-size: min(8.5vw, 90px);
     font-weight: 400;
-    margin-bottom: 5vw;
+    margin-bottom: 1vw;
     -webkit-text-stroke: 1px #ffffff;
 
-}
-
-.back {
-    transition: 0.1s;
-}
-
-.back:active {
-    filter: brightness(0.4);
-}
-
-.back-button {
-    z-index: 20;
-    position: absolute;
-    top: -80vw;
-    left: 5vw;
-    height: 0vw;
-    width: 12vw;
-    border-radius: 2vw;
-    background-color: rgba(0, 0, 0, 0);
-    transition: 0.9s;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.bar-1-back{
-    transition: 0.9s;
-    height: 0vw;
-    width: 0vw;
-    border-radius: 10vw;
-    background-color: #DBDCE4;
-    transform: rotate(-45deg);
-}
-
-.bar-2-back{
-    transition: 0.9s;
-    margin-top: 3.1vw;
-    height: 0vw;
-    width: 0vw;
-    border-radius: 10vw;
-    background-color: #DBDCE4;
-    transform: rotate(45deg);
-}
-
-.close {
-    transition: 0.1s;
-}
-
-.close:active {
-    filter: brightness(0.4);
-}
-
-.close-button {
-    z-index: 20;
-    position: absolute;
-    top: -80vw;
-    right: 5vw;
-    height: 0vw;
-    width: 12vw;
-    border-radius: 2vw;
-    background-color: rgba(0, 0, 0, 0);
-    transition: 0.9s;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.bar-1{
-    transition: 0.9s;
-    margin-top: 0.5vw;
-    height: 0;
-    width: 0;
-    border-radius: 1vw;
-    background-color: #DBDCE4;
-    transform: rotate(-45deg);
-}
-
-.bar-2{
-    transition: 0.9s;
-    margin-top: -0.5vw;
-    height: 0vw;
-    width: 0vw;
-    border-radius: 1vw;
-    background-color: #DBDCE4;
-    transform: rotate(-45deg);
 }
 
 .scroller-background {
@@ -406,6 +319,7 @@
 }
 
 .or {
+    display: flex;
     font-family: "roboto";
     margin: 3vw;
     margin-top: 2vw;
@@ -416,7 +330,7 @@
 }
 
 .portfolio {
-    display: flex;
+    display: none;
     justify-content: center;
     font-size: 4vw;
     align-items: center;
@@ -427,6 +341,22 @@
     border-radius: 2vw;
     padding: 2vw;
     width: 35vw;
+    transition: 1s;
+}
+
+.portfolio-mobile {
+    display: flex;
+    justify-content: center;
+    font-size: 4vw;
+    align-items: center;
+    text-align: center;
+    font-family: "Roboto Mono";
+    color: #DC486A;
+    border: 0.7vw solid #DC486A;
+    filter: brightness(0.5);
+    border-radius: 2vw;
+    padding: 2vw;
+    width: 60vw;
     transition: 1s;
 }
 

@@ -27,9 +27,15 @@
         <div class="line-2" id="line"></div>
     </div>
     <div class="bg">
+        <div class="bg-2">
+            <h1>Uh Oh...</h1>
+            <h2>This function is still in process</h2>
+            <p>I will try to resolve this asap, meanwhile you can find my contact information</p>
+            <div class="button" onclick="openAbout();">Here</div>
+        </div>
         <section>
             <h1 class="title">Contact</h1>
-            <form action="contact.php" method="post" enctype="text/plain">
+            <form action="contact.php" method="POST" enctype="text/plain">
                 <h2>Name</h2>
                 <input type="text" name="name" placeholder="Juan Perez">
                 <h2>E-mail</h2>
@@ -40,6 +46,7 @@
             </form>
         </section>
     </div>
+    <script src="../js/contact.js"></script>
     <script src="../transitions/transitions.js"></script>
 </body>
 </html>
