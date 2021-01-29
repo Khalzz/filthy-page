@@ -35,6 +35,73 @@
     transform: rotate(40deg);
 }
 
+.bg {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    height: 60vh;
+    border-radius: 2vw;
+}
+
+.bg-2 h1 {
+    margin-bottom: 2vw;
+    font-family: "Oswald";
+    font-size: 13vw;
+    color: #DC486A;
+    font-weight: 400;
+}
+
+.bg-2 h2{
+    font-family: "Roboto Mono";
+    color: #DBDCE4;
+    text-align: center;
+    width: 85vw;
+    font-size: 4vw;
+}
+
+.bg-2 p {
+    margin: 2.2vw;
+    font-family: "Roboto Mono";
+    color: #8184A0;
+    text-align: center;
+    width: 85vw;
+    font-size: 3.5vw;
+    margin-bottom: 3.7vw;
+}
+
+.bg-2 div {
+    display: flex;
+    justify-content: center;
+    font-size: 4vw;
+    align-items: center;
+    text-align: center;
+    font-family: "Roboto Mono";
+    color: #DC486A;
+    border: 0.7vw solid #DC486A;
+    border-radius: 2vw;
+    padding: 2vw;
+    width: 35vw;
+    height: 15vw;
+    transition: 0.2s;
+
+}
+
+.bg-2 div:active {
+    background-color: #DC486A;
+    color: #15161C;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+}
+
 @media (min-width: 600px) {
     .back-button {
         z-index: 90;
@@ -77,5 +144,81 @@
     .line-2 {
         margin-top: 1vw;
         transform: rotate(40deg);
+    }
+
+    .bg {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bg-2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 60vw;
+        height: 60vh;
+        border-radius: 2vw;
+    }
+
+    .bg-2 h1 {
+        margin-bottom: 2vw;
+        font-family: "Oswald";
+        font-size: 4vw;
+        height: 4vw;
+        color: #DC486A;
+        font-weight: 400;
+    }
+    
+    .bg-2 h2 {
+        font-family: "Roboto Mono";
+        color: #DBDCE4;
+        text-align: center;
+        width: 30vw;
+        font-size: 1.2vw;
+    }
+    
+    .bg-2 p{
+        margin: 0.4vw;
+        font-family: "Roboto Mono";
+        color: #8184A0;
+        text-align: center;
+        width: 30vw;
+        font-size: 1vw;
+        margin-bottom: 3vw;
+    }
+    
+    .bg-2 div {
+        display: flex;
+        justify-content: center;
+        font-size: 1.2vw;
+        font-weight: 400;
+        align-items: center;
+        text-align: center;
+        font-family: "Roboto Mono";
+        color: #DC486A;
+        border: 0.15vw solid #DC486A;
+        border-radius: 1vw;
+        padding: 2vw;
+        width: 14vw;
+        height: 5.5vw;
+        transition: 0.2s;
+        box-shadow: 0 4px 4px rgba(0,0,0,0.25);
+    }
+    
+    .bg-2 div:hover {
+        cursor: pointer;
+        background-color: #DC486A;
+        color: #15161C;
+    }
+
+    .bg-2 div:active {
+        background-color: #DC486A;
+        color: #15161C;    
+        filter: brightness(0.5);
+        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
     }
 }
