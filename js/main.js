@@ -178,4 +178,4 @@ function action() {
   }
 }
 
-console.log('v0.0.2');
+console.log('v0.1.0');
