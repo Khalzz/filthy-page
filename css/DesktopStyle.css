@@ -271,7 +271,7 @@
     }
 
     .background-tech img{
-        height: min(7em, 100px);
+        height: min(7em, 110px);
         margin: 1.5vw;
         border-radius: 1vw;
         transition: 0.3s;
