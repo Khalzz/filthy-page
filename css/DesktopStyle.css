@@ -72,7 +72,7 @@
     
     .section-1 {
         display: flex;
-        width: 100%;
+        width: 100vw;
         height: 100vh;
         background-color: #15161C;
         align-items: center;
@@ -271,7 +271,7 @@
     }
 
     .background-tech img{
-        height: 19vh;
+        height: min(7em, 100px);
         margin: 1.5vw;
         border-radius: 1vw;
         transition: 0.3s;
