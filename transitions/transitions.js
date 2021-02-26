@@ -1,25 +1,25 @@
-const transitionScuare = document.querySelector('.transition')
-const transitionName = document.querySelector('.transition-name')
-const transitionSubtitle = document.querySelector('.transition-subtitle')
+const transitionScuare = document.querySelector('.transition');
+const transitionName = document.querySelector('.transition-name');
+const transitionSubtitle = document.querySelector('.transition-subtitle');
 
 const transitionClose = () => {
-  transitionScuare.style.left = '0'
-  transitionName.style.transition = '0.4s'
-  transitionSubtitle.style.transition = '0.8s'
+  transitionScuare.style.left = '0';
+  transitionName.style.transition = '0.4s';
+  transitionSubtitle.style.transition = '0.8s';
   transitionName.style.left = '0';
   transitionSubtitle.style.left = '0';
 }
 const transitionOpen = () => {
   transitionScuare.style.left = '200vw';
-  transitionName.style.transition = '0.8s'
-  transitionSubtitle.style.transition = '0.8s'
+  transitionName.style.transition = '0.8s';
+  transitionSubtitle.style.transition = '0.8s';
   transitionName.style.left = '200vw';
   transitionSubtitle.style.left = '200vw';
 }
 
 window.onload = () => {
   setTimeout(() => {
-      transitionOpen()
+      transitionOpen();
   }, 500);
 }
 
@@ -88,6 +88,6 @@ const openFilthyGeneral = () => {
 //filthy project
 
 //open projects//
-const openFilthy = () => window.open('https://khalzz.github.io/filthy-page/')
-const openGitFilthy = () => window.open('https://github.com/Khalzz/filthy-page')
+const openFilthy = () => window.open('https://khalzz.github.io/filthy-page/');
+const openGitFilthy = () => window.open('https://github.com/Khalzz/filthy-page');
 //open projects//

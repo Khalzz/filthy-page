@@ -72,39 +72,39 @@ const openProjects = () => {
 }
 
 const openHtml = () => {
-  transitionClose()
+  transitionClose();
   setTimeout(() => {
-    window.open('html/htmlProjects.html', '_self')
+    window.open('html/htmlProjects.html', '_self');
   }, 800);
 }
 const openCss = () => {
-  transitionClose()
+  transitionClose();
   setTimeout(() => {
-    window.open('html/cssProjects.html', '_self')
+    window.open('html/cssProjects.html', '_self');
   }, 800);
 }
 const openJs = () => {
-  transitionClose()
+  transitionClose();
   setTimeout(() => {
-    window.open('html/jsProjects.html', '_self')
+    window.open('html/jsProjects.html', '_self');
   }, 800);
 }
 const openCs = () => {
-  transitionClose()
+  transitionClose();
   setTimeout(() => {
-    window.open('html/csharpProjects.html', '_self')
+    window.open('html/csharpProjects.html', '_self');
   }, 800);
 }
 const openPython = () => {
-  transitionClose()
+  transitionClose();
   setTimeout(() => {
-    window.open('html/pythonProjects.html', '_self')
+    window.open('html/pythonProjects.html', '_self');
   }, 800);
 }
 const openKotlin = () => {
-  transitionClose()
+  transitionClose();
   setTimeout(() => {
-    window.open('html/kotlinProjects.html', '_self')
+    window.open('html/kotlinProjects.html', '_self');
   }, 800);
 }
 
@@ -155,7 +155,7 @@ function closeNav() {
   topBar.style.height = '1vw';
   topBar.style.marginBottom = '0.5vw';
   topBar.style.transform = 'rotate(0)';
-  midBar.style.backgroundColor = '#DBDCE4'
+  midBar.style.backgroundColor = '#DBDCE4';
   botBar.style.height = '1vw';
   botBar.style.marginTop = '0.5vw';
   botBar.style.transform = 'rotate(0)';    
@@ -178,4 +178,4 @@ function action() {
   }
 }
 
-console.log('v0.1.0');
+console.log('v1.0');
