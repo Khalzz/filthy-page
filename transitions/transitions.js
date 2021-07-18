@@ -103,6 +103,6 @@ const openCube = () => {
 //open projects//
 const openFilthy = () => window.open('https://khalzz.github.io/filthy-page/');
 const openGitFilthy = () => window.open('https://github.com/Khalzz/filthy-page');
-const openCubeGame = () => window.open('https://khalzdev.itch.io/cube-goes-weee');
+const openCubeGame = () => window.open('https://khalzdev.itch.io/cube-goes-weee'); 
 const openGitCube = () => window.open('https://github.com/Khalzz/Cubetastic-Magi-Fantastic-Epic-Cube-Tail-Of-A-Cube');
 //open projects//

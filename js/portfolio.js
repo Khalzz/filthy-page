@@ -46,7 +46,7 @@ const openCss = () => {
     py.style.zIndex = '80';
     kl.style.zIndex = '80';
     all.style.zIndex = '80';
-}
+} 
 
 const openJs = () => {
     jsId.style.filter = 'brightness(1)';
