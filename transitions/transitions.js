@@ -31,6 +31,13 @@ const backToIndex = () => {
 }
 
 //back to language menus
+const backToCsMenu = () => {
+  transitionClose();
+  setTimeout(() => {
+    window.open('../csharpProjects.html', '_self');
+  }, 500);
+}
+
 const backToHtmlMenu = () => {
   transitionClose();
   setTimeout(() => {
@@ -85,9 +92,17 @@ const openFilthyGeneral = () => {
       window.open('projects/filthyProjectGeneral.html', '_self');
     }, 500);
 }
+const openCube = () => {
+  transitionClose();
+  setTimeout(() => {
+      window.open('projects/cgwProject.html', '_self');
+    }, 500);
+}
 //filthy project
 
 //open projects//
 const openFilthy = () => window.open('https://khalzz.github.io/filthy-page/');
 const openGitFilthy = () => window.open('https://github.com/Khalzz/filthy-page');
+const openCubeGame = () => window.open('https://khalzdev.itch.io/cube-goes-weee');
+const openGitCube = () => window.open('https://github.com/Khalzz/Cubetastic-Magi-Fantastic-Epic-Cube-Tail-Of-A-Cube');
 //open projects//
